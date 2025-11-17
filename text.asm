@@ -113,6 +113,7 @@ INCLUDE "text/Route8.asm"
 INCLUDE "text/Route9.asm"
 INCLUDE "text/Route10.asm"
 INCLUDE "text/Route11.asm"
+INCLUDE "text/Lighthouse.asm"
 
 
 SECTION "Text 5", ROMX

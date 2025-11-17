@@ -95,7 +95,6 @@ SECTION "Battle Engine 1", ROMX
 INCLUDE "engine/overworld/is_player_just_outside_map.asm"
 INCLUDE "engine/pokemon/status_screen.asm"
 INCLUDE "engine/menus/party_menu.asm"
-INCLUDE "gfx/player.asm"
 INCLUDE "engine/overworld/turn_sprite.asm"
 INCLUDE "engine/menus/start_sub_menus.asm"
 INCLUDE "engine/items/tms.asm"
@@ -402,3 +401,7 @@ INCLUDE "engine/menus/custom_list_menu.asm"
 INCLUDE "engine/overworld/use_another_repel.asm"
 INCLUDE "engine/battle/store_pkmn_levels.asm"
 INCLUDE "engine/battle/move_effects/teleport.asm"
+
+SECTION "Splashscreen", ROMX
+INCLUDE "engine/splashscreens/players_in_intro.asm"
+INCLUDE "gfx/player.asm"

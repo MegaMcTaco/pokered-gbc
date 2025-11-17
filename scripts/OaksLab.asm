@@ -1019,6 +1019,10 @@ OaksLabOak1Text:
 .mon_around_the_world
 	ld hl, .PokemonAroundTheWorldText
 	call PrintText
+	lb bc, POKE_BALL, 5
+    call GiveItem
+    ld hl, .GivePokeballsText
+    call PrintText
 	jr .done
 .give_poke_balls
 	CheckAndSetEvent EVENT_GOT_POKEBALLS_FROM_OAK

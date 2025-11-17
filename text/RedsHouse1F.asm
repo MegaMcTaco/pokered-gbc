@@ -24,12 +24,13 @@ _RedsHouse1FMomLookingGreatText::
 	done
 
 _RedsHouse1FTVStandByMeMovieText::
-	text "There's a movie"
-	line "on TV. Four boys"
-	cont "are walking on"
-	cont "railroad tracks."
-
-	para "I better go too."
+	text "There's a yellow"
+	line "tinted video on"
+	cont "the TV with a"
+	cont "moustached man"
+	cont "talking about"
+	cont "exploitation in"
+	cont "the Global South."
 	done
 
 _RedsHouse1FTVWrongSideText::

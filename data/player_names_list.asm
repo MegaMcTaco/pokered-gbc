@@ -2,21 +2,21 @@ IF DEF(_RED)
 DefaultNamesPlayerList:
 	db "NEW NAME@"
 	db "RED@"
-	db "ASH@"
-	db "JACK@"
+	db "MAX@"
+	db "MAO@"
 
 
 DefaultNamesGirlList:
 	db "NEW NAME@"
 	db "GREEN@"
-	db "LEAF@"
-	db "AMANDA@"
+	db "ASSATA@"
+	db "LEILA@"
 
 DefaultNamesRivalList:
 	db "NEW NAME@"
 	db "BLUE@"
-	db "GARY@"
-	db "JOHN@"
+	db "LENIN@"
+	db "STALIN@"
 ENDC
 
 IF DEF(_BLUE)

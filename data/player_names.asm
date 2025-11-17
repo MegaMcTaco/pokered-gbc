@@ -2,22 +2,22 @@ IF DEF(_RED)
 DefaultNamesPlayer:
 	db   "NEW NAME"
 	next "RED"
-	next "ASH"
-	next "JACK"
+	next "MAX"
+	next "MAO"
 	db   "@"
 
 DefaultNamesGirl:
 	db   "NEW NAME"
 	next "GREEN"
-	next "LEAF"
-	next "AMANDA"
+	next "ASSATA"
+	next "LEILA"
 	db   "@"
 
 DefaultNamesRival:
 	db   "NEW NAME"
 	next "BLUE"
-	next "GARY"
-	next "JOHN"
+	next "LENIN"
+	next "STALIN"
 	db   "@"
 ENDC
 

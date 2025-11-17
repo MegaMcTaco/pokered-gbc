@@ -404,6 +404,11 @@ Route18Gate1F_Blocks:
 Route15Gate1F_Blocks:
 Route11Gate1F_Blocks: INCBIN "maps/Route11Gate1F.blk"
 
+INCLUDE "data/maps/headers/Lighthouse.asm"
+INCLUDE "scripts/Lighthouse.asm"
+INCLUDE "data/maps/objects/Lighthouse.asm"
+Lighthouse_Blocks: INCBIN "maps/Lighthouse.blk"
+
 Route18Gate2F_Blocks:
 Route16Gate2F_Blocks:
 Route15Gate2F_Blocks:
@@ -1014,8 +1019,6 @@ INCLUDE "scripts/PokemonTower6F.asm"
 INCLUDE "data/maps/objects/PokemonTower6F.asm"
 PokemonTower6F_Blocks: INCBIN "maps/PokemonTower6F.blk"
 
-	INCBIN "maps/UnusedEmptyMap.blk"
-
 INCLUDE "data/maps/headers/PokemonTower7F.asm"
 INCLUDE "scripts/PokemonTower7F.asm"
 INCLUDE "data/maps/objects/PokemonTower7F.asm"
@@ -1219,3 +1222,4 @@ INCLUDE "data/maps/headers/AgathasRoom.asm"
 INCLUDE "scripts/AgathasRoom.asm"
 INCLUDE "data/maps/objects/AgathasRoom.asm"
 AgathasRoom_Blocks: INCBIN "maps/AgathasRoom.blk"
+

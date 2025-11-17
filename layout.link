@@ -223,6 +223,9 @@ ROMX $39
 	"Party Mon Sprites Routines"
 ROMX $40
 	"NPC Sprites 3"
+ROMX $41
+	"Splashscreen"
+	"Tilesets 4"
 WRAM0
 	"Audio RAM"
 	org $c100

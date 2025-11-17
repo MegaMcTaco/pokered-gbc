@@ -36,7 +36,7 @@ _ViridianForestYoungster3EndBattleText::
 	prompt
 
 _ViridianForestYoungster3AfterBattleText::
-	text "Darn! I'm going"
+	text "Shit! I'm going"
 	line "to catch some"
 	cont "stronger ones!"
 	done

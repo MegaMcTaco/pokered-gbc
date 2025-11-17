@@ -3,8 +3,16 @@ Lighthouse_Script:
 
 Lighthouse_TextPointers:
 	def_text_pointers
+	dw_const LighthouseTrade, TEXT_LIGHTHOUSE_TRADE
 	dw_const LighthouseBinocularsLeftText, TEXT_LIGHTHOUSE_BINOCULARS_LEFT
 	dw_const LighthouseBinocularsRightText, TEXT_LIGHTHOUSE_BINOCULARS_RIGHT	
+
+LighthouseTrade:
+	text_asm
+	ld a, TRADE_FOR_TIFA
+	ld [wWhichTrade], a
+	predef DoInGameTradeDialogue
+	jp TextScriptEnd
 
 LighthouseBinocularsLeftText:
 	text_asm
@@ -26,3 +34,4 @@ LighthouseBinocularsRightText:
 .Text:
 	text_far _LighthouseBinocularsRightText
 	text_end
+	

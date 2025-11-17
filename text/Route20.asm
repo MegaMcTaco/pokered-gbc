@@ -153,3 +153,7 @@ _Route20Swimmer9AfterBattleText::
 _Route20SeafoamIslandsSignText::
 	text "SEAFOAM ISLANDS"
 	done
+
+_CinnabarVolcanoSignText::
+	text "CINNABAR VOLCANO"
+	done

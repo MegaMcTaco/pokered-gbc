@@ -28,10 +28,10 @@ _Museum2FBrunetteGirlText::
 	line "to catch me one!"
 	done
 
-_Museum2FHikerText::
-	text "Yeah, a PIKACHU"
-	line "soon, I promise!"
-	done
+;_Museum2FHikerText::
+;	text "Yeah, a PIKACHU"
+;	line "soon, I promise!"
+;	done
 
 _Museum2FSpaceShuttleSignText::
 	text "SPACE SHUTTLE"

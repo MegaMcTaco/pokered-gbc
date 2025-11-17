@@ -440,7 +440,6 @@ SECTION "Party Mon Sprites Gfx 1", ROMX
 PartyMonSprites:
 INCBIN "gfx/icons/party_mon_sprites.2bpp", $0, $4000
 
-
 SECTION "Party Mon Sprites Gfx 2", ROMX
 
 INCBIN "gfx/icons/party_mon_sprites.2bpp", $4000

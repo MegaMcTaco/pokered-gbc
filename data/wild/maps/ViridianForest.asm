@@ -6,9 +6,9 @@ IF DEF(_RED)
 	db  3, WEEDLE
 	db  5, WEEDLE
 	db  4, KAKUNA
-	db  6, KAKUNA
+	db  6, METAPOD
 	db  4, METAPOD
-	db  3, CATERPIE
+	db  5, PIKACHU
 ENDC
 IF DEF(_BLUE)
 	db  4, CATERPIE

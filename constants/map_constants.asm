@@ -24,7 +24,7 @@ ENDM
 	map_const VERMILION_CITY,                20, 18 ; $05
 	map_const CELADON_CITY,                  25, 18 ; $06
 	map_const FUCHSIA_CITY,                  20, 18 ; $07
-	map_const CINNABAR_ISLAND,               10,  9 ; $08
+	map_const CINNABAR_ISLAND,               10, 10 ; $08
 	map_const INDIGO_PLATEAU,                10,  9 ; $09
 	map_const SAFFRON_CITY,                  20, 18 ; $0A
 	map_const LIGHTHOUSE,                    4, 4   ; $0B
@@ -49,7 +49,7 @@ DEF FIRST_ROUTE_MAP EQU const_value
 	map_const ROUTE_17,                      10, 72 ; $1C
 	map_const ROUTE_18,                      25,  9 ; $1D
 	map_const ROUTE_19,                      10, 27 ; $1E
-	map_const ROUTE_20,                      50,  9 ; $1F
+	map_const ROUTE_20,                      50, 10 ; $1F
 	map_const ROUTE_21,                      10, 45 ; $20
 	map_const ROUTE_22,                      20,  9 ; $21
 	map_const ROUTE_23,                      10, 72 ; $22
@@ -124,8 +124,8 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const SS_ANNE_1F_ROOMS,              12,  8 ; $66
 	map_const SS_ANNE_2F_ROOMS,              12,  8 ; $67
 	map_const SS_ANNE_B1F_ROOMS,             12,  8 ; $68
-	map_const UNUSED_MAP_69,                  0,  0 ; $69
-	map_const UNUSED_MAP_6A,                  0,  0 ; $6A
+	map_const ROUTE_26,                      12, 36 ; $69
+	map_const CINNABAR_VOLCANO,              14, 12 ; $6A
 	map_const UNUSED_MAP_6B,                  0,  0 ; $6B
 	map_const VICTORY_ROAD_1F,               10,  9 ; $6C
 	map_const UNUSED_MAP_6D,                  0,  0 ; $6D
@@ -272,3 +272,9 @@ DEF NUM_MAPS EQU const_value
 ; Indoor maps, such as houses, use this as the Map ID in their exit warps
 ; This map ID takes the player back to the last outdoor map they were on, stored in wLastMap
 DEF LAST_MAP EQU -1
+
+DEF NUM_FLY_LOCATIONS EQU NUM_CITY_MAPS + 2
+
+	const_def NUM_CITY_MAPS
+	const FLYLOC_ROUTE_4_CENTER
+	const FLYLOC_ROUTE_10_CENTER

@@ -409,6 +409,16 @@ INCLUDE "scripts/Lighthouse.asm"
 INCLUDE "data/maps/objects/Lighthouse.asm"
 Lighthouse_Blocks: INCBIN "maps/Lighthouse.blk"
 
+INCLUDE "data/maps/headers/Route26.asm"
+INCLUDE "scripts/Route26.asm"
+INCLUDE "data/maps/objects/Route26.asm"
+Route26_Blocks: INCBIN "maps/Route26.blk"
+
+INCLUDE "data/maps/headers/CinnabarVolcano.asm"
+INCLUDE "scripts/CinnabarVolcano.asm"
+INCLUDE "data/maps/objects/CinnabarVolcano.asm"
+CinnabarVolcano_Blocks: INCBIN "maps/CinnabarVolcano.blk"
+
 Route18Gate2F_Blocks:
 Route16Gate2F_Blocks:
 Route15Gate2F_Blocks:

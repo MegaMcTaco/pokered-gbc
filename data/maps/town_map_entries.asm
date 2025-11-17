@@ -4,11 +4,12 @@ MACRO external_map
 ENDM
 
 ; the appearance of towns and routes in the town map
+;
 ExternalMapEntries:
 	table_width 3, ExternalMapEntries
 	; x, y, name
 	external_map  2, 11, PalletTownName
-	external_map  2,  8, ViridianCityName
+	external_map  2,  7, ViridianCityName
 	external_map  2,  3, PewterCityName
 	external_map 10,  2, CeruleanCityName
 	external_map 14,  5, LavenderTownName
@@ -18,7 +19,7 @@ ExternalMapEntries:
 	external_map  2, 15, CinnabarIslandName
 	external_map  0,  2, IndigoPlateauName
 	external_map 10,  5, SaffronCityName
-	external_map 13,  0, LighthouseName
+	external_map 13,  0, LighthouseName ; Lighthouse
 	external_map  2, 10, Route1Name
 	external_map  2,  6, Route2Name
 	external_map  4,  3, Route3Name
@@ -40,11 +41,13 @@ ExternalMapEntries:
 	external_map  6, 15, Route19Name
 	external_map  4, 15, Route20Name
 	external_map  2, 13, Route21Name
-	external_map  0,  8, Route22Name
+	external_map  0, 87, Route22Name
 	external_map  0,  6, Route23Name
 	external_map 10,  1, Route24Name
 	external_map 11,  0, Route25Name
-	assert_table_length FIRST_INDOOR_MAP
+	external_map  0,  8, Route26Name ; Route 26
+	external_map  2, 13, CinnabarVolcanoName ; Cinnabar Volcano
+
 
 
 MACRO internal_map
@@ -117,4 +120,6 @@ InternalMapEntries:
 	internal_map SILPH_CO_ELEVATOR,             10,  5, SilphCoName
 	internal_map AGATHAS_ROOM,                   0,  2, PokemonLeagueName
 	internal_map LIGHTHOUSE, 					13,  0, LighthouseName
+	internal_map ROUTE_26,					     0,  8, Route26Name
+	internal_map CINNABAR_VOLCANO, 				 2, 13, CinnabarVolcanoName
 	db -1 ; end

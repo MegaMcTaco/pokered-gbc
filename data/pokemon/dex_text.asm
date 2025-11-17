@@ -297,6 +297,16 @@ _TangelaDexEntry::
 	next "weed. Its vines"
 	next "shake as it walks"
 	dex
+	
+_LeafeonDexEntry::
+    text "It is always"
+    next "surrounded by"
+	next "fresh clean air"
+	
+	page "because it uses"
+	next "photosynthesis"
+	next "just like a plant"
+	dex	
 
 _GrowlitheDexEntry::
 	text "Very protective"

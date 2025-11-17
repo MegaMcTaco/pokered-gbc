@@ -20,6 +20,7 @@ Route20_Object:
 	def_bg_events
 	bg_event 51,  7, TEXT_ROUTE20_SEAFOAM_ISLANDS_WEST_SIGN
 	bg_event 57, 11, TEXT_ROUTE20_SEAFOAM_ISLANDS_EAST_SIGN
+	bg_event  5,  5, TEXT_CINNABAR_VOLCANO_SIGN
 
 	def_object_events
 	object_event 87,  8, SPRITE_SWIMMER, STAY, UP, TEXT_ROUTE20_SWIMMER1, OPP_SWIMMER, 9

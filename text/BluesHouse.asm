@@ -1,7 +1,7 @@
 _BluesHouseDaisyRivalAtLabText::
 	text "Hi <PLAYER>!"
-	line "<RIVAL> is out at"
-	cont "Grandpa's lab."
+	line "<RIVAL> should"
+	cont "be at the lab."
 	done
 
 _BluesHouseDaisyOfferMapText::

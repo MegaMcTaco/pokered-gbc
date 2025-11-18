@@ -1,14 +1,14 @@
 IF DEF(_RED)
 DefaultNamesPlayer:
 	db   "NEW NAME"
-	next "RED"
 	next "MAX"
+	next "LENIN"
 	next "MAO"
 	db   "@"
 
 DefaultNamesGirl:
 	db   "NEW NAME"
-	next "GREEN"
+	next "MAX"
 	next "ASSATA"
 	next "ROSA"
 	db   "@"

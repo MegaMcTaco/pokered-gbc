@@ -1,14 +1,14 @@
 IF DEF(_RED)
 DefaultNamesPlayerList:
 	db "NEW NAME@"
-	db "RED@"
 	db "MAX@"
+	db "LENIN@"
 	db "MAO@"
 
 
 DefaultNamesGirlList:
 	db "NEW NAME@"
-	db "GREEN@"
+	db "MAX@"
 	db "ASSATA@"
 	db "ROSA@"
 

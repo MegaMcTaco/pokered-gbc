@@ -1,8 +1,10 @@
 _RedsHouse1FMomWakeUpText::
-	text "MOM: Right."
-	line "All kids leave"
-	cont "home some day."
-	cont "It said so on TV."
+	text "You're awake!"
+	line "I hope you and"
+	cont "your friend are"
+	cont "enjoying your"
+	cont "stay in PALLET"
+	cont "TOWN so far!"
 
 	para "PROF.OAK, next"
 	line "door, is looking"
@@ -10,13 +12,13 @@ _RedsHouse1FMomWakeUpText::
 	done
 
 _RedsHouse1FMomYouShouldRestText::
-	text "MOM: <PLAYER>!"
+	text "<PLAYER>!"
 	line "You should take a"
 	cont "quick rest."
 	prompt
 
 _RedsHouse1FMomLookingGreatText::
-	text "MOM: Oh good!"
+	text "Oh good!"
 	line "You and your"
 	cont "#MON are"
 	cont "looking great!"

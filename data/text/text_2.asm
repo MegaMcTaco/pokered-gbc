@@ -1732,7 +1732,7 @@ _OakSpeechText2B::
 	para "For some people,"
 	line "#MON are"
 	cont "pets. Others use"
-	cont "them for fights."
+	cont "them for battle."
 
 	para "Myself..."
 
@@ -1746,23 +1746,25 @@ _IntroducePlayerText::
 	prompt
 
 _IntroduceRivalText::
-	text "This is my grand-"
-	line "son. He's been"
-	cont "your rival since"
-	cont "you were a baby."
+	text "Your friend will"
+	line "be starting the"
+	cont "same journey"
+	cont "to fill up the"
+	cont "#DEX."
 
 	para "...Erm, what is"
-	line "his name again?"
+	line "her name again?"
 	prompt
 
 _OakSpeechText3::
 	text "<PLAYER>!"
 
-	para "Your very own"
-	line "#MON legend is"
-	cont "about to unfold!"
+	para "Thank you for"
+	line "helping with"
+	cont "this important"
+	cont "research!"
 
-	para "A world of dreams"
+	para "A world of study"
 	line "and adventures"
 	cont "with #MON"
 	cont "awaits! Let's go!"
@@ -1783,7 +1785,7 @@ _YourNameIsText::
 
 _HisNameIsText::
 	text "That's right! I"
-	line "remember now! His"
+	line "remember now! Her"
 	cont "name is <RIVAL>!"
 	prompt
 

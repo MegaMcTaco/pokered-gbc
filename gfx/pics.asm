@@ -126,7 +126,9 @@ StarmiePicBack::     INCBIN "gfx/pokemon/back/starmieb.pic"
 
 LeafeonPicFront::    INCBIN "gfx/pokemon/front/leafeon.pic"
 LeafeonPicBack::     INCBIN "gfx/pokemon/back/leafeonb.pic"
+
 RedPicBack::         INCBIN "gfx/player/redb.pic"
+GreenPicBack::       INCBIN "gfx/player/greenb1.pic"
 OldManPicBack::      INCBIN "gfx/battle/oldmanb.pic"
 
 GastlyPicFront::     INCBIN "gfx/pokemon/front/gastly.pic"

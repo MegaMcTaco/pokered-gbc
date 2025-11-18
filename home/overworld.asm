@@ -41,7 +41,7 @@ EnterMap::
 OverworldLoop::
 	call DelayFrame
 OverworldLoopLessDelay::
-	call DelayFrame
+	;call DelayFrame
 	call LoadGBPal
 	ld a, [wd736]
 	bit 6, a ; jumping down a ledge?
@@ -220,7 +220,7 @@ OverworldLoopLessDelay::
 	jp c, PlayThudAndLoop
 
 .noCollision
-	ld a, $08
+	ld a, $10
 	ld [wWalkCounter], a
 	jr .moveAhead2
 
@@ -1335,7 +1335,7 @@ AdvancePlayerSprite::
 	ld [wXCoord], a
 .afterUpdateMapCoords
 	ld a, [wWalkCounter] ; walking animation counter
-	cp $07
+	cp $0f
 	jp nz, .scrollBackgroundAndSprites
 ; if this is the first iteration of the animation
 	ld a, c
@@ -1482,8 +1482,6 @@ AdvancePlayerSprite::
 	ld b, a
 	ld a, [wSpritePlayerStateData1XStepVector]
 	ld c, a
-	sla b
-	sla c
 	ldh a, [hSCY]
 	add b
 	ldh [hSCY], a ; update background scroll Y

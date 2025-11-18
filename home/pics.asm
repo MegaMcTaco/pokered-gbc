@@ -8,22 +8,17 @@ UncompressMonSprite::
 	ld [wSpriteInputPtr], a    ; fetch sprite input pointer
 	ld a, [hl]
 	ld [wSpriteInputPtr+1], a
-
-	; HAX: code from Danny-E33's hack
-	; Each pokemon's picture bank is defined with an unused byte in its stats.
-	ld a, [wcf91] ; get Pokémon ID
-	ld b, BANK(FossilKabutopsPic)
+	ld a, [wcf91]
 	cp FOSSIL_KABUTOPS
 	jr z, .RecallBank
 	cp FOSSIL_AERODACTYL
 	jr z, .RecallBank
 	cp MON_GHOST
 	jr z, .RecallBank
-
-	ld a, [wMonHPicBank] ; Get bank from base stats
+	ld a, [wMonHPicBank]
 	jr .GotBank
 .RecallBank
-	ld a, b
+	ld a, BANK(FossilKabutopsPic)
 .GotBank
 	jp UncompressSpriteData
 

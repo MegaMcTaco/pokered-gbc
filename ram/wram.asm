@@ -120,7 +120,7 @@ wSpriteStateData2::
 ; - 7: (?) (set to $80 when in grass, else $0; may be used to draw grass above the sprite)
 ; - 8: delay until next movement (counted downwards, movement status is set to ready if reached 0)
 ; - 9: original facing direction (backed up by DisplayTextIDInit, restored by CloseTextDisplay)
-; - A
+; - A: 60fps
 ; - B
 ; - C
 ; - D: picture ID
@@ -1760,9 +1760,7 @@ wPokedexOwnedEnd::
 wPokedexSeen:: flag_array NUM_POKEMON
 wPokedexSeenEnd::
 
-wNumBagItems:: db
-; item, quantity
-wBagItems:: ds BAG_ITEM_CAPACITY * 2 + 1
+ds 42
 
 wPlayerMoney:: ds 3 ; BCD
 
@@ -1859,7 +1857,19 @@ wWarpEntries:: ds 32 * 4 ; Y, X, warp ID, map ID
 ; if $ff, the player's coordinates are not updated when entering the map
 wDestinationWarpID:: db
 
-	ds 128
+;;;;;;;;; note: CHANGED: this empty space is now used for bigger bag space
+UNION
+; original size of this empty space
+ds 128
+
+NEXTU
+wNumBagItems:: db
+; item, quantity
+wBagItems:: ds BAG_ITEM_CAPACITY * 2 + 1 ; now holds 50 items
+;;;;
+; 26 bytes left to use
+ENDU
+;;;;;;;;;;
 
 ; number of signs in the current map (up to 16)
 wNumSigns:: db

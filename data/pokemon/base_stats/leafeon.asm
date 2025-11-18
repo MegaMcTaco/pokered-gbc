@@ -25,3 +25,4 @@ ENDC
 	; end
 	
 	db BANK(LeafeonPicFront)
+	assert BANK(LeafeonPicFront) == BANK(LeafeonPicBack)

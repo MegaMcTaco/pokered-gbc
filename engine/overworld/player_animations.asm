@@ -518,10 +518,22 @@ GreenFishingTiles:
 	fishing_gfx GreenFishingTilesSide,  2, $0a
 	fishing_gfx RedFishingRodTiles,   3, $fd
 
+Ledge60fps:
+	push hl
+	ld h, $c2
+	ld l, $0a ;point HL to C20A, the address of the player object 60FPS byte, which holds either 0 or 1
+	sub [hl] ;subtract the value in C20A from the incremented Y index in A, which undoes the increment every other frame
+	pop hl
+	ret
+
 _HandleMidJump::
 	ld a, [wPlayerJumpingYScreenCoordsIndex]
 	ld c, a
 	inc a
+	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+	; 60 fps - only update every other tick
+	call Ledge60fps
+	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 	cp $10
 	jr nc, .finishedJump
 	ld [wPlayerJumpingYScreenCoordsIndex], a

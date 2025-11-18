@@ -42,7 +42,7 @@ TrainerNames::
 	li "SABRINA"
 	li "GENTLEMAN"
 	li "RIVAL2"
-	li "RIVAL3"
+	li "RED"
 	li "LORELEI"
 	li "CHANNELER"
 	li "AGATHA"

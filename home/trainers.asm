@@ -413,7 +413,7 @@ PlayTrainerMusic::
 	ret z
 	cp OPP_RIVAL2
 	ret z
-	cp OPP_RIVAL3
+	cp OPP_RED
 	ret z
 	ld a, [wGymLeaderNo]
 	and a

@@ -406,7 +406,7 @@ Rival2AI:
 	ret nc
 	jp AIUsePotion
 
-Rival3AI:
+RedAI:
 	cp 13 percent - 1
 	ret nc
 	ld a, 5

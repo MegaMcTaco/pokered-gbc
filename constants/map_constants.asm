@@ -124,8 +124,8 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const SS_ANNE_1F_ROOMS,              12,  8 ; $66
 	map_const SS_ANNE_2F_ROOMS,              12,  8 ; $67
 	map_const SS_ANNE_B1F_ROOMS,             12,  8 ; $68
-	map_const ROUTE_26,                      12, 36 ; $69
-	map_const CINNABAR_VOLCANO,              14, 12 ; $6A
+	map_const ROUTE_26,                      12, 36 ; $69 ROUTE 26
+	map_const CINNABAR_VOLCANO,              14, 12 ; $6A CINNABAR VOLCANO
 	map_const UNUSED_MAP_6B,                  0,  0 ; $6B
 	map_const VICTORY_ROAD_1F,               10,  9 ; $6C
 	map_const UNUSED_MAP_6D,                  0,  0 ; $6D

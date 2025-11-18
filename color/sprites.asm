@@ -318,7 +318,7 @@ SpritePaletteAssignments: ; Characters on the overworld
 	db SPR_PAL_ORANGE
 
 	; 0x02: SPRITE_BLUE
-	db SPR_PAL_BLUE
+	db SPR_PAL_GREEN
 
 	; 0x03: SPRITE_OAK
 	db SPR_PAL_BROWN

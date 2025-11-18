@@ -10,13 +10,13 @@ DefaultNamesGirlList:
 	db "NEW NAME@"
 	db "GREEN@"
 	db "ASSATA@"
-	db "LEILA@"
+	db "ROSA@"
 
 DefaultNamesRivalList:
 	db "NEW NAME@"
-	db "BLUE@"
-	db "LENIN@"
-	db "STALIN@"
+	db "GREEN@"
+	db "ANGELA@"
+	db "LEILA@"
 ENDC
 
 IF DEF(_BLUE)

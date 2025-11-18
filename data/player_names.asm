@@ -10,14 +10,14 @@ DefaultNamesGirl:
 	db   "NEW NAME"
 	next "GREEN"
 	next "ASSATA"
-	next "LEILA"
+	next "ROSA"
 	db   "@"
 
 DefaultNamesRival:
 	db   "NEW NAME"
-	next "BLUE"
-	next "LENIN"
-	next "STALIN"
+	next "GREEN"
+	next "ANGELA"
+	next "LEILA"
 	db   "@"
 ENDC
 

@@ -409,7 +409,7 @@ TangelaDexEntry:
 	
 LeafeonDexEntry:
 	db "LEAF@"
-	db 9
+	db 8
 	dw 640
 	text_far _LeafeonDexEntry
 	db "@"	

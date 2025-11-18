@@ -28,21 +28,26 @@ _OaksLabThoseArePokeBallsText::
 	done
 
 _OaksLabYouWantCharmanderText::
-	text "So! You want the"
-	line "fire #MON,"
-	cont "CHARMANDER?"
+	text "This is the"
+	line "#MON EEVEE!"
+	cont "Do you want"
+	cont "EEVEE?"
 	done
 
 _OaksLabYouWantSquirtleText::
-	text "So! You want the"
-	line "water #MON,"
-	cont "SQUIRTLE?"
+	text "I have 3 of"
+	line "them here, as"
+	cont "you can see."
+	cont "Do you want"
+	cont "EEVEE?"
 	done
 
 _OaksLabYouWantBulbasaurText::
-	text "So! You want the"
-	line "plant #MON,"
-	cont "BULBASAUR?"
+	text "EEVEE can evolve"
+	line "into many types"
+	cont "of #MON."
+	cont "Do you want"
+	cont "EEVEE?"
 	done
 
 _OaksLabMonEnergeticText::

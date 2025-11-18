@@ -19,7 +19,6 @@ ExternalMapEntries:
 	external_map  2, 15, CinnabarIslandName
 	external_map  0,  2, IndigoPlateauName
 	external_map 10,  5, SaffronCityName
-	external_map 13,  0, LighthouseName ; Lighthouse
 	external_map  2, 10, Route1Name
 	external_map  2,  6, Route2Name
 	external_map  4,  3, Route3Name
@@ -45,6 +44,7 @@ ExternalMapEntries:
 	external_map  0,  6, Route23Name
 	external_map 10,  1, Route24Name
 	external_map 11,  0, Route25Name
+	external_map 13,  0, LighthouseName ; Lighthouse
 	external_map  0,  8, Route26Name ; Route 26
 	external_map  2, 13, CinnabarVolcanoName ; Cinnabar Volcano
 

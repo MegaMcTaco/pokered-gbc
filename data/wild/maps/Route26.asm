@@ -1,5 +1,5 @@
 Route26WildMons:
-	def_grass_wildmons 5 ; encounter rate
+	def_grass_wildmons 10 ; encounter rate
 	db 18, PIDGEOTTO
 	db 14, HAUNTER
 	db 10, EEVEE

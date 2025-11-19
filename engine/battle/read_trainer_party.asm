@@ -116,7 +116,7 @@ ReadTrainer:
 
 ; no matches found. is this trainer champion rival?
 	ld a, b
-	cp RED
+	cp RIVAL3
 	jr z, .ChampionRival
 	jr .FinishUp ; nope
 .GiveTeamMoves

@@ -288,5 +288,5 @@ FreezeEnemyTrainerSprite::
 RivalIDs:
 	db OPP_RIVAL1
 	db OPP_RIVAL2
-	db OPP_RED
+	db OPP_RIVAL3
 	db -1 ; end

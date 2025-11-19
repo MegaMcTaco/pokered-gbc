@@ -939,7 +939,7 @@ TrainerBattleVictory:
 	ld b, MUSIC_DEFEATED_TRAINER
 .gymleader
 	ld a, [wTrainerClass]
-	cp RED ; final battle against rival
+	cp RIVAL3 ; final battle against rival
 	jr z, .special1998
 	cp LORELEI
 	jr z, .special1998
@@ -951,7 +951,7 @@ TrainerBattleVictory:
 	jr nz, .notrival
 .special1998
 	ld b, MUSIC_DEFEATED_GYM_LEADER
-	cp RED ; final battle against rival
+	cp RIVAL3 ; final battle against rival
 	jr nz, .notrival	
 	ld hl, wFlags_D733
 	set 1, [hl]

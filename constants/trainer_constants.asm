@@ -57,7 +57,7 @@ ENDM
 	trainer_const SABRINA        ; $28
 	trainer_const GENTLEMAN      ; $29
 	trainer_const RIVAL2         ; $2A
-	trainer_const RED            ; $2B
+	trainer_const RIVAL3         ; $2B
 	trainer_const LORELEI        ; $2C
 	trainer_const CHANNELER      ; $2D
 	trainer_const AGATHA         ; $2E

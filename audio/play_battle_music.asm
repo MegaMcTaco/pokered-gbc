@@ -24,7 +24,7 @@ PlayBattleMusic::
 	jr z, .Elite4Battle
 	cp OPP_LANCE
 	jr z, .Elite4Battle	
-	cp OPP_RED
+	cp OPP_RIVAL3
 	jr nz, .normalTrainerBattle
 	ld a, MUSIC_FINAL_BATTLE	
 	jr .playSong

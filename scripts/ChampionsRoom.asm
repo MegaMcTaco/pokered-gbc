@@ -65,7 +65,7 @@ ChampionsRoomRivalReadyToBattleScript:
 	ld hl, RivalDefeatedText
 	ld de, RivalVictoryText
 	call SaveEndBattleTextPointers
-	ld a, OPP_RED
+	ld a, OPP_RIVAL3
 	ld [wCurOpponent], a
 
 	; select which team to use during the encounter

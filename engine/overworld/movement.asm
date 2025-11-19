@@ -374,7 +374,7 @@ UpdateSpriteInWalkingAnimation:
 	ld a, [hl]                       ; x#SPRITESTATEDATA1_XPIXELS
 	add b
 	ld [hl], a                       ; update [x#SPRITESTATEDATA1_XPIXELS]
-.xydone
+	.xydone
 	ldh a, [hCurrentSpriteOffset]
 	ld l, a
 	inc h
@@ -815,10 +815,13 @@ DoScriptedNPCMovement:
 	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 	; 60fps - update animations every other frame and halve movement
 	ld de, $00
+	ld a, [hl]
+	bit 4, a
+	jr z, .not60fps
 	call sprite60fps
 	ld e, b
 	ld d, $01
-	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+	.not60fps
 	ld hl, wd72e
 	bit 7, [hl]
 	set 7, [hl]
@@ -984,10 +987,14 @@ sprite60fps:
 	add l
 	ld l, a ;HL now points to C2xA
 	ld a, [hl] ;load into A the object 60FPS byte, which holds either 0 or 1
+	jr nz, .is60fps
+	xor a ;Xor A with itself to clear it to zero if 60FPS mode is inactive
+	jr .end
+	.is60fps
 	xor $01 ;Xor A with $01 to toggle it between 0 or 1 if 60FPS mode is active
 	.end
 	ld [hl], a ;update C2xA with the new toggled value in A
 	ld b, a ;Store the new toggled value in B
 	pop af
 	pop hl
-ret 
+	ret

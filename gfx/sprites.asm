@@ -72,7 +72,7 @@ LittleBoySprite::        INCBIN "gfx/sprites/little_boy.2bpp"
 GameboyKidSprite::       INCBIN "gfx/sprites/gameboy_kid.2bpp"
 FairySprite::            INCBIN "gfx/sprites/fairy.2bpp"
 AgathaSprite::           INCBIN "gfx/sprites/agatha.2bpp"
-SeelSprite::             INCBIN "gfx/sprites/seel.2bpp"
+LaprasSprite::			INCBIN "gfx/sprites/lapras.2bpp"
 
 SECTION "NPC Sprites 3", ROMX
 
@@ -83,6 +83,6 @@ ErikaSprite::			INCBIN "gfx/sprites/erika.2bpp"
 KogaSprite::			INCBIN "gfx/sprites/koga.2bpp"
 SabrinaSprite::			INCBIN "gfx/sprites/sabrina.2bpp"
 BlaineSprite::			INCBIN "gfx/sprites/blaine.2bpp"
-LaprasSprite::			INCBIN "gfx/sprites/lapras.2bpp"
 BillSprite::			INCBIN "gfx/sprites/bill.2bpp"
+SeelSprite::             INCBIN "gfx/sprites/seel.2bpp"
 

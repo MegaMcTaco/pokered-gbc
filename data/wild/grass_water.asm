@@ -106,7 +106,7 @@ WildDataPointers:
 	dw NothingWildMons
 	dw NothingWildMons
 	dw Route26WildMons ; Route 26
-	dw CinnabarVolcanoWildMons ; Cinnabar Volcano
+	dw NothingWildMons
 	dw NothingWildMons
 	dw VictoryRoad1FWildMons
 	dw NothingWildMons
@@ -237,7 +237,7 @@ WildDataPointers:
 	dw NothingWildMons
 	dw NothingWildMons
 	dw NothingWildMons
-	dw NothingWildMons
+	dw CinnabarVolcanoWildMons ; Cinnabar Volcano
 	dw NothingWildMons
 	dw NothingWildMons
 	dw NothingWildMons

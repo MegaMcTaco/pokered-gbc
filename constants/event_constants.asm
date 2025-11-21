@@ -452,6 +452,7 @@
 	const_skip 3
 	const EVENT_SEAFOAM1_BOULDER1_DOWN_HOLE
 	const EVENT_SEAFOAM1_BOULDER2_DOWN_HOLE
+	
 
 ; Route 21 events
 	const_next $510
@@ -491,7 +492,7 @@
 	const EVENT_BEAT_VICTORY_ROAD_2_TRAINER_2
 	const EVENT_BEAT_VICTORY_ROAD_2_TRAINER_3
 	const EVENT_BEAT_VICTORY_ROAD_2_TRAINER_4
-	const EVENT_BEAT_MOLTRES
+;	const EVENT_BEAT_MOLTRES
 	const EVENT_VICTORY_ROAD_2_BOULDER_ON_SWITCH2
 
 ; Route 24 events
@@ -716,6 +717,7 @@
 	const_skip
 	const EVENT_BEAT_MEWTWO
 
+
 ; Indigo Plateau events
 	const_next $8E0
 DEF INDIGO_PLATEAU_EVENTS_START EQU const_value
@@ -775,6 +777,9 @@ DEF INDIGO_PLATEAU_EVENTS_END EQU const_value - 1
 	const_skip 8
 	const EVENT_BEAT_ARTICUNO
 
+
 ; End of events
 	const_next $A00
+	const_skip 1
+	const EVENT_BEAT_MOLTRES	
 DEF NUM_EVENTS EQU const_value

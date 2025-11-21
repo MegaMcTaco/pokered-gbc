@@ -2060,6 +2060,8 @@ wLancesRoomCurScript:: db
 wSilphCo10FCurScript:: db
 wSilphCo11FCurScript:: db
 	ds 1
+wCinnabarVolcanoCurScript:: db ; new
+	ds 1 ; edited, was 4
 wFuchsiaGymCurScript:: db
 wSaffronGymCurScript:: db
 	ds 1

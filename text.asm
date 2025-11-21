@@ -243,6 +243,7 @@ INCLUDE "text/SaffronMart.asm"
 INCLUDE "text/SilphCo1F.asm"
 INCLUDE "text/SaffronPokecenter.asm"
 INCLUDE "text/MrPsychicsHouse.asm"
+INCLUDE "text/CinnabarVolcano.asm"
 
 INCLUDE "data/text/text_4.asm"
 

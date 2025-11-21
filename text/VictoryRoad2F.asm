@@ -1,6 +1,6 @@
-_VictoryRoad2FMoltresBattleText::
-	text "Gyaoo!@"
-	text_end
+;_VictoryRoad2FMoltresBattleText::
+;	text "Gyaoo!@"
+;	text_end
 
 _VictoryRoad2FHikerBattleText::
 	text "VICTORY ROAD is"

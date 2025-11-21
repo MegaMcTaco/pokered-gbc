@@ -46,7 +46,7 @@ ExternalMapEntries:
 	external_map 11,  0, Route25Name
 	external_map 13,  0, LighthouseName ; Lighthouse
 	external_map  0,  8, Route26Name ; Route 26
-	external_map  2, 13, CinnabarVolcanoName ; Cinnabar Volcano
+	;external_map  2, 13, CinnabarVolcanoName ; Cinnabar Volcano
 
 
 

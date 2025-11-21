@@ -107,7 +107,7 @@ MapHeaderBanks::
 	db BANK(SSAnne2FRooms_h)
 	db BANK(SSAnneB1FRooms_h)
 	db BANK(Route26_h) ; ROUTE 26
-	db BANK(CinnabarVolcano_h) ; CINNABAR VOLCANO
+	db $1D ; UNUSED
 	db $1D ; UNUSED_MAP_6B
 	db BANK(VictoryRoad1F_h)
 	db $1D ; UNUSED_MAP_6D
@@ -238,7 +238,7 @@ MapHeaderBanks::
 	db BANK(SilphCo10F_h)
 	db BANK(SilphCo11F_h)
 	db BANK(SilphCoElevator_h)
-	db $11 ; UNUSED_MAP_ED
+	db BANK(CinnabarVolcano_h) ; CINNABAR VOLCANO
 	db $11 ; UNUSED_MAP_EE
 	db BANK(TradeCenter_h)
 	db BANK(Colosseum_h)

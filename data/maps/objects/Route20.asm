@@ -16,6 +16,7 @@ Route20_Object:
 	def_warp_events
 	warp_event 48,  5, SEAFOAM_ISLANDS_1F, 1
 	warp_event 58,  9, SEAFOAM_ISLANDS_1F, 3
+	warp_event 4,   3, CINNABAR_VOLCANO, 1
 
 	def_bg_events
 	bg_event 51,  7, TEXT_ROUTE20_SEAFOAM_ISLANDS_WEST_SIGN

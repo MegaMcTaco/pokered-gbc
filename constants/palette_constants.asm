@@ -225,7 +225,9 @@ IF GEN_2_GRAPHICS
 	const PAL_DRAGONITE  ; $B9
 	const PAL_MEWTWO     ; $BA
 	const PAL_MEW        ; $BB
-	const PAL_LEAFEON ; 
+	const PAL_ESPEON  
+	const PAL_UMBREON
+	const PAL_LEAFEON
 	const PAL_YOUNGSTER     ; $BC
 	const PAL_BUGCATCHER    ; $BD
 	const PAL_LASS          ; $BE

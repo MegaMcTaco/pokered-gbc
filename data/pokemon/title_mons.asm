@@ -1,9 +1,9 @@
 TitleMons:
 ; mons on the title screen are randomly chosen from here
 IF DEF(_RED)
-	db CHARIZARD
-	db BLASTOISE
-	db VENUSAUR
+	db ESPEON
+	db UMBREON
+	db LEAFEON
 	db FLAREON
 	db VAPOREON
 	db JOLTEON
@@ -14,7 +14,7 @@ IF DEF(_RED)
 	db ARCANINE
 	db LAPRAS
 	db GYARADOS
-	db SNORLAX
+	db EEVEE
 	db DRAGONITE
 	db PORYGON
 ENDC

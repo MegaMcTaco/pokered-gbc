@@ -30,7 +30,7 @@ PokedexEntryPointers:
 	dw BlastoiseDexEntry
 	dw PinsirDexEntry
 	dw TangelaDexEntry
-	dw LeafeonDexEntry
+	dw EspeonDexEntry
 	dw MissingNoDexEntry
 	dw GrowlitheDexEntry
 	dw OnixDexEntry
@@ -407,12 +407,19 @@ TangelaDexEntry:
 	text_far _TangelaDexEntry
 	text_end
 	
-LeafeonDexEntry:
-	db "LEAF@"
-	db 8
-	dw 640
-	text_far _LeafeonDexEntry
-	db "@"	
+EspeonDexEntry:
+    db "SUN@"
+    db 8
+    dw 584
+   text_far _EspeonDexEntry
+    db "@"	
+	
+UmbreonDexEntry:
+    db "MOONLIGHT@"
+	db 8 
+	dw 595 
+	text_far _UmbreonDexEntry
+	db "@"
 	
 GrowlitheDexEntry:
 	db "PUPPY@"
@@ -532,6 +539,13 @@ GolemDexEntry:
 	dw 3000
 	text_far _GolemDexEntry
 	text_end
+	
+LeafeonDexEntry:
+	db "LEAF@"
+	db 8
+	dw 640
+	text_far _LeafeonDexEntry
+	db "@"
 
 MagmarDexEntry:
 	db "SPITFIRE@"

@@ -2,9 +2,9 @@ Route7WildMons:
 	def_grass_wildmons 15 ; encounter rate
 	db 19, PIDGEY
 IF DEF(_RED)
-	db 19, LEAFEON
-	db 17, LEAFEON
-	db 22, ODDISH
+	db 19, ESPEON
+	db 17, UMBREON
+	db 22, LEAFEON
 	db 22, PIDGEY
 	db 18, MANKEY
 	db 18, GROWLITHE

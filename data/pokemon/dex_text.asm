@@ -298,14 +298,24 @@ _TangelaDexEntry::
 	next "shake as it walks"
 	dex
 	
-_LeafeonDexEntry::
-    text "It is always"
-    next "surrounded by"
-	next "fresh clean air"
+_EspeonDexEntry::
+    text "By reading air"
+    next "currents, it can"
+    next "predict things"
+
+    page "such as its foe's"	
+	next "next move, or the"
+	next "weather"
+	dex
 	
-	page "because it uses"
-	next "photosynthesis"
-	next "just like a plant"
+_UmbreonDexEntry::
+	text "When darkness"
+	next "falls, the rings"
+	next "on its body begin"
+	
+	page "to glow, striking"
+	next "fear in the hearts"
+	next "of those nearby"
 	dex	
 
 _GrowlitheDexEntry::
@@ -477,6 +487,17 @@ _GolemDexEntry::
 	next "dynamite blasts"
 	next "without damage"
 	dex
+
+_LeafeonDexEntry::
+    text "It is always"
+    next "surrounded by"
+	next "fresh clean air"
+	
+	page "because it uses"
+	next "photosynthesis"
+	next "just like a plant"
+	dex
+	
 
 _MagmarDexEntry::
 	text "Its body always"

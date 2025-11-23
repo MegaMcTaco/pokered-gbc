@@ -153,7 +153,9 @@ IF GEN_2_GRAPHICS
 	db PAL_DRAGONITE
 	db PAL_MEWTWO
 	db PAL_MEW
-	db PAL_LEAFEON ; Leafeon
+	db PAL_ESPEON ; Leafeon
+	db PAL_UMBREON ; Umbreon
+	db PAL_LEAFEON
 TrainerPalettes: ; Gen II trainer sprites are given their own palettes
 	db PAL_HERO
 	db PAL_YOUNGSTER
@@ -357,6 +359,8 @@ ELSE
 	db PAL_BROWNMON  ; DRAGONITE
 	db PAL_MEWMON    ; MEWTWO
 	db PAL_MEWMON    ; MEW
+	db PAL_PINKMON   ; Espeon
+	db PAL_GREYMON   ; Umbreon
 	db PAL_GREENMON  ; Leafeon
 	assert_table_length NUM_POKEMON + 1
 ; Trainers use index 0 of MonsterPalettes

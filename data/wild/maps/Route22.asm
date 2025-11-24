@@ -4,11 +4,11 @@ Route22WildMons:
 IF DEF(_RED)
 	db  3, NIDORAN_M
 	db  4, RATTATA
-	db  4, NIDORAN_M
+	db  4, NIDORAN_F
 	db  2, RATTATA
 	db  2, NIDORAN_M
 	db  3, SPEAROW
-	db  5, SPEAROW
+	db  5, PIDGEY
 	db  3, NIDORAN_F
 	db  4, NIDORAN_F
 ENDC

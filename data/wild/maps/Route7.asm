@@ -1,16 +1,16 @@
 Route7WildMons:
 	def_grass_wildmons 15 ; encounter rate
-	db 19, PIDGEY
+	db 19, RATTATA
 IF DEF(_RED)
-	db 19, ESPEON
-	db 17, UMBREON
-	db 22, LEAFEON
-	db 22, GLACEON
+	db 19, BELLSPROUT
+	db 17, MEOWTH
+	db 22, PIDGEOTTO
+	db 22, SPEAROW
 	db 18, MANKEY
-	db 18, GROWLITHE
-	db 20, GROWLITHE
-	db 19, MANKEY
-	db 20, MANKEY
+	db 18, RATTATA
+	db 20, RATICATE ; Snubbull eventually 
+	db 28, PRIMEAPE ; Murkrow eventually
+	db 28, PERSIAN
 ENDC
 IF DEF(_BLUE)
 	db 19, BELLSPROUT

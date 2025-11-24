@@ -1,15 +1,15 @@
 Route26WildMons:
 	def_grass_wildmons 10 ; encounter rate
-	db 18, PIDGEOTTO
-	db 14, HAUNTER
-	db 10, EEVEE
-	db 10, CHARMANDER
-	db 10, SQUIRTLE
-	db 10, BULBASAUR
-	db 14, KADABRA
-	db 14, GRAVELER
-	db 14, MACHOKE
-	db 50, MEW
+	db 32, PIDGEOTTO
+	db 30, HAUNTER
+	db 25, EEVEE
+	db 15, CHARMANDER
+	db 15, SQUIRTLE
+	db 15, BULBASAUR
+	db 30, KADABRA
+	db 30, GRAVELER
+	db 30, MACHOKE
+	db 30, SLOWBRO
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

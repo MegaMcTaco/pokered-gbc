@@ -1,16 +1,16 @@
 Route8WildMons:
 	def_grass_wildmons 15 ; encounter rate
-	db 18, PIDGEY
+	db 18, RATTATA
 IF DEF(_RED)
 	db 18, MANKEY
 	db 17, EKANS
-	db 16, GROWLITHE
-	db 20, PIDGEY
-	db 20, MANKEY
-	db 19, EKANS
-	db 17, GROWLITHE
-	db 15, GROWLITHE
-	db 18, GROWLITHE
+	db 16, JIGGLYPUFF
+	db 20, PIDGEOTTO
+	db 20, GASTLY
+	db 19, EKANS ; make Hoothoot eventually
+	db 17, SANDSHREW
+	db 15, ABRA
+	db 18, MEOWTH
 ENDC
 IF DEF(_BLUE)
 	db 18, MEOWTH

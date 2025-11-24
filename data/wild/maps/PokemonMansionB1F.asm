@@ -3,12 +3,12 @@ PokemonMansionB1FWildMons:
 IF DEF(_RED)
 	db 33, KOFFING
 	db 31, KOFFING
-	db 35, GROWLITHE
-	db 32, PONYTA
-	db 31, KOFFING
-	db 40, WEEZING
-	db 34, PONYTA
 	db 35, GRIMER
+	db 32, GRIMER
+	db 31, RATICATE
+	db 40, DITTO
+	db 34, VULPIX
+	db 35, DITTO
 	db 42, WEEZING
 	db 42, MUK
 ENDC

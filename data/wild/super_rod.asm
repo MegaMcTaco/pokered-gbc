@@ -88,10 +88,11 @@ SuperRodData:
 
 .Group9:
 	db 4
-	db 23, SLOWBRO
-	db 23, SEAKING
-	db 23, KINGLER
-	db 23, SEADRA
+	db 25, GOLDUCK
+	db 25, SEAKING
+	db 25, KINGLER
+	db 25, SEADRA
+	db 30, GYARADOS
 
 .Group10:
 	db 4

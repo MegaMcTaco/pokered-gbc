@@ -2,15 +2,15 @@ _WardensHouseWardenGibberish1Text::
 	text "WARDEN: Welcome"
 	line "to my home!"
 
-	para "I am the warden"
-	line "of the Safari"
-	cont "Zone!"
+	para "Do you have"
+	line "a METAL COAT"
+	cont "by any chance?"
 	done
 
 _WardensHouseWardenGibberish2Text::
-	text "I say, do you"
-	line "have want to"
-	cont "trade items?"
+	text "I've lost mine,"
+	line "and need it to"
+	cont "evolve a #MON."
 	done
 
 _WardensHouseWardenGibberish3Text::

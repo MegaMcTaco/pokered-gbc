@@ -156,4 +156,6 @@ MonPartyData:
 	nybble ICON_QUADRUPED ; Leafeon
 	nybble ICON_QUADRUPED ; Glaceon
 	nybble ICON_QUADRUPED ; Sylveon
+	nybble ICON_BUG       ; Scizor
+	nybble ICON_SNAKE     ; Steelix
 	end_nybble_array NUM_POKEMON

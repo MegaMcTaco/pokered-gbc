@@ -63,7 +63,7 @@ ItemPrices::
 	bcd3 300   ; SODA_POP
 	bcd3 350   ; LEMONADE
 	bcd3 0     ; S_S_TICKET
-	bcd3 0     ; GOLD_TEETH
+	bcd3 100   ; METAL_COAT (WAS GOLD_TEETH)
 	bcd3 500   ; X_ATTACK
 	bcd3 550   ; X_DEFEND
 	bcd3 350   ; X_SPEED

@@ -597,6 +597,26 @@ _TaurosDexEntry::
 	next "body with its"
 	next "long tails"
 	dex
+	
+_ScizorDexEntry::
+    text "Its pincers which"
+	next "contain steel, can"
+	next "crush any hard"
+	
+	page "object it can get"
+	next "a hold of into"
+	next "bits"
+	dex
+	
+_SteelixDexEntry::
+	text "It is said that if"
+	next "an Onix lives for"
+	next "over 100 years,"
+
+	page "its composition"
+	next "changes to become"
+	next "diamond-like"
+	dex
 
 _FarfetchdDexEntry::
 	text "The sprig of"

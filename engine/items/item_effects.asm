@@ -80,7 +80,7 @@ ItemUsePtrTable:
 	dw ItemUseMedicine   ; SODA_POP
 	dw ItemUseMedicine   ; LEMONADE
 	dw UnusableItem      ; S_S_TICKET
-	dw UnusableItem      ; GOLD_TEETH
+	dw ItemUseEvoStone   ; METAL_COAT (WAS GOLD_TEETH)
 	dw ItemUseXStat      ; X_ATTACK
 	dw ItemUseXStat      ; X_DEFEND
 	dw ItemUseXStat      ; X_SPEED

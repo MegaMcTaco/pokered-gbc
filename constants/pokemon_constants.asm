@@ -67,8 +67,8 @@
 	const SEEL               ; $3A
 	const DIGLETT            ; $3B
 	const TAUROS             ; $3C
-	const_skip               ; $3D
-	const_skip               ; $3E
+	const SCIZOR             ; $3D
+	const STEELIX            ; $3E
 	const_skip               ; $3F
 	const FARFETCHD          ; $40
 	const VENONAT            ; $41

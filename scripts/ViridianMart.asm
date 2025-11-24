@@ -99,4 +99,4 @@ ViridianMartCooltrainerMText:
 	text_end
 
 ViridianMartClerkText:
-   script_mart MASTER_BALL, MOON_STONE, LEAF_STONE, SUN_STONE, ICE_STONE
+   script_mart MASTER_BALL, MOON_STONE, LEAF_STONE, SUN_STONE, ICE_STONE, METAL_COAT

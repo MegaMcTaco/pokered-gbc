@@ -58,12 +58,12 @@ KeyItemFlags:
 	dbit FALSE ; SUPER_REPEL
 	dbit FALSE ; MAX_REPEL
 	dbit FALSE ; DIRE_HIT
-	dbit FALSE ; COIN
+	dbit FALSE ; COIN 
 	dbit FALSE ; FRESH_WATER
 	dbit FALSE ; SODA_POP
 	dbit FALSE ; LEMONADE
 	dbit TRUE  ; S_S_TICKET
-	dbit TRUE  ; GOLD_TEETH
+	dbit FALSE ; METAL_COAT (WAS GOLD_TEETH)
 	dbit FALSE ; X_ATTACK
 	dbit FALSE ; X_DEFEND
 	dbit FALSE ; X_SPEED

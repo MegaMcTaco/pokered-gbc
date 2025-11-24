@@ -67,12 +67,12 @@ DEF SAFARI_ROCK EQU CASCADEBADGE ; overload
 	const SUPER_REPEL   ; $38
 	const MAX_REPEL     ; $39
 	const DIRE_HIT      ; $3A
-	const COIN          ; $3B
+	const COIN          ; $3B 
 	const FRESH_WATER   ; $3C
 	const SODA_POP      ; $3D
 	const LEMONADE      ; $3E
 	const S_S_TICKET    ; $3F
-	const GOLD_TEETH    ; $40
+	const METAL_COAT    ; $40 WAS GOLD_TEETH
 	const X_ATTACK      ; $41
 	const X_DEFEND      ; $42
 	const X_SPEED       ; $43

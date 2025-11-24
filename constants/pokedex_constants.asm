@@ -160,5 +160,7 @@
 	const DEX_LEAFEON    ; 154
 	const DEX_GLACEON    ; 155
 	const DEX_SYLVEON    ; 156
+	const DEX_SCIZOR	 ; 157
+	const DEX_STEELIX	 ; 158
 	
 DEF NUM_POKEMON EQU const_value - 1

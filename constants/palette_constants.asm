@@ -230,6 +230,8 @@ IF GEN_2_GRAPHICS
 	const PAL_LEAFEON
 	const PAL_GLACEON
 	const PAL_SYLVEON
+	const PAL_SCIZOR
+	const PAL_STEELIX
 	const PAL_YOUNGSTER     ; $BC
 	const PAL_BUGCATCHER    ; $BD
 	const PAL_LASS          ; $BE

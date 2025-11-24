@@ -1,46 +1,47 @@
 _WardensHouseWardenGibberish1Text::
-	text "WARDEN: Hif fuff"
-	line "hefifoo!"
+	text "WARDEN: Welcome"
+	line "to my home!"
 
-	para "Ha lof ha feef ee"
-	line "hafahi ho. Heff"
-	cont "hee fwee!"
+	para "I am the warden"
+	line "of the Safari"
+	cont "Zone!"
 	done
 
 _WardensHouseWardenGibberish2Text::
-	text "Ah howhee ho hoo!"
-	line "Eef ee hafahi ho!"
+	text "I say, do you"
+	line "have want to"
+	cont "trade items?"
 	done
 
 _WardensHouseWardenGibberish3Text::
-	text "Ha? He ohay heh"
-	line "ha hoo ee haheh!"
+	text "I'll give you a"
+	line "HM for METAL"
+	cont "COAT!"
 	done
 
 _WardensHouseWardenGaveTheGoldTeethText::
 	text "<PLAYER> gave the"
-	line "GOLD TEETH to the"
+	line "METAL COAT to the"
 	cont "WARDEN!@"
 	text_end
 
 _WardensHouseWardenTeethPoppedInHisTeethText::
 	text_start
 
-	para "The WARDEN popped"
-	line "in his teeth!"
+	para "Thanks! This is"
+	line "for my Scyther!"
 	prompt
 
 _WardensHouseWardenThanksText::
-	text "WARDEN: Thanks,"
-	line "kid! No one could"
-	cont "understand a word"
-	cont "that I said."
+	text "Now I can evolve"
+	line "my Scyther into"
+	cont "Scizor! How"
+	cont "incredible!"
 
-	para "I couldn't work"
-	line "that way."
-	cont "Let me give you"
-	cont "something for"
-	cont "your trouble."
+	para "As promised,"
+	line "here is the HM"
+	cont "I promised to"
+	cont "trade you."
 	prompt
 
 _WardensHouseWardenReceivedHM04Text::

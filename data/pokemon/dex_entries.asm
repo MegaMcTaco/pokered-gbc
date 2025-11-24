@@ -60,8 +60,8 @@ PokedexEntryPointers:
 	dw SeelDexEntry
 	dw DiglettDexEntry
 	dw TaurosDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
+	dw ScizorDexEntry
+	dw SteelixDexEntry
 	dw MissingNoDexEntry
 	dw FarfetchdDexEntry
 	dw VenonatDexEntry
@@ -616,6 +616,20 @@ TaurosDexEntry:
 	dw 884
 	text_far _TaurosDexEntry
 	text_end
+	
+ScizorDexEntry:
+    db "PINCER@"
+	db 16
+	dw 2601
+	text_far _ScizorDexEntry
+	db "@"
+	
+SteelixDexEntry:
+	db "Iron Snake@"
+	db 99
+	dw 8818
+	text_far _SteelixDexEntry
+	db "@"
 
 FarfetchdDexEntry:
 	db "WILD DUCK@"

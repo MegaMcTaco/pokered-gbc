@@ -156,4 +156,5 @@ INCLUDE "data/pokemon/base_stats/umbreon.asm"
 INCLUDE "data/pokemon/base_stats/leafeon.asm"
 INCLUDE "data/pokemon/base_stats/glaceon.asm"
 INCLUDE "data/pokemon/base_stats/sylveon.asm"
-
+INCLUDE "data/pokemon/base_stats/scizor.asm"
+INCLUDE "data/pokemon/base_stats/steelix.asm"

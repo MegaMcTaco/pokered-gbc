@@ -70,8 +70,8 @@ EvosMovesPointerTable:
 	dw SeelEvosMoves
 	dw DiglettEvosMoves
 	dw TaurosEvosMoves
-	dw MissingNo3DEvosMoves
-	dw MissingNo3EEvosMoves
+	dw ScizorEvosMoves
+	dw SteelixEvosMoves
 	dw MissingNo3FEvosMoves
 	dw FarfetchdEvosMoves
 	dw VenonatEvosMoves
@@ -506,6 +506,7 @@ GastlyEvosMoves:
 
 ScytherEvosMoves:
 ; Evolutions
+    db EVOLVE_ITEM, METAL_COAT, 1, SCIZOR
 	db 0
 ; Learnset
 	db 17, LEER
@@ -606,6 +607,7 @@ GrowlitheEvosMoves:
 
 OnixEvosMoves:
 ; Evolutions
+    db EVOLVE_ITEM, METAL_COAT , 1, STEELIX
 	db 0
 ; Learnset
 	db 15, BIND
@@ -927,16 +929,34 @@ TaurosEvosMoves:
 	db 51, TAKE_DOWN
 	db 0
 
-MissingNo3DEvosMoves:
+ScizorEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+    db 5,FOCUS_ENERGY
+	db 9,QUICK_ATTACK
+	db 17,AGILITY
+	db 24,SLASH
+	db 33,SWORDS_DANCE
+	db 40,CLAMP
 	db 0
 
-MissingNo3EEvosMoves:
+SteelixEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+    db 1,TACKLE
+	db 1,HARDEN
+	db 7,BIND
+	db 10,LEER
+	db 13,ROCK_THROW
+	db 20,DEFENSE_CURL
+	db 28,SLAM
+	db 31,SCREECH
+	db 34,ROCK_SLIDE
+	db 43,DIG
+	db 49,DOUBLE_EDGE
+	db 52,FISSURE
 	db 0
 
 MissingNo3FEvosMoves:

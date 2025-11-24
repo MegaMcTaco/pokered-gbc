@@ -3,10 +3,10 @@ SafariZoneNorthWildMons:
 IF DEF(_RED)
 	db 22, NIDORAN_M
 	db 26, RHYHORN
-	db 23, PARAS
+	db 23, TANGELA
 	db 25, EXEGGCUTE
 	db 30, NIDORINO
-	db 27, EXEGGCUTE
+	db 27, PINSIR
 	db 30, NIDORINA
 ENDC
 IF DEF(_BLUE)

@@ -3,11 +3,11 @@ SafariZoneWestWildMons:
 IF DEF(_RED)
 	db 25, NIDORAN_M
 	db 26, DODUO
-	db 23, VENONAT
+	db 23, VENONAT ; change to Hoothoot eventually
 	db 24, EXEGGCUTE
-	db 33, NIDORINO
-	db 26, EXEGGCUTE
-	db 25, NIDORAN_F
+	db 33, DODRIO
+	db 26, EXEGGUTOR
+	db 25, NIDORAN_F ; change to Heracross eventually
 ENDC
 IF DEF(_BLUE)
 	db 25, NIDORAN_F
@@ -18,7 +18,7 @@ IF DEF(_BLUE)
 	db 26, EXEGGCUTE
 	db 25, NIDORAN_M
 ENDC
-	db 31, VENOMOTH
+	db 31, LICKITUNG
 	db 26, TAUROS
 	db 28, KANGASKHAN
 	end_grass_wildmons

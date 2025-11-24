@@ -1,12 +1,5 @@
-; Evos+moves data structure:
-; - Evolution methods:
-;    * db EVOLVE_LEVEL, level, species
-;    * db EVOLVE_ITEM, used item, min level (1), species
-;    * db EVOLVE_TRADE, min level (1), species
-; - db 0 ; no more evolutions
-; - Learnset (in increasing level order):
-;    * db level, move
-; - db 0 ; no more level-up moves
+; See constants/pokemon_data_constants.asm
+; The max number of evolutions per monster is MAX_EVOLUTIONS
 
 EvosMovesPointerTable:
 	table_width 2, EvosMovesPointerTable
@@ -1343,13 +1336,13 @@ WigglytuffEvosMoves:
 
 EeveeEvosMoves:
 ; Evolutions
-	db EVOLVE_ITEM, FIRE_STONE, 1, FLAREON
-	db EVOLVE_ITEM, THUNDER_STONE, 1, JOLTEON
-	db EVOLVE_ITEM, WATER_STONE, 1, VAPOREON
 	db EVOLVE_ITEM, SUN_STONE, 1, ESPEON
 	db EVOLVE_ITEM, MOON_STONE, 1, UMBREON
 	db EVOLVE_ITEM, LEAF_STONE, 1, LEAFEON
 	db EVOLVE_ITEM, ICE_STONE, 1, GLACEON
+	db EVOLVE_ITEM, FIRE_STONE, 1, FLAREON
+	db EVOLVE_ITEM, THUNDER_STONE, 1, JOLTEON
+	db EVOLVE_ITEM, WATER_STONE, 1, VAPOREON
 	db EVOLVE_LEVEL, 30, SYLVEON
 	db 0
 ; Learnset

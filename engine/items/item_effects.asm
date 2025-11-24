@@ -100,6 +100,20 @@ ItemUsePtrTable:
 	dw ItemUsePPRestore  ; MAX_ETHER
 	dw ItemUsePPRestore  ; ELIXER
 	dw ItemUsePPRestore  ; MAX_ELIXER
+	dw UnusableItem      ; FLOOR_B2F
+	dw UnusableItem      ; FLOOR_B1F
+    dw UnusableItem      ; FLOOR_1F
+	dw UnusableItem      ; FLOOR_2F
+	dw UnusableItem      ; FLOOR_3F
+	dw UnusableItem      ; FLOOR_4F
+	dw UnusableItem      ; FLOOR_5F
+	dw UnusableItem      ; FLOOR_6F
+	dw UnusableItem      ; FLOOR_7F
+	dw UnusableItem      ; FLOOR_8F
+	dw UnusableItem      ; FLOOR_9F
+	dw UnusableItem      ; FLOOR_10F
+	dw UnusableItem      ; FLOOR_11F
+	dw UnusableItem      ; FLOOR_14F
 
 ItemUseBall:
 
@@ -797,7 +811,7 @@ ItemUseEvoStone:
 	ld a, SFX_HEAL_AILMENT
 	call PlaySoundWaitForCurrent
 	call WaitForSoundToFinish
-	callfar TryEvolvingMon ; try to evolve pokemon
+	callab TryEvolvingMon ; try to evolve pokemon
 	ld a, [wEvolutionOccurred]
 	and a
 	jr z, .noEffect

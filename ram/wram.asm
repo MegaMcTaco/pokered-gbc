@@ -898,9 +898,9 @@ wNumMovesMinusOne:: db
 UNION
 wcd6d:: ds NAME_BUFFER_LENGTH ; buffer for various data
 
-;NEXTU
-;wEvosMoves:: ds MAX_EVOLUTIONS * EVOLUTION_SIZE + 1
-;wEvosMovesEnd::
+NEXTU
+wEvosMoves:: ds MAX_EVOLUTIONS * EVOLUTION_SIZE + 1
+wEvosMovesEnd::
 
 NEXTU
 	ds 4

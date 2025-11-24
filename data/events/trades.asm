@@ -6,15 +6,15 @@ TradeMons:
 	; from the Japanese Blue trades, which used species that evolve.
 	; Japanese Red and Green used TRADE_DIALOGSET_CASUAL, and had
 	; the same species as English Red and Blue.
-	db HAUNTER,   KADABRA,   TRADE_DIALOGSET_CASUAL,    "LENIN@@@@@@"
-	db ABRA,      MR_MIME,   TRADE_DIALOGSET_CASUAL,    "STALIN@@@@@"
-	db BUTTERFREE, BEEDRILL,  TRADE_DIALOGSET_HAPPY,    "FANON@@@@@@" ; unused
-	db PONYTA,     SEEL,      TRADE_DIALOGSET_CASUAL,   "MAO@@@@@@@@"
-	db GRAVELER,   MACHOKE,   TRADE_DIALOGSET_HAPPY,    "MARX@@@@@@@"
-	db KADABRA,    HAUNTER,   TRADE_DIALOGSET_CASUAL,   "ENGELS@@@@@"
-	db POLIWHIRL, JYNX,      TRADE_DIALOGSET_EVOLUTION, "SANKARA@@@@"
-	db RAICHU,    LICKITUNG, TRADE_DIALOGSET_EVOLUTION, "CHE@@@@@@@@"
-	db SPEAROW,   FARFETCHD, TRADE_DIALOGSET_HAPPY,     "FIDEL@@@@@@"
-	db MACHOKE,   GRAVELER,  TRADE_DIALOGSET_HAPPY,     "TITO@@@@@@@"
-	db GOLDUCK,   DRATINI,   TRADE_DIALOGSET_HAPPY,     "FRED@@@@@@@"
+	db HAUNTER,   KADABRA,   TRADE_DIALOGSET_CASUAL,    "LENIN@@@@@@" ; Route 11
+	db ABRA,      MR_MIME,   TRADE_DIALOGSET_CASUAL,    "STALIN@@@@@" ; Route 2
+	db BUTTERFREE, BEEDRILL,  TRADE_DIALOGSET_HAPPY,    "FANON@@@@@@" ; Pewter Museum
+	db PONYTA,     SEEL,      TRADE_DIALOGSET_CASUAL,   "MAO@@@@@@@@" ; Cinnabar Island
+	db GRAVELER,   MACHOKE,   TRADE_DIALOGSET_HAPPY,    "MARX@@@@@@@" ; Vermillion City
+	db KADABRA,    HAUNTER,   TRADE_DIALOGSET_CASUAL,   "ENGELS@@@@@" ; Route 18
+	db POLIWHIRL, JYNX,      TRADE_DIALOGSET_EVOLUTION, "SANKARA@@@@" ; Cerulean City
+	db RAICHU,    LICKITUNG, TRADE_DIALOGSET_EVOLUTION, "CHE@@@@@@@@" ; Cinnabar Island
+ 	db SPEAROW,   FARFETCHD, TRADE_DIALOGSET_HAPPY,     "FIDEL@@@@@@" ; Cinnabar Island
+	db MACHOKE,   GRAVELER,  TRADE_DIALOGSET_HAPPY,     "TITO@@@@@@@" ; Route 5
+	db GOLDUCK,   DRATINI,   TRADE_DIALOGSET_HAPPY,     "FRED@@@@@@@" ; Lighthouse
 	assert_table_length NUM_NPC_TRADES

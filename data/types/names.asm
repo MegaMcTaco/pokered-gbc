@@ -23,6 +23,8 @@ ENDR
 	dw .Ice
 	dw .Dragon
 	dw .Dark
+	dw .Fairy
+	dw .Steel
 
 	assert_table_length NUM_TYPES
 
@@ -43,3 +45,5 @@ ENDR
 .Ghost:    db "GHOST@"
 .Dragon:   db "DRAGON@"
 .Dark:     db "DARK@"
+.Fairy:    db "FAIRY@"
+.Steel:	   db "STEEL@"

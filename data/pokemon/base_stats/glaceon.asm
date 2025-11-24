@@ -1,0 +1,27 @@
+	db DEX_GLACEON ; pokedex id
+
+	db  65, 60, 110,  65, 95
+	;   hp  atk  def  spd  spc
+
+	db ICE, ICE ; type
+	db 45 ; catch rate
+	db 196 ; base exp
+
+IF GEN_2_GRAPHICS
+	INCBIN "gfx/pokemon/gsfront/glaceon.pic", 0, 1 ; sprite dimensions
+ELSE
+	INCBIN "gfx/pokemon/front/glaceon.pic", 0, 1 ; sprite dimensions
+ENDC
+	dw GlaceonPicFront, GlaceonPicBack
+
+	db TACKLE, SAND_ATTACK, QUICK_ATTACK, CONFUSION ; level 1 learnset
+	db GROWTH_MEDIUM_FAST ; growth rate
+
+	; tm/hm learnset
+	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  RAGE,         \
+	MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         SWIFT,        \
+	SKULL_BASH,   REST,         SUBSTITUTE,   ICE_BEAM,    BLIZZARD,      \
+	HYPER_BEAM
+	; end
+
+	db BANK(GlaceonPicFront)

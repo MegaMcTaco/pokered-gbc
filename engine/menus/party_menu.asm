@@ -132,7 +132,7 @@ RedrawPartyMenu_::
 	ld l, a
 	ld de, wcd6d
 	ld a, BANK(EvosMovesPointerTable)
-	ld bc, 4 * 3 + 1 ; enough for Eevee's three 4-byte evolutions and 0 terminator
+	ld bc, 4 * 6 + 1 ; enough for Eevee's three 4-byte evolutions and 0 terminator
 	call FarCopyData
 	ld hl, wcd6d
 	ld de, .notAbleToEvolveText

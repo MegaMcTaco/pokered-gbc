@@ -508,6 +508,16 @@ _MagmarDexEntry::
 	next "hide perfectly"
 	next "among flames"
 	dex
+	
+_GlaceonDexEntry::
+	text "It causes tiny ice"
+	next "crystals to form"
+	next "by lowering the"
+	
+	page "temperature of the"
+	next "surrounding"
+	next "atmosphere"
+	dex	
 
 _ElectabuzzDexEntry::
 	text "Normally found"
@@ -537,6 +547,15 @@ _KoffingDexEntry::
 	page "its body, it is"
 	next "prone to exploding"
 	next "without warning"
+	dex
+	
+_SylveonDexEntry::
+    text "It sends out a"
+    next "soothing auro from"
+    next "its ribbon-like"
+
+	page "feelers in order"
+	next "to calm fights"
 	dex
 
 _MankeyDexEntry::

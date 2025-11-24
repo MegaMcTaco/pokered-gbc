@@ -25,5 +25,7 @@ DEF SPECIAL EQU const_value
 	const ICE          ; $19
 	const DRAGON       ; $1A
 	const DARK		   ; $1B
+	const FAIRY	       ; $1C
+	const STEEL		   ; $1D
 
 DEF NUM_TYPES EQU const_value

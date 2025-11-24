@@ -31,7 +31,7 @@ PokedexEntryPointers:
 	dw PinsirDexEntry
 	dw TangelaDexEntry
 	dw EspeonDexEntry
-	dw MissingNoDexEntry
+	dw UmbreonDexEntry
 	dw GrowlitheDexEntry
 	dw OnixDexEntry
 	dw FearowDexEntry
@@ -49,13 +49,13 @@ PokedexEntryPointers:
 	dw PsyduckDexEntry
 	dw DrowzeeDexEntry
 	dw GolemDexEntry
-	dw MissingNoDexEntry
+	dw LeafeonDexEntry
 	dw MagmarDexEntry
-	dw MissingNoDexEntry
+	dw GlaceonDexEntry
 	dw ElectabuzzDexEntry
 	dw MagnetonDexEntry
 	dw KoffingDexEntry
-	dw MissingNoDexEntry
+	dw SylveonDexEntry
 	dw MankeyDexEntry
 	dw SeelDexEntry
 	dw DiglettDexEntry
@@ -553,6 +553,13 @@ MagmarDexEntry:
 	dw 445
 	text_far _MagmarDexEntry
 	text_end
+	
+GlaceonDexEntry:	
+	db "FRESH SNOW@"
+	db 9
+	dw 571
+	text_far _GlaceonDexEntry
+	db "@"	
 
 ElectabuzzDexEntry:
 	db "ELECTRIC@"
@@ -574,6 +581,13 @@ KoffingDexEntry:
 	dw 10
 	text_far _KoffingDexEntry
 	text_end
+	
+SylveonDexEntry:
+    db "AFFECTION@"
+	db 8
+	dw 518
+    text_far _SylveonDexEntry
+	db "@"
 
 MankeyDexEntry:
 	db "PIG MONKEY@"

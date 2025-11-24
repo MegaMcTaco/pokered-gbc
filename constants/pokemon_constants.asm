@@ -58,11 +58,11 @@
 	const GOLEM              ; $31
 	const LEAFEON            ; $32 LEAFEON
 	const MAGMAR             ; $33
-	const_skip               ; $34
+	const GLACEON            ; $34 GLACEON
 	const ELECTABUZZ         ; $35
 	const MAGNETON           ; $36
 	const KOFFING            ; $37
-	const_skip               ; $38
+	const SYLVEON            ; $38 SYLVEON
 	const MANKEY             ; $39
 	const SEEL               ; $3A
 	const DIGLETT            ; $3B

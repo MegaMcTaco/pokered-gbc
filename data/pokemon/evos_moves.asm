@@ -61,11 +61,11 @@ EvosMovesPointerTable:
 	dw GolemEvosMoves
 	dw LeafeonEvosMoves
 	dw MagmarEvosMoves
-	dw MissingNo34EvosMoves
+	dw GlaceonEvosMoves
 	dw ElectabuzzEvosMoves
 	dw MagnetonEvosMoves
 	dw KoffingEvosMoves
-	dw MissingNo38EvosMoves
+	dw SylveonEvosMoves
 	dw MankeyEvosMoves
 	dw SeelEvosMoves
 	dw DiglettEvosMoves
@@ -570,26 +570,26 @@ EspeonEvosMoves: ; 3b370 (e:7370)
 ;Evolutions
 	db 0
 ;Learnset
-    db 5,SAND_ATTACK
-	db 9,CONFUSION
-	db 13,QUICK_ATTACK
-	db 17,SWIFT
-	db 20,PSYBEAM
-	db 25,AMNESIA
-	db 33,RECOVER
-	db 35,PSYCHIC_M
+    db 5, SAND_ATTACK
+	db 9, CONFUSION
+	db 13, QUICK_ATTACK
+	db 17, SWIFT
+	db 20, PSYBEAM
+	db 25, AMNESIA
+	db 33, RECOVER
+	db 35, PSYCHIC_M
 	db 0
 
 UmbreonEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-    db 5,SAND_ATTACK
-	db 9,BITE
-	db 13,QUICK_ATTACK
-	db 17,CONFUSE_RAY
-	db 22,SCREECH
-	db 30,AGILITY
+    db 5, SAND_ATTACK
+	db 9, BITE
+	db 13, QUICK_ATTACK
+	db 17, CONFUSE_RAY
+	db 22, SCREECH
+	db 30, AGILITY
 	db 0
 
 GrowlitheEvosMoves:
@@ -798,13 +798,13 @@ LeafeonEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-    db 7,LEECH_SEED
-	db 13,VINE_WHIP
-	db 22,POISONPOWDER
-	db 30,RAZOR_LEAF
-	db 43,GROWTH
-	db 55,SLEEP_POWDER
-	db 65,SOLARBEAM
+    db 7, LEECH_SEED
+	db 13, VINE_WHIP
+	db 22, POISONPOWDER
+	db 30, RAZOR_LEAF
+	db 43, GROWTH
+	db 55, SLEEP_POWDER
+	db 65, SOLARBEAM
 	db 0
 
 MagmarEvosMoves:
@@ -819,10 +819,17 @@ MagmarEvosMoves:
 	db 55, FLAMETHROWER
 	db 0
 
-MissingNo34EvosMoves:
+GlaceonEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+    db 5, SAND_ATTACK
+	db 13, BITE
+	db 22, TAKE_DOWN
+	db 30, ROAR
+	db 45, BLIZZARD
+	db 55, ICE_BEAM
+	db 58, MIST
 	db 0
 
 ElectabuzzEvosMoves:
@@ -860,10 +867,17 @@ KoffingEvosMoves:
 	db 48, EXPLOSION
 	db 0
 
-MissingNo38EvosMoves:
+SylveonEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 5,SAND_ATTACK
+	db 13,QUICK_ATTACK
+	db 17,SWIFT
+	db 30,LIGHT_SCREEN
+	db 41,AMNESIA
+	db 45,SING
+	db 50,AURORA_BEAM
 	db 0
 
 MankeyEvosMoves:
@@ -1309,12 +1323,14 @@ WigglytuffEvosMoves:
 
 EeveeEvosMoves:
 ; Evolutions
-	db EVOLVE_ITEM, FIRE_STONE,1, FLAREON
-	db EVOLVE_ITEM, THUNDER_STONE,1, JOLTEON
+	db EVOLVE_ITEM, FIRE_STONE, 1, FLAREON
+	db EVOLVE_ITEM, THUNDER_STONE, 1, JOLTEON
 	db EVOLVE_ITEM, WATER_STONE, 1, VAPOREON
 	db EVOLVE_ITEM, SUN_STONE, 1, ESPEON
 	db EVOLVE_ITEM, MOON_STONE, 1, UMBREON
 	db EVOLVE_ITEM, LEAF_STONE, 1, LEAFEON
+	db EVOLVE_ITEM, ICE_STONE, 1, GLACEON
+	db EVOLVE_LEVEL, 30, SYLVEON
 	db 0
 ; Learnset
 	db 27, QUICK_ATTACK

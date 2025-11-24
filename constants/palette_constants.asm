@@ -228,6 +228,8 @@ IF GEN_2_GRAPHICS
 	const PAL_ESPEON  
 	const PAL_UMBREON
 	const PAL_LEAFEON
+	const PAL_GLACEON
+	const PAL_SYLVEON
 	const PAL_YOUNGSTER     ; $BC
 	const PAL_BUGCATCHER    ; $BD
 	const PAL_LASS          ; $BE

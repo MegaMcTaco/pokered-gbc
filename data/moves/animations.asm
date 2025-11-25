@@ -164,6 +164,23 @@ AttackAnimationPointers:
 	dw SuperFangAnim
 	dw SlashAnim
 	dw SubstituteAnim
+	dw MetalClawAnim
+	dw IronTailAnim
+	dw CrunchAnim
+	dw NightSlashAnim
+	dw SteelWingAnim
+	dw AerialAceAnim
+	dw AirCutterAnim
+	dw DarkPulseAnim
+	dw MoonblastAnim
+	dw HydroCannonAnim
+	dw FrenzyPlantAnim
+	dw ShadowBallAnim
+	dw FlameWheelAnim
+	dw MoonlightAnim
+	dw IcyWindAnim
+	dw SheerColdAnim
+	dw DischargeAnim
 	dw StruggleAnim
 	assert_table_length NUM_ATTACKS
 	dw ShowPicAnim
@@ -1142,6 +1159,74 @@ SubstituteAnim:
 	battle_anim NO_MOVE, SUBANIM_0_BALL_POOF, 0, 8
 	battle_anim NO_MOVE, SE_SUBSTITUTE_MON
 	db -1 ; end
+
+MetalClawAnim:
+	battle_anim SLASH, SUBANIM_0_SCRATCHES, 0, 6
+	db -1 ; end	
+
+IronTailAnim:
+	battle_anim AMNESIA, SE_MOVE_MON_HORIZONTALLY
+	db -1 ; end
+	
+CrunchAnim:
+	battle_anim BITE, SUBANIM_0_STAR_THRICE, 0, 8
+	db -1 ; end
+	
+NightSlashAnim:
+	battle_anim SLASH, SUBANIM_0_SCRATCHES, 0, 6
+	db -1 ; end		
+
+SteelWingAnim:
+	battle_anim WING_ATTACK, SUBANIM_1_STAR_BIG_MOVING, 1, 6
+	db -1 ; end
+	
+AerialAceAnim:
+	battle_anim WHIRLWIND, SUBANIM_1_TORNADO, 1, 6
+	db -1 ; end	
+	
+AirCutterAnim:
+	battle_anim CUT, SE_DARK_SCREEN_FLASH
+	db -1 ; end	
+	
+DarkPulseAnim:
+	battle_anim CONFUSION, SE_FLASH_SCREEN_LONG
+	db -1 ; end
+	
+MoonblastAnim:
+	battle_anim CONFUSION, SE_FLASH_SCREEN_LONG
+	db -1 ; end
+	
+HydroCannonAnim:
+	battle_anim HYDRO_PUMP, SUBANIM_0_WATER_COLUMNS, 0, 6
+	db -1 ; end
+	
+FrenzyPlantAnim:
+	battle_anim SOLARBEAM, SUBANIM_0_BEAM, 0, 6
+	db -1 ; end	
+	
+ShadowBallAnim:
+	battle_anim THUNDERBOLT, SUBANIM_1_LIGHTNING_BALL, 1, 1
+	db -1 ; end
+	
+FlameWheelAnim:
+	battle_anim EMBER, SUBANIM_1_FLAMES, 1, 6
+	db -1 ; end	
+	
+MoonlightAnim:
+	battle_anim CONFUSION, SE_FLASH_SCREEN_LONG
+	db -1 ; end	
+
+IcyWindAnim:
+	battle_anim GUST, SUBANIM_1_TORNADO, 1, 6
+	db -1 ; end
+	
+SheerColdAnim:
+	battle_anim BLIZZARD, SUBANIM_0_ICE_FALL, 0, 4
+	db -1 ; end	
+	
+DischargeAnim:
+	battle_anim THUNDERSHOCK, SUBANIM_1_LIGHTNING_BALL, 1, 2
+	db -1 ; end	
 
 BallTossAnim:
 	battle_anim NO_MOVE, SUBANIM_0_BALL_TOSS_HIGH, 0, 3

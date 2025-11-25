@@ -165,6 +165,23 @@ MoveSoundTable:
 	db SFX_BATTLE_26,          $f0, $ff ; SUPER_FANG
 	db SFX_NOT_VERY_EFFECTIVE, $01, $ff ; SLASH
 	db SFX_BATTLE_2C,          $d8, $04 ; SUBSTITUTE
+	db SFX_BATTLE_31,		   $01, $ff ; METAL_CLAW
+	db SFX_BATTLE_31,		   $01, $ff ; IRON_TAIL
+	db SFX_BATTLE_31,		   $01, $ff ; CRUNCH
+	db SFX_BATTLE_31,		   $01, $ff ; NIGHT_SLASH
+	db SFX_BATTLE_31,		   $01, $ff ; STEEL_WING
+	db SFX_BATTLE_31,		   $01, $ff ; AERIAL_ACE
+	db SFX_BATTLE_31,		   $01, $ff ; AIR_CUTTER
+	db SFX_BATTLE_31,		   $01, $ff ; DARK_PULSE
+	db SFX_BATTLE_31,		   $01, $ff ; MOONBLAST
+	db SFX_BATTLE_31,		   $01, $ff ; HYDRO_CANNON
+	db SFX_BATTLE_31,		   $01, $ff ; FRENZY_PLANT
+	db SFX_BATTLE_31,		   $01, $ff ; SHADOW_BALL
+	db SFX_BATTLE_31,		   $01, $ff ; FLAME_WHEEL
+	db SFX_BATTLE_31,		   $01, $ff ; MOONLIGHT
+	db SFX_BATTLE_31,		   $01, $ff ; ICY_WIND
+	db SFX_BATTLE_31,		   $01, $ff ; SHEER_COLD
+	db SFX_BATTLE_31,		   $01, $ff ; DISCHARGE	
 	db SFX_BATTLE_0B,          $00, $80 ; STRUGGLE
-	assert_table_length NUM_ATTACKS
+assert_table_length NUM_ATTACKS
 	db SFX_BATTLE_0B,          $00, $80

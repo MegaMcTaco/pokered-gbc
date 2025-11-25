@@ -170,6 +170,23 @@
 	const SUPER_FANG   ; a2
 	const SLASH        ; a3
 	const SUBSTITUTE   ; a4
+	const METAL_CLAW   ; a6
+	const IRON_TAIL    ; a7
+	const CRUNCH       ; a8
+	const NIGHT_SLASH  ; a9
+	const STEEL_WING   ; aa
+	const AERIAL_ACE   ; ab
+	const AIR_CUTTER   ; ac
+	const DARK_PULSE   ; ad
+	const MOONBLAST    ; ae
+	const HYDRO_CANNON ; af
+	const FRENZY_PLANT ; b0
+	const SHADOW_BALL  ; b1
+	const FLAME_WHEEL  ; b2
+	const MOONLIGHT    ; b3
+	const ICY_WIND     ; b4
+	const SHEER_COLD   ; b5
+	const DISCHARGE    ; b6		
 	const STRUGGLE     ; a5
 DEF NUM_ATTACKS EQU const_value - 1
 

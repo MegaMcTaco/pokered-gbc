@@ -21,8 +21,8 @@ ENDC
 	tmhm MEGA_PUNCH,   SWORDS_DANCE, MEGA_KICK,    TOXIC,        BODY_SLAM,    \
 	     TAKE_DOWN,    DOUBLE_EDGE,  SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
 	     RAGE,         DRAGON_RAGE,  DIG,          MIMIC,        DOUBLE_TEAM,  \
-	     REFLECT,      BIDE,         FIRE_BLAST,   SWIFT,        SKULL_BASH,   \
-	     REST,         SUBSTITUTE,   CUT,          STRENGTH
+	     REFLECT,      BIDE,         FLAMETHROWER, FIRE_BLAST,   SWIFT,        \
+	     SKULL_BASH,   REST,         SUBSTITUTE,   CUT,          STRENGTH
 	; end
 
 	db BANK(CharmanderPicFront)

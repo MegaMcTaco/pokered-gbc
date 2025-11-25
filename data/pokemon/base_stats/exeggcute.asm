@@ -20,8 +20,7 @@ ENDC
 	; tm/hm learnset
 	tmhm TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  RAGE,         PSYCHIC_M,    \
 	     TELEPORT,     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
-	     SELFDESTRUCT, EGG_BOMB,     REST,         PSYWAVE,      EXPLOSION,    \
-	     SUBSTITUTE
+	     SELFDESTRUCT,     REST,     PSYWAVE,      EXPLOSION,    SUBSTITUTE    \
 	; end
 
 	db BANK(ExeggcutePicFront)

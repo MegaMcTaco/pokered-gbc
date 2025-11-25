@@ -20,8 +20,8 @@ ENDC
 	; tm/hm learnset
 	tmhm RAZOR_WIND,   WHIRLWIND,    TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  \
 	     HYPER_BEAM,   RAGE,         MIMIC,        DOUBLE_TEAM,  REFLECT,      \
-	     BIDE,         FIRE_BLAST,   SWIFT,        SKY_ATTACK,   REST,         \
-	     SUBSTITUTE,   FLY
+	     BIDE,         FLAMETHROWER, FIRE_BLAST,   SWIFT,        SKY_ATTACK,   \
+	     REST,  	   SUBSTITUTE,   FLY
 	; end
 
 	db BANK(MoltresPicFront)

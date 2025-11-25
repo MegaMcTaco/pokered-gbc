@@ -3,11 +3,11 @@ ViridianForestWildMons:
 IF DEF(_RED)
 	db  4, WEEDLE
 	db  5, KAKUNA
-	db  3, WEEDLE
+	db  3, CATERPIE
 	db  5, WEEDLE
 	db  4, KAKUNA
 	db  6, METAPOD
-	db  4, METAPOD
+	db  4, PIDGEY
 	db  5, PIKACHU
 ENDC
 IF DEF(_BLUE)
@@ -21,7 +21,7 @@ IF DEF(_BLUE)
 	db  3, WEEDLE
 ENDC
 	db  3, PIKACHU
-	db  5, PIKACHU
+	db  9, PIDGEOTTO
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

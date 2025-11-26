@@ -241,7 +241,7 @@ MapHSPointers:
 	dw SilphCo11FHS
 	dw NoHS
 	dw CinnabarVolcanoHS ; new
-	dw NoHS
+	dw SouthCeladonHS ; new
 	dw NoHS
 	dw NoHS
 	dw NoHS
@@ -568,6 +568,7 @@ VermilionDockHS:
 	db VERMILION_DOCK, $01, HIDE
 CinnabarVolcanoHS:
 	db CINNABAR_VOLCANO, CINNABARVOLCANO_MOLTRES, SHOW
-
+SouthCeladonHS:
+	db SOUTH_CELADON, SOUTHCELADON_LAPRAS, SHOW
 		db $FF, $01, SHOW ; end
 	assert_table_length NUM_HS_OBJECTS + 1

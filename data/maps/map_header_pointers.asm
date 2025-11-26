@@ -239,10 +239,10 @@ MapHeaderPointers::
 	dw SilphCo11F_h
 	dw SilphCoElevator_h
 	dw CinnabarVolcano_h ; Cinnabar Volcano
-	dw SilphCo2F_h ; UNUSED_MAP_EE
+	dw SouthCeladon_h ; SOUTH CELADON
 	dw TradeCenter_h
 	dw Colosseum_h
-	dw SilphCo2F_h ; UNUSED_MAP_F1
+	dw SouthCeladonGate_h ; SOUTH CELADON GATE
 	dw SilphCo2F_h ; UNUSED_MAP_F2
 	dw SilphCo2F_h ; UNUSED_MAP_F3
 	dw SilphCo2F_h ; UNUSED_MAP_F4

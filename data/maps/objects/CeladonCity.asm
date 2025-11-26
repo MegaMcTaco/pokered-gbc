@@ -26,6 +26,8 @@ CeladonCity_Object:
 	warp_event 31, 27, CELADON_DINER, 1
 	warp_event 35, 27, CELADON_CHIEF_HOUSE, 1
 	warp_event 43, 27, CELADON_HOTEL, 1
+	warp_event 38, 33, SOUTH_CELADON_GATE, 1
+	warp_event 39, 33, SOUTH_CELADON_GATE, 1
 
 	def_bg_events
 	bg_event 27, 15, TEXT_CELADONCITY_TRAINER_TIPS1

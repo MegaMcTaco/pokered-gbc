@@ -238,7 +238,7 @@ WildDataPointers:
 	dw NothingWildMons
 	dw NothingWildMons
 	dw CinnabarVolcanoWildMons ; Cinnabar Volcano
-	dw NothingWildMons
+	dw SouthCeladonWildMons ; South Celadon
 	dw NothingWildMons
 	dw NothingWildMons
 	dw NothingWildMons
@@ -323,3 +323,4 @@ INCLUDE "data/wild/maps/VictoryRoad1F.asm"
 INCLUDE "data/wild/maps/DiglettsCave.asm"
 INCLUDE "data/wild/maps/Route26.asm"
 INCLUDE "data/wild/maps/CinnabarVolcano.asm"
+INCLUDE "data/wild/maps/SouthCeladon.asm"

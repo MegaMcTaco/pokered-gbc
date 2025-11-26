@@ -419,6 +419,16 @@ INCLUDE "scripts/CinnabarVolcano.asm"
 INCLUDE "data/maps/objects/CinnabarVolcano.asm"
 CinnabarVolcano_Blocks: INCBIN "maps/CinnabarVolcano.blk"
 
+INCLUDE "data/maps/headers/SouthCeladon.asm"
+INCLUDE "scripts/SouthCeladon.asm"
+INCLUDE "data/maps/objects/SouthCeladon.asm"
+SouthCeladon_Blocks: INCBIN "maps/SouthCeladon.blk"
+
+INCLUDE "data/maps/headers/SouthCeladonGate.asm"
+INCLUDE "scripts/SouthCeladonGate.asm"
+INCLUDE "data/maps/objects/SouthCeladonGate.asm"
+SouthCeladonGate_Blocks: INCBIN "maps/SouthCeladonGate.blk"
+
 Route18Gate2F_Blocks:
 Route16Gate2F_Blocks:
 Route15Gate2F_Blocks:

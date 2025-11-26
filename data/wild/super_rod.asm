@@ -34,6 +34,7 @@ SuperRodData:
 	dbw CERULEAN_CAVE_2F,    .Group9
 	dbw CERULEAN_CAVE_B1F,   .Group9
 	dbw CERULEAN_CAVE_1F,    .Group9
+	dbw SOUTH_CELADON, 		 .Group11
 	db -1 ; end
 
 ; fishing groups
@@ -87,7 +88,7 @@ SuperRodData:
 	db 15, GOLDEEN
 
 .Group9:
-	db 4
+	db 5
 	db 25, GOLDUCK
 	db 25, SEAKING
 	db 25, KINGLER
@@ -100,3 +101,11 @@ SuperRodData:
 	db 15, KRABBY
 	db 15, GOLDEEN
 	db 15, MAGIKARP
+
+.Group11:
+	db 5
+	db 17, MAGIKARP
+	db 22, DRATINI
+	db 18, STARYU
+	db 25, STARMIE
+	db 30, GYARADOS

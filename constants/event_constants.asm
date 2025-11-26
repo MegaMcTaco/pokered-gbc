@@ -785,4 +785,10 @@ DEF INDIGO_PLATEAU_EVENTS_END EQU const_value - 1
 	const_next $A00
 	const_skip 1
 	const EVENT_BEAT_MOLTRES	
+	
+	const_next $A02
+	const_skip 7
+	const EVENT_BEAT_BEACH_BEAUTY
+	const EVENT_BEAT_LAPRAS
+
 DEF NUM_EVENTS EQU const_value

@@ -44,10 +44,11 @@ ExternalMapEntries:
 	external_map  0,  6, Route23Name
 	external_map 10,  1, Route24Name
 	external_map 11,  0, Route25Name
-	;external_map 13,  0, LighthouseName ; Lighthouse
+;	external_map 13,  0, LighthouseName ; Lighthouse
 	external_map  0,  8, Route26Name ; Route 26
-	;external_map  2, 13, CinnabarVolcanoName ; Cinnabar Volcano
-
+;	external_map  2, 13, CinnabarVolcanoName ; Cinnabar Volcano
+	external_map  7,  7, SouthCeladonName ; South Celadon
+;	assert_table_length FIRST_INDOOR_MAP
 
 
 MACRO internal_map
@@ -120,6 +121,7 @@ InternalMapEntries:
 	internal_map SILPH_CO_ELEVATOR,             10,  5, SilphCoName
 	internal_map AGATHAS_ROOM,                   0,  2, PokemonLeagueName
 	internal_map LIGHTHOUSE, 					13,  0, LighthouseName
-	internal_map ROUTE_26,					     0,  8, Route26Name
+;	internal_map ROUTE_26,					     0,  8, Route26Name
 	internal_map CINNABAR_VOLCANO, 				 2, 13, CinnabarVolcanoName
+;	internal_map SOUTH_CELADON,				     7,  7, SouthCeladonName
 	db -1 ; end

@@ -239,4 +239,5 @@ DEF SHOW EQU $15
 	const HS_ARTICUNO                      ; E3 X
 	const HS_MEW_VERMILION_DOCK 
 	const HS_MOLTRES
+	const HS_LAPRAS
 DEF NUM_HS_OBJECTS EQU const_value

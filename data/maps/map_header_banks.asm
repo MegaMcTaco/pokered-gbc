@@ -239,10 +239,10 @@ MapHeaderBanks::
 	db BANK(SilphCo11F_h)
 	db BANK(SilphCoElevator_h)
 	db BANK(CinnabarVolcano_h) ; CINNABAR VOLCANO
-	db $11 ; UNUSED_MAP_EE
+	db BANK(SouthCeladon_h) ; SOUTH CELADON
 	db BANK(TradeCenter_h)
 	db BANK(Colosseum_h)
-	db $11 ; UNUSED_MAP_F1
+	db BANK(SouthCeladonGate_h) ; SOUTH CELADON GATE
 	db $11 ; UNUSED_MAP_F2
 	db $11 ; UNUSED_MAP_F3
 	db $11 ; UNUSED_MAP_F4

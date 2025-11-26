@@ -22,7 +22,7 @@ ENDM
 	map_const CERULEAN_CITY,                 20, 18 ; $03
 	map_const LAVENDER_TOWN,                 10,  9 ; $04
 	map_const VERMILION_CITY,                20, 18 ; $05
-	map_const CELADON_CITY,                  25, 18 ; $06
+	map_const CELADON_CITY,                  25, 19 ; $06
 	map_const FUCHSIA_CITY,                  20, 18 ; $07
 	map_const CINNABAR_ISLAND,               10, 10 ; $08
 	map_const INDIGO_PLATEAU,                10,  9 ; $09
@@ -124,7 +124,7 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const SS_ANNE_1F_ROOMS,              12,  8 ; $66
 	map_const SS_ANNE_2F_ROOMS,              12,  8 ; $67
 	map_const SS_ANNE_B1F_ROOMS,             12,  8 ; $68
-	map_const ROUTE_26,                      12, 36 ; $69 ROUTE 26
+	map_const ROUTE_26,                      12, 36 ; $69 ROUTE_26
 	map_const UNUSED_MAP_6A,                 14, 12 ; $6A 
 	map_const UNUSED_MAP_6B,                  0,  0 ; $6B
 	map_const VICTORY_ROAD_1F,               10,  9 ; $6C
@@ -256,11 +256,11 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const SILPH_CO_10F,                   8,  9 ; $EA
 	map_const SILPH_CO_11F,                   9,  9 ; $EB
 	map_const SILPH_CO_ELEVATOR,              2,  2 ; $EC
-	map_const CINNABAR_VOLCANO,              14, 12 ; $ED CINNABAR VOLCANO
-	map_const UNUSED_MAP_EE,                  0,  0 ; $EE
+	map_const CINNABAR_VOLCANO,              14, 12 ; $ED CINNABAR_VOLCANO
+	map_const SOUTH_CELADON,                 16, 22 ; $EE SOUTH_CELADON
 	map_const TRADE_CENTER,                   5,  4 ; $EF
 	map_const COLOSSEUM,                      5,  4 ; $F0
-	map_const UNUSED_MAP_F1,                  0,  0 ; $F1
+	map_const SOUTH_CELADON_GATE,             5,  4 ; $F1 SOUTH CELADON GATE
 	map_const UNUSED_MAP_F2,                  0,  0 ; $F2
 	map_const UNUSED_MAP_F3,                  0,  0 ; $F3
 	map_const UNUSED_MAP_F4,                  0,  0 ; $F4

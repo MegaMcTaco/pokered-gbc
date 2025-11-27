@@ -27,6 +27,10 @@ _LavenderTownCooltrainerMText::
 	line "being developed"
 	cont "into KANTO's RADIO"
 	cont "TOWER."
+	
+	para "You may only"
+	line "access the ground"
+	cont "floor currently,"
 	done
 
 _LavenderTownSuperNerdText::

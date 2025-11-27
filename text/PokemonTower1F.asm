@@ -10,6 +10,60 @@ _PokemonTower1FReceptionistText::
 	cont "KANTO's RADIO"
 	cont "TOWER."	
 	done
+	
+_PokemonTower1FMrFujiIThinkThisMayHelpYourQuestText::
+	text "MR.FUJI: Ahh!"
+
+	para "You must be"
+	line "<PLAYER>! Prof."
+	cont "OAK has told me"
+	cont "about you."
+	
+	para "I'm overseeing"
+	line "the development"
+	cont "of the KANTO"
+	cont "RADIO TOWER,"
+	cont "and making sure"
+	cont "dead #MON are"
+	cont "appropriately"
+	cont "relocated to"
+	cont "the HOUSE OF"
+	cont "MEMORIES being"
+	cont "built."
+
+	para "I think this may"
+	line "help you with"
+	cont "your research."
+	prompt
+
+_PokemonTower1FMrFujiReceivedPokeFluteText::
+	text "<PLAYER> received"
+	line "a @"
+	text_ram wStringBuffer
+	text "!@"
+	text_end
+
+_PokemonTower1FMrFujiPokeFluteExplanationText::
+	text_start
+
+	para "Upon hearing #"
+	line "FLUTE, sleeping"
+	cont "#MON will"
+	cont "spring awake."
+
+	para "It works on all"
+	line "sleeping #MON."
+	done
+
+_PokemonTower1FMrFujiPokeFluteNoRoomText::
+	text "You must make"
+	line "room for this!"
+	done
+
+_PokemonTower1FMrFujiHasMyFluteHelpedYouText::
+	text "MR.FUJI: Has my"
+	line "FLUTE helped you?"
+	done	
 
 ;_PokemonTower1FMiddleAgedWomanText::
 ;	text "Did you come to"
@@ -17,18 +71,20 @@ _PokemonTower1FReceptionistText::
 ;	cont "Bless you!"
 ;	done
 
-;_PokemonTower1FBaldingGuyText::
-;	text "I came to pray"
-;	line "for my CLEFAIRY."
+_PokemonTower1FBaldingGuyText::
+	text "I hope KANTO"
+	line "RADIO will be"
+	cont "as good as"
+	cont "GOLDENROD RADIO"
+	cont "in JOHTO."
+	done
 
-;	para "Sniff! I can't"
-;	line "stop crying..."
-;	done
-
-;_PokemonTower1FGirlText::
-;	text "My GROWLITHE..."
-;	line "Why did you die?"
-;	done
+_PokemonTower1FGirlText::
+	text "We are waiting"
+	line "for equipment"
+	cont "and supplies"
+	cont "to arrive."
+	done
 
 ;_PokemonTower1FChannelerText::
 ;	text "I am a CHANNELER!"

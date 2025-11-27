@@ -9,7 +9,7 @@ MrFujisHouse_TextPointers:
 	dw_const MrFujisHouseLittleGirlText,    TEXT_MRFUJISHOUSE_LITTLE_GIRL
 	dw_const MrFujisHousePsyduckText,       TEXT_MRFUJISHOUSE_PSYDUCK
 	dw_const MrFujisHouseNidorinoText,      TEXT_MRFUJISHOUSE_NIDORINO
-	dw_const MrFujisHouseMrFujiText,        TEXT_MRFUJISHOUSE_MR_FUJI
+;	dw_const MrFujisHouseMrFujiText,        TEXT_MRFUJISHOUSE_MR_FUJI
 	dw_const MrFujisHouseMrFujiPokedexText, TEXT_MRFUJISHOUSE_POKEDEX
 
 ;;;;;;;;;; PureRGBnote: MOVED: moved this hiding routine here because it looks weird that mr fuji gets hidden before we warp to his house
@@ -81,46 +81,46 @@ MrFujisHouseNidorinoText:
 	call PlayCry
 	jp TextScriptEnd
 
-MrFujisHouseMrFujiText:
-	text_asm
-	CheckEvent EVENT_GOT_POKE_FLUTE
-	jr nz, .got_item
-	ld hl, .IThinkThisMayHelpYourQuestText
-	call PrintText
-	lb bc, POKE_FLUTE, 1
-	call GiveItem
-	jr nc, .bag_full
-	ld hl, .ReceivedPokeFluteText
-	call PrintText
-	SetEvent EVENT_GOT_POKE_FLUTE
-	jr .done
-.bag_full
-	ld hl, .PokeFluteNoRoomText
-	call PrintText
-	jr .done
-.got_item
-	ld hl, .HasMyFluteHelpedYouText
-	call PrintText
-.done
-	jp TextScriptEnd
+;MrFujisHouseMrFujiText:
+;	text_asm
+;	CheckEvent EVENT_GOT_POKE_FLUTE
+;	jr nz, .got_item
+;	ld hl, .IThinkThisMayHelpYourQuestText
+;	call PrintText
+;	lb bc, POKE_FLUTE, 1
+;	call GiveItem
+;	jr nc, .bag_full
+;	ld hl, .ReceivedPokeFluteText
+;	call PrintText
+;	SetEvent EVENT_GOT_POKE_FLUTE
+;	jr .done
+;.bag_full
+;	ld hl, .PokeFluteNoRoomText
+;	call PrintText
+;	jr .done
+;.got_item
+;	ld hl, .HasMyFluteHelpedYouText
+;	call PrintText
+;.done
+;	jp TextScriptEnd
 
-.IThinkThisMayHelpYourQuestText:
-	text_far _MrFujisHouseMrFujiIThinkThisMayHelpYourQuestText
-	text_end
+;.IThinkThisMayHelpYourQuestText:
+;	text_far _MrFujisHouseMrFujiIThinkThisMayHelpYourQuestText
+;	text_end
 
-.ReceivedPokeFluteText:
-	text_far _MrFujisHouseMrFujiReceivedPokeFluteText
-	sound_get_key_item
-	text_far _MrFujisHouseMrFujiPokeFluteExplanationText
-	text_end
+;.ReceivedPokeFluteText:
+;	text_far _MrFujisHouseMrFujiReceivedPokeFluteText
+;	sound_get_key_item
+;	text_far _MrFujisHouseMrFujiPokeFluteExplanationText
+;	text_end
 
-.PokeFluteNoRoomText:
-	text_far _MrFujisHouseMrFujiPokeFluteNoRoomText
-	text_end
+;.PokeFluteNoRoomText:
+;	text_far _MrFujisHouseMrFujiPokeFluteNoRoomText
+;	text_end
 
-.HasMyFluteHelpedYouText:
-	text_far _MrFujisHouseMrFujiHasMyFluteHelpedYouText
-	text_end
+;.HasMyFluteHelpedYouText:
+;	text_far _MrFujisHouseMrFujiHasMyFluteHelpedYouText
+;	text_end
 
 MrFujisHouseMrFujiPokedexText:
 	text_far _MrFujisHouseMrFujiPokedexText

@@ -19,7 +19,8 @@ ExternalMapEntries:
 	external_map  2, 15, CinnabarIslandName
 	external_map  0,  2, IndigoPlateauName
 	external_map 10,  5, SaffronCityName
-	external_map  2, 10, Route1Name
+	external_map  7,  7, SouthCeladonName
+	external_map  2,  9, Route1Name
 	external_map  2,  6, Route2Name
 	external_map  4,  3, Route3Name
 	external_map  8,  2, Route4Name
@@ -47,7 +48,7 @@ ExternalMapEntries:
 ;	external_map 13,  0, LighthouseName ; Lighthouse
 	external_map  0,  8, Route26Name ; Route 26
 ;	external_map  2, 13, CinnabarVolcanoName ; Cinnabar Volcano
-	external_map  7,  7, SouthCeladonName ; South Celadon
+;	external_map  7,  7, SouthCeladonName ; South Celadon
 ;	assert_table_length FIRST_INDOOR_MAP
 
 

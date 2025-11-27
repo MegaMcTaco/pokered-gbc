@@ -5,7 +5,7 @@ _BeachBeautyBattleText::
 	done
 
 _BeachBeautyEndBattleText::
-	text "Uh, no luck!"
+	text "No luck!"
 	prompt
 
 _BeachBeautyAfterBattleText::

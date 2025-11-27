@@ -7,7 +7,7 @@ SouthCeladonWildMons:
 	db 26, POLIWHIRL ; 13
 	db 25, EEVEE ; 10
 	db 25, PIKACHU ; 10
-	db 26, SQUIRTLE  ;  3
+	db 24, WARTORTLE  ;  3
 	db 28, KINGLER ;  1
 	db 27, CHANSEY ;  1
 	end_grass_wildmons
@@ -20,7 +20,7 @@ SouthCeladonWildMons:
 	db 17, POLIWAG
 	db 15, HORSEA
 	db 15, PSYDUCK
-	db 13, GOLDEEN
+	db 15, SQUIRTLE
 	db 35, TENTACRUEL
 	db 30, GYARADOS
 	end_water_wildmons

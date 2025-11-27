@@ -15,9 +15,11 @@ SouthCeladon_ScriptPointers:
 
 SouthCeladon_TextPointers:
 	def_text_pointers
-	dw_const BeachBeautyText, TEXT_BEACH_BEAUTY
-	dw_const SouthCeladonLaprasText, TEXT_SOUTHCELADON_LAPRAS
-	dw_const CeladonBeachSignText, TEXT_CELADON_BEACH_SIGN
+	dw_const BeachBeautyText, 					   TEXT_BEACH_BEAUTY
+	dw_const SouthCeladonLaprasText, 			   TEXT_SOUTHCELADON_LAPRAS
+	dw_const PickUpItemText,                       TEXT_SOUTHCELADON_HP_UP
+	dw_const PickUpItemText,                       TEXT_SOUTHCELADON_WATER_STONE
+	dw_const CeladonBeachSignText, 				   TEXT_CELADON_BEACH_SIGN
 
 SouthCeladonTrainerHeaders:
 	def_trainers

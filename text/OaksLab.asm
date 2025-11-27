@@ -90,7 +90,7 @@ _OaksLabOak1RaiseYourYoungPokemonText::
 _OaksLabOak1DeliverParcelText::
 	text "OAK: Oh, <PLAYER>!"
 
-	para "How is my old"
+	para "How is your new"
 	line "#MON?"
 
 	para "Well, it seems to"
@@ -109,9 +109,8 @@ _OaksLabOak1DeliverParcelText::
 
 _OaksLabOak1ParcelThanksText::
 	text_start
-	para "Ah! This is the"
-	line "custom # BALL"
-	cont "I ordered!"
+	para "Ah! This is a"
+	line "letter from RED!"
 	cont "Thank you!"
 	done
 
@@ -172,9 +171,11 @@ _OaksLabOak1HowIsYourPokedexComingText::
 	prompt
 
 _OaksLabPokedexText::
-	text "It's encyclopedia-"
-	line "like, but the"
-	cont "pages are blank!"
+	text "It's a #DEX!"
+	line "#DEX research"
+	cont "has led to many"
+	cont "advancements in"
+	cont "the world!"
 	done
 
 _OaksLabOak2Text::
@@ -199,14 +200,16 @@ _OaksLabRivalFedUpWithWaitingText::
 	done
 
 _OaksLabOakChooseMonText::
-	text "OAK: <RIVAL>?"
-	line "Let me think..."
+	text "OAK: Welcome!"
+	line "Thank you both"
+	cont "for coming!"
 
-	para "Oh, that's right,"
-	line "I told you to"
-	cont "come! Just wait!"
+	para "#DEX research"
+	line "is very important"
+	cont "and I'm glad you"
+	cont "can contribute!"
 
-	para "Here, <PLAYER>!"
+	para "Here..."
 
 	para "There are 3"
 	line "#MON here!"
@@ -218,9 +221,9 @@ _OaksLabOakChooseMonText::
 	line "choose one and"
 	cont "take it with you."
 
-	para "There are 3 that"
-	line "you can choose"
-	cont "from."
+	para "Train the #MON"
+	line "and come back"
+	cont "soon."
 	done
 
 _OaksLabRivalWhatAboutMeText::
@@ -231,8 +234,8 @@ _OaksLabRivalWhatAboutMeText::
 
 _OaksLabOakBePatientText::
 	text "OAK: Absolutely!"
-	line "<RIVAL>, you both"
-	cont "get a #MON!"
+	line "You both get"
+	cont "a #MON!"
 	done
 
 _OaksLabOakDontGoAwayYetText::
@@ -242,7 +245,7 @@ _OaksLabOakDontGoAwayYetText::
 
 _OaksLabRivalIllTakeThisOneText::
 	text "<RIVAL>: I'll take"
-	line "this one, then!"
+	line "this one!"
 	done
 
 _OaksLabRivalReceivedMonText::
@@ -258,13 +261,13 @@ _OaksLabRivalIllTakeYouOnText::
 	cont "Let's check out"
 	cont "our #MON!"
 
-	para "Come on, I'll take"
-	line "you on!"
+	para "Come on, let's"
+	line "battle!"
 	done
 
 _OaksLabRivalIPickedTheWrongPokemonText::
-	text "WHAT?"
-	line "I done goofed!"
+	text "Wow!"
+	line "That was tough!"
 	cont "Nice work"
 	cont "<PLAYER>!"
 	prompt
@@ -289,14 +292,15 @@ _OaksLabRivalGrampsText::
 	done
 
 _OaksLabRivalWhatDidYouCallMeForText::
-	text "<RIVAL>: What did"
-	line "you call us for?"
+	text "<RIVAL>: We're back!"
+	line "We trained our"
+	cont "#MON!"
 	done
 
 _OaksLabOakIHaveARequestText::
-	text "OAK: Oh right! I"
-	line "have a request"
-	cont "of you two."
+	text "OAK: Wonderful!"
+	line "We can now"
+	cont "begin the research"
 	done
 
 _OaksLabOakMyInventionPokedexText::
@@ -328,7 +332,7 @@ _OaksLabOakThatWasMyDreamText::
 	cont "#MON in the"
 	cont "world..."
 
-	para "That was my dream!"
+	para "This is the task!"
 
 	para "RED and BLUE"
 	line "have contributed"

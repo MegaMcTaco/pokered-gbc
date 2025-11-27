@@ -402,6 +402,8 @@ BeautyData:
 	db 29, STARYU, STARYU, STARYU, 0
 ; Route 20
 	db 30, SEADRA, HORSEA, SEADRA, 0
+; South Celadon (Beach Beauty)
+;	db 25, VAPOREON, 0
 
 PsychicData:
 ; Saffron Gym

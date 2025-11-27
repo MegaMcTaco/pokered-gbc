@@ -182,11 +182,9 @@ _CeruleanPokecenterGuyText::
 	done
 
 _LavenderPokecenterGuyText::
-	text "CUBONEs wear"
-	line "skulls, right?"
-
-	para "People will pay a"
-	line "lot for one!"
+	text "Years ago, TEAM"
+	line "ROCKET terrorised"
+	cont "this town."
 	done
 
 _MtMoonPokecenterBenchGuyText::
@@ -197,8 +195,9 @@ _MtMoonPokecenterBenchGuyText::
 	done
 
 _RockTunnelPokecenterGuyText::
-	text "I heard that"
-	line "GHOSTs haunt"
+	text "I heard that a"
+	line "radio tower is"
+	line "opening in"
 	cont "LAVENDER TOWN!"
 	done
 

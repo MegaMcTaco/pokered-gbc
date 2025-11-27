@@ -18,23 +18,26 @@ _LavenderTownLittleGirlHaHaGuessNotText::
 	done
 
 _LavenderTownCooltrainerMText::
-	text "This town is known"
-	line "as the grave site"
-	cont "of #MON."
+	text "This town is"
+	line "known as the"
+	cont "grave site of"
+	cont "#MON."
 
-	para "Memorial services"
-	line "are held in"
-	cont "#MON TOWER."
+	para "#MON TOWER is"
+	line "being developed"
+	cont "into KANTO's RADIO"
+	cont "TOWER."
 	done
 
 _LavenderTownSuperNerdText::
 	text "GHOSTs appeared"
-	line "in #MON TOWER."
+	line "in #MON TOWER"
+	cont "some years ago."
 
-	para "I think they're"
+	para "I think they were"
 	line "the spirits of"
-	cont "#MON that the"
-	cont "ROCKETs killed."
+	cont "#MON that TEAM"
+	cont "ROCKET killed."
 	done
 
 _LavenderTownSignText::
@@ -44,12 +47,7 @@ _LavenderTownSignText::
 	done
 
 _LavenderTownSilphScopeSignText::
-	text "New SILPH SCOPE!"
-
-	para "Make the Invisible"
-	line "Plain to See!"
-
-	para "SILPH CO."
+	text "UNDER CONSTRUCTION"
 	done
 
 _LavenderTownPokemonHouseSignText::
@@ -58,7 +56,6 @@ _LavenderTownPokemonHouseSignText::
 	done
 
 _LavenderTownPokemonTowerSignText::
-	text "May the Souls of"
-	line "#MON Rest Easy"
-	cont "#MON TOWER"
+	text "KANTO RADIO TOWER"
+	line "opening soon!"
 	done

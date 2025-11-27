@@ -1,7 +1,7 @@
 _MrFujisHouseSuperNerdMrFujiIsntHereText::
-	text "That's odd, MR.FUJI"
-	line "isn't here."
-	cont "Where'd he go?"
+	text "MR.FUJI is"
+	line "out at the"
+	cont "moment."
 	done
 
 _MrFujisHouseSuperNerdMrFujiHadBeenPrayingText::
@@ -11,8 +11,8 @@ _MrFujisHouseSuperNerdMrFujiHadBeenPrayingText::
 	done
 
 _MrFujisHouseLittleGirlThisIsMrFujisHouseText::
-	text "This is really"
-	line "MR.FUJI's house."
+	text "Welcome to"
+	line "MR.FUJI's house!"
 
 	para "He's really kind!"
 

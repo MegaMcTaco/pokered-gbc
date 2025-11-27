@@ -331,7 +331,7 @@ BlackbeltAI:
 	ret nc
 	jp AIUseXAttack
 
-GiovanniAI:
+BlueAI:
 	cp 25 percent + 1
 	ret nc
 	jp AIUseGuardSpec

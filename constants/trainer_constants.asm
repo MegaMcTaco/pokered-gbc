@@ -43,7 +43,7 @@ ENDM
 	trainer_const PROF_OAK       ; $1A
 	trainer_const CHIEF          ; $1B
 	trainer_const SCIENTIST      ; $1C
-	trainer_const GIOVANNI       ; $1D
+	trainer_const BLUE           ; $1D
 	trainer_const ROCKET         ; $1E
 	trainer_const COOLTRAINER_M  ; $1F
 	trainer_const COOLTRAINER_F  ; $20

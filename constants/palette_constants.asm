@@ -261,7 +261,7 @@ IF GEN_2_GRAPHICS
 	const PAL_OAK           ; $D5
 	const PAL_CHIEF         ; $D6
 	const PAL_SCIENTIST     ; $D7
-	const PAL_GIOVANNI      ; $D8
+	const PAL_BLUE          ; $D8
 	const PAL_ROCKET        ; $D9
 	const PAL_COOLTRAINER_M ; $DA
 	const PAL_COOLTRAINER_F ; $DB

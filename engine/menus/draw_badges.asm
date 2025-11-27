@@ -162,7 +162,7 @@ LeaderNameList:	;joenote - for restoring leader names
 	dw .koga
 	dw .sabrina
 	dw .blaine
-	dw .giovanni
+	dw .blue
 .brock
 	db $60,$61,$62,$00
 .misty
@@ -177,7 +177,7 @@ LeaderNameList:	;joenote - for restoring leader names
 	db $6D,$6E,$6F,$00
 .blaine
 	db $70,$71,$72,$00
-.giovanni
+.blue
 	db $73,$74,$00
 
 GymLeaderFaceAndBadgeTileGraphics:

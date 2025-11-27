@@ -162,7 +162,7 @@ ViridianCityYoungster1Text:
 
 ViridianCityGambler1Text:
 	text_asm
-	CheckEvent EVENT_BEAT_VIRIDIAN_GYM_GIOVANNI
+	CheckEvent EVENT_BEAT_VIRIDIAN_GYM_BLUE
 	jr z, .checkbadges
 	ld hl, .GoneForGoodText ; has beaten Giovanni
 	jp .print_text

@@ -190,7 +190,7 @@ TrainerPalettes: ; Gen II trainer sprites are given their own palettes
 	db PAL_OAK
 	db PAL_CHIEF
 	db PAL_SCIENTIST
-	db PAL_GIOVANNI
+	db PAL_BLUE
 	db PAL_ROCKET
 	db PAL_COOLTRAINER_M
 	db PAL_COOLTRAINER_F

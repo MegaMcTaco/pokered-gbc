@@ -29,7 +29,7 @@ SpriteSheetPointerTable:
 	overworld_sprite CookSprite, 12             ; SPRITE_COOK
 	overworld_sprite BikeShopClerkSprite, 12    ; SPRITE_BIKE_SHOP_CLERK
 	overworld_sprite MrFujiSprite, 12           ; SPRITE_MR_FUJI
-	overworld_sprite GiovanniSprite, 12         ; SPRITE_GIOVANNI
+	overworld_sprite BlueGymSprite, 12          ; SPRITE_BLUEGYM
 	overworld_sprite RocketSprite, 12           ; SPRITE_ROCKET
 	overworld_sprite ChannelerSprite, 12        ; SPRITE_CHANNELER
 	overworld_sprite WaiterSprite, 12           ; SPRITE_WAITER

@@ -28,7 +28,7 @@ TrainerDataPointers:
 	dw ProfOakData
 	dw ChiefData
 	dw ScientistData
-	dw GiovanniData
+	dw BlueData
 	dw RocketData
 	dw CooltrainerMData
 	dw CooltrainerFData
@@ -535,13 +535,13 @@ ScientistData:
 ; Mansion B1F
 	db 34, MAGNEMITE, ELECTRODE, 0
 
-GiovanniData:
+BlueData: 
 ; Rocket Hideout B4F
 	db $FF, 25, ONIX, 24, RHYHORN, 29, KANGASKHAN, 0
 ; Silph Co. 11F
 	db $FF, 37, NIDORINO, 35, KANGASKHAN, 37, RHYHORN, 41, NIDOQUEEN, 0
 ; Viridian Gym
-	db $FF, 45, MAROWAK, 45, PERSIAN , 47, NIDOQUEEN, 47, NIDOKING, 47, STEELIX, 50, RHYDON, 0
+	db $FF, 50, PIDGEOT, 52, ALAKAZAM , 52, RHYDON, 55, GYARADOS, 53, EXEGGUTOR, 55, ARCANINE, 0
 
 RocketData:
 ; Mt. Moon B2F

@@ -111,7 +111,7 @@ Route24CooltrainerM1Text:
 	jr nz, .got_item
 	ld hl, .YouBeatOurContestText
 	call PrintText
-	lb bc, NUGGET, 1
+	lb bc, THUNDER_STONE, 1
 	call GiveItem
 	jr nc, .bag_full
 	SetEvent EVENT_GOT_NUGGET

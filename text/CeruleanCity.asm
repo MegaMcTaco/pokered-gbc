@@ -59,44 +59,37 @@ _CeruleanCityRivalIWentToBillsText::
 	done
 
 _CeruleanCityRocketText::
-	text "Hey! Stay out!"
-	line "It's not your"
-	cont "yard! Huh? Me?"
-
-	para "I'm an innocent"
-	line "bystander! Don't"
-	cont "you believe me?"
+	text "Firstly, do not"
+	line "fear hardship,"
+	cont "and secondly, do"
+	cont "not fear death."
 	done
 
 _CeruleanCityRocketReceivedTM28Text::
-	text "<PLAYER> recovered"
+	text "<PLAYER> received"
 	line "TM28!@"
 	text_end
 
 _CeruleanCityRocketIBetterGetMovingText::
 	text_start
 
-	para "I better get"
-	line "moving! Bye!@"
+	para "See ou soon,"
+	line "comrade!@"
 	text_end
 
 _CeruleanCityRocketTM28NoRoomText::
 	text "Make room for"
-	line "this!"
-
-	para "I can't run until"
-	line "I give it to you!"
+	line "this."
 	done
 
 _CeruleanCityRocketIGiveUpText::
-	text "Stop!"
-	line "I give up! I'll"
-	cont "leave quietly!"
+	text "Great"
+	line "job, comrade!"
 	prompt
 
 _CeruleanCityRocketIllReturnTheTMText::
-	text "OK! I'll return"
-	line "the TM I stole!"
+	text "Here, you may"
+	line "find this useful."
 	prompt
 
 _CeruleanCityCooltrainerMText::

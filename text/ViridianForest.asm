@@ -25,9 +25,9 @@ _ViridianForestYoungster2AfterBattleText::
 	done
 
 _ViridianForestYoungster3BattleText::
-	text "Yo! You can't jam"
-	line "out if you're a"
-	cont "#MON trainer!"
+	text "Give us a hoon"
+	line "on ya duzzmerelda"
+	cont "ya shifty jesus!"
 	done
 
 _ViridianForestYoungster3EndBattleText::

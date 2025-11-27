@@ -1,14 +1,14 @@
 _Route24CooltrainerM1YouBeatOurContestText::
 	text "Congratulations!"
 	line "You beat our 5"
-	cont "contest trainers!@"
+	cont "trainers!@"
 	text_end
 
 _Route24CooltrainerM1YouJustEarnedAPrizeText::
 	text_start
 
-	para "You just earned a"
-	line "fabulous prize!"
+	para "You can have this"
+	line "for your work."
 	prompt
 
 _Route24CooltrainerM1ReceivedNuggetText::
@@ -24,41 +24,41 @@ _Route24CooltrainerM1NoRoomText::
 	done
 
 _Route24CooltrainerM1JoinTeamRocketText::
-	text "By the way, would"
-	line "you like to join"
-	cont "TEAM ROCKET?"
+	text "Comrade, would you"
+	line "like to join the"
+	cont "party?"
 
 	para "We're a group"
-	line "dedicated to evil"
-	cont "using #MON!"
+	line "dedicated to"
+	cont "the struggle." 
+	cont "We stand against"
+	cont "all forms of"
+	cont "exploitation,"
+	cont "including that"
+	cont "of #MON."
+	
+	para "We're in this"
+	line "fight together."
+	
+	para "Our liberation is"
+	line "bound together."
 
-	para "Want to join?"
+	para "Join us, comrade."
 
-	para "Are you sure?"
-
-	para "Come on, join us!"
-
-	para "I'm telling you"
-	line "to join!"
-
-	para "OK, you need"
-	line "convincing!"
-
-	para "I'll make you an"
-	line "offer you can't"
-	cont "refuse!"
+	para "Battle me, then"
+	line "join the party!"
 	done
 
 _Route24CooltrainerM1DefeatedText::
-	text "Arrgh!"
+	text "Whoa!"
 	line "You are good!"
 	prompt
 
 _Route24CooltrainerM1YouCouldBecomeATopLeaderText::
-	text "With your ability,"
-	line "you could become"
-	cont "a top leader in"
-	cont "TEAM ROCKET!"
+	text "We could use your"
+	line "skills in our"
+	cont "organisation."
+	cont "Welcome, comrade."
 	done
 
 _Route24CooltrainerM2BattleText::

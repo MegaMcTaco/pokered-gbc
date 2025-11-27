@@ -305,7 +305,7 @@ BurglarData:
 
 EngineerData:
 ; Unused
-	db 21, VOLTORB, MAGNEMITE, 0
+;	db 21, VOLTORB, MAGNEMITE, 0
 ; Route 11
 	db 21, MAGNEMITE, 0
 	db 18, MAGNEMITE, MAGNEMITE, MAGNETON, 0
@@ -313,6 +313,10 @@ EngineerData:
 ComradeData:
 ; Viridian Forest
 	db 10, BEEDRILL, BUTTERFREE, 0
+; Nugget Bridge
+	db 20, FARFETCHD, 0
+; Cerulean Backyard
+	db 18, BULBASAUR, 0
 
 FisherData:
 ; SS Anne 2F Rooms
@@ -376,7 +380,7 @@ GamblerData:
 ; Route 8
 	db 22, POLIWAG, POLIWAG, POLIWHIRL, 0
 ; Unused
-	db 22, ONIX, GEODUDE, GRAVELER, 0
+;	db 22, ONIX, GEODUDE, GRAVELER, 0
 ; Route 8
 	db 24, GROWLITHE, VULPIX, 0
 

@@ -171,12 +171,12 @@ BillsHouseBillSSTicketText:
 	ld hl, .SSTicketReceivedText
 	call PrintText
 	SetEvent EVENT_GOT_SS_TICKET
-	ld a, HS_CERULEAN_GUARD_1
-	ld [wMissableObjectIndex], a
-	predef ShowObject
-	ld a, HS_CERULEAN_GUARD_2
-	ld [wMissableObjectIndex], a
-	predef HideObject
+	;ld a, HS_CERULEAN_GUARD_1
+	;ld [wMissableObjectIndex], a
+	;predef ShowObject
+	;ld a, HS_CERULEAN_GUARD_2
+	;ld [wMissableObjectIndex], a
+	;predef HideObject
 ;;;;;;;;;; PureRGBnote: MOVED: move this object hiding here since we could teleport out of bills house and miss this being triggered on route 25 instead
 	ld a, HS_NUGGET_BRIDGE_GUY
 	ld [wMissableObjectIndex], a

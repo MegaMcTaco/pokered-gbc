@@ -4,14 +4,14 @@ _Route24CooltrainerM2EndBattleText::
 	prompt
 
 _Route24CooltrainerM2AfterBattleText::
-	text "I hid because the"
-	line "people on the"
-	cont "bridge scared me!"
+	text "I think there are"
+	line "ABRA in the grass"
+	cont "here!"
 	done
 
 _Route24CooltrainerM3BattleText::
 	text "OK! I'm No. 5!"
-	line "I'll stomp you!"
+	line "Let's go!"
 	done
 
 _Route24CooltrainerM3EndBattleText::
@@ -45,8 +45,8 @@ _Route24Youngster1BattleText::
 	done
 
 _Route24Youngster1EndBattleText::
-	text "Ow!"
-	line "Stomped flat!"
+	text "Wow!"
+	line "Got me!"
 	prompt
 
 _Route24Youngster1AfterBattleText::
@@ -70,10 +70,10 @@ _Route24CooltrainerF2AfterBattleText::
 	done
 
 _Route24Youngster2BattleText::
-	text "This is NUGGET"
+	text "This is COMBAT"
 	line "BRIDGE! Beat us 5"
-	cont "trainers and win"
-	cont "a fabulous prize!"
+	cont "trainers, if you"
+	cont "can!"
 
 	para "Think you got"
 	line "what it takes?"

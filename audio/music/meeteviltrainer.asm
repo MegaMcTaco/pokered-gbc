@@ -1,4 +1,4 @@
-Music_MeetEvilTrainer_Ch1::
+Music_MeetRadTrainer_Ch1::
 	tempo 124
 	volume 7, 7
 	duty_cycle 2
@@ -19,7 +19,7 @@ Music_MeetEvilTrainer_Ch1::
 	note D_, 4
 	sound_loop 0, .mainloop
 
-Music_MeetEvilTrainer_Ch2::
+Music_MeetRadTrainer_Ch2::
 	duty_cycle 1
 	note_type 12, 11, 6
 	octave 3
@@ -56,7 +56,7 @@ Music_MeetEvilTrainer_Ch2::
 	note_type 12, 12, 2
 	sound_loop 0, .mainloop
 
-Music_MeetEvilTrainer_Ch3::
+Music_MeetRadTrainer_Ch3::
 	note_type 12, 1, 0
 	rest 8
 	octave 4

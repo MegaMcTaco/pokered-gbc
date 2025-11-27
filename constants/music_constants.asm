@@ -52,7 +52,7 @@ ENDM
 	music_const MUSIC_CINNABAR_MANSION,    Music_CinnabarMansion
 	music_const MUSIC_POKEMON_TOWER,       Music_PokemonTower
 	music_const MUSIC_SILPH_CO,            Music_SilphCo
-	music_const MUSIC_MEET_EVIL_TRAINER,   Music_MeetEvilTrainer
+	music_const MUSIC_MEET_RAD_TRAINER,    Music_MeetRadTrainer
 	music_const MUSIC_MEET_FEMALE_TRAINER, Music_MeetFemaleTrainer
 	music_const MUSIC_MEET_MALE_TRAINER,   Music_MeetMaleTrainer
 

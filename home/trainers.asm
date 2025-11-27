@@ -422,21 +422,21 @@ PlayTrainerMusic::
 	ld [wAudioFadeOutControl], a
 	ld a, SFX_STOP_ALL_MUSIC
 	call PlaySound
-	ld a, BANK(Music_MeetEvilTrainer)
+	ld a, BANK(Music_MeetRadTrainer)
 	ld [wAudioROMBank], a
 	ld [wAudioSavedROMBank], a
 	ld a, [wEngagedTrainerClass]
 	ld b, a
-	ld hl, EvilTrainerList
-.evilTrainerListLoop
+	ld hl, RadTrainerList
+.radTrainerListLoop
 	ld a, [hli]
 	cp $ff
-	jr z, .noEvilTrainer
+	jr z, .noRadTrainer
 	cp b
-	jr nz, .evilTrainerListLoop
-	ld a, MUSIC_MEET_EVIL_TRAINER
+	jr nz, .radTrainerListLoop
+	ld a, MUSIC_MEET_RAD_TRAINER
 	jr .PlaySound
-.noEvilTrainer
+.noRadTrainer
 	ld hl, FemaleTrainerList
 .femaleTrainerListLoop
 	ld a, [hli]

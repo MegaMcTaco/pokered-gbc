@@ -7,20 +7,21 @@ _ViridianForestYoungster1Text::
 	done
 
 _ViridianForestYoungster2BattleText::
-	text "Hey! You have"
-	line "#MON! Come on!"
-	cont "Let's battle'em!"
+	text "The third world"
+	line "isn't poor, it's"
+	cont "overexploited!"
 	done
 
 _ViridianForestYoungster2EndBattleText::
-	text "No!"
-	line "CATERPIE can't"
-	cont "cut it!"
+	text "Great"
+	line "work, comrade!"
 	prompt
 
 _ViridianForestYoungster2AfterBattleText::
-	text "Ssh! You'll scare"
-	line "the bugs away!"
+	text "The dirty truth"
+	line "is that the rich"
+	cont "are the great"
+	cont "cause of poverty."
 	done
 
 _ViridianForestYoungster3BattleText::

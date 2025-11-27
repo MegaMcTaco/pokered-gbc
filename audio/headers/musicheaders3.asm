@@ -97,11 +97,11 @@ Music_SilphCo::
 	channel 2, Music_SilphCo_Ch2
 	channel 3, Music_SilphCo_Ch3
 
-Music_MeetEvilTrainer::
+Music_MeetRadTrainer::
 	channel_count 3
-	channel 1, Music_MeetEvilTrainer_Ch1
-	channel 2, Music_MeetEvilTrainer_Ch2
-	channel 3, Music_MeetEvilTrainer_Ch3
+	channel 1, Music_MeetRadTrainer_Ch1
+	channel 2, Music_MeetRadTrainer_Ch2
+	channel 3, Music_MeetRadTrainer_Ch3
 
 Music_MeetFemaleTrainer::
 	channel_count 3

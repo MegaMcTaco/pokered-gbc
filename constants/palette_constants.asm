@@ -245,7 +245,7 @@ IF GEN_2_GRAPHICS
 	const PAL_BIKER         ; $C5
 	const PAL_BURGLAR       ; $C6
 	const PAL_ENGINEER      ; $C7
-	const PAL_JUGGLER       ; $C8
+	const PAL_COMRADE       ; $C8
 	const PAL_FISHERMAN     ; $C9
 	const PAL_SWIMMER       ; $CA
 	const PAL_CUEBALL       ; $CB

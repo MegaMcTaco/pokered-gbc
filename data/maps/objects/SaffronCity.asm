@@ -1,19 +1,19 @@
 	object_const_def
-;	const_export SAFFRONCITY_ROCKET1
-;	const_export SAFFRONCITY_ROCKET2
-;	const_export SAFFRONCITY_ROCKET3
-;	const_export SAFFRONCITY_ROCKET4
-;	const_export SAFFRONCITY_ROCKET5
-;	const_export SAFFRONCITY_ROCKET6
-;	const_export SAFFRONCITY_ROCKET7
+	const_export SAFFRONCITY_ROCKET1
+	const_export SAFFRONCITY_ROCKET2
+	const_export SAFFRONCITY_ROCKET3
+	const_export SAFFRONCITY_ROCKET4
+	const_export SAFFRONCITY_ROCKET5
+	const_export SAFFRONCITY_ROCKET6
+	const_export SAFFRONCITY_ROCKET7
 	const_export SAFFRONCITY_SCIENTIST
 	const_export SAFFRONCITY_SILPH_WORKER_M
 	const_export SAFFRONCITY_SILPH_WORKER_F
 	const_export SAFFRONCITY_GENTLEMAN
 	const_export SAFFRONCITY_PIDGEOT
 	const_export SAFFRONCITY_ROCKER
-;	const_export SAFFRONCITY_ROCKET8
-;	const_export SAFFRONCITY_ROCKET9
+	const_export SAFFRONCITY_ROCKET8
+	const_export SAFFRONCITY_ROCKET9
 
 SaffronCity_Object:
 	db $f ; border block

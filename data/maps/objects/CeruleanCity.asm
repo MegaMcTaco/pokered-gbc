@@ -4,12 +4,12 @@
 	const_export CERULEANCITY_COOLTRAINER_M
 	const_export CERULEANCITY_SUPER_NERD1
 	const_export CERULEANCITY_SUPER_NERD2
-;	const_export CERULEANCITY_GUARD1
+	const_export CERULEANCITY_GUARD1
 	const_export CERULEANCITY_COOLTRAINER_F1
 	const_export CERULEANCITY_SLOWBRO
 	const_export CERULEANCITY_COOLTRAINER_F2
 	const_export CERULEANCITY_SUPER_NERD3
-;	const_export CERULEANCITY_GUARD2
+	const_export CERULEANCITY_GUARD2
 
 CeruleanCity_Object:
 	db $f ; border block

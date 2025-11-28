@@ -267,10 +267,10 @@ _SaffronCityPokecenterGuyText1::
 	done
 
 _SaffronCityPokecenterGuyText2::
-	text "TEAM ROCKET took"
-	line "off! We can go"
-	cont "out safely again!"
-	cont "That's great!"
+	text "Poverty exists"
+	line "because of wealth"
+	cont "and wealth exists"
+	cont "due to poverty."
 	done
 
 _CeladonCityHotelText::
@@ -279,8 +279,20 @@ _CeladonCityHotelText::
 	done
 
 _BookcaseText::
-	text "Crammed full of"
-	line "#MON books!"
+	text "Marx, Engels,"
+	line "Lenin, Stalin,"
+	cont "Fanon, Mao, Che,"
+	cont "Assata, Parenti,"
+	cont "Losurdo, George"
+	cont "Jackson, PFLP,"
+	cont "Walter Rodney,"
+	cont "Vincent Bevins,"
+	cont "Kwame Nkrumah,"
+	cont "Angela Davis and"
+	cont "Torkil Lauesen."
+	
+	para "This is a great"
+	line "collection!"
 	done
 
 _NewBicycleText::
@@ -804,8 +816,14 @@ _IndigoPlateauStatuesText3::
 	done
 
 _PokemonBooksText::
-	text "Crammed full of"
-	line "#MON books!"
+	text "So many books on"
+	line "decolonial and"
+	cont "revolutionary"
+	cont "theory."
+	
+	para "I should stop"
+	line "being a liberal"
+	cont "and read."
 	done
 
 _DiglettSculptureText::

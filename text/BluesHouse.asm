@@ -37,6 +37,7 @@ _BluesHouseDaisyWalkingText::
 	done
 
 _BluesHouseTownMapText::
-	text "It's a big map!"
-	line "This is useful!"
+	text "She's reading"
+	line "The Wretched of"
+	cont "the Earth."
 	done

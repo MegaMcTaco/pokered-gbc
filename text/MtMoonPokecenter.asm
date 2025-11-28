@@ -7,9 +7,9 @@ _MtMoonPokecenterYoungsterText::
 	done
 
 _MtMoonPokecenterGentlemanText::
-	text "TEAM ROCKET"
-	line "attacks CERULEAN"
-	cont "citizens..."
+	text "The man selling"
+	line "MAGIKARP is a"
+	cont "capitalist pig."
 
 	para "TEAM ROCKET is"
 	line "always in the"

@@ -317,6 +317,11 @@ ComradeData:
 	db 20, FARFETCHD, 0
 ; Cerulean Backyard
 	db 18, BULBASAUR, 0
+; Mt. Moon B2F
+	db 13, EEVEE, TANGELA, 0
+	db 11, SANDSHREW, GEODUDE, ONIX, 0
+	db 12, SPEAROW, DODUO, 0
+	db 16, RATICATE, 0	
 
 FisherData:
 ; SS Anne 2F Rooms
@@ -550,10 +555,10 @@ BlueData:
 
 RocketData:
 ; Mt. Moon B2F
-	db 13, RATTATA, ZUBAT, 0
-	db 11, SANDSHREW, RATTATA, ZUBAT, 0
-	db 12, ZUBAT, EKANS, 0
-	db 16, RATICATE, 0
+;	db 13, RATTATA, ZUBAT, 0
+;	db 11, SANDSHREW, RATTATA, ZUBAT, 0
+;	db 12, ZUBAT, EKANS, 0
+;	db 16, RATICATE, 0
 ; Cerulean City
 	db 17, MACHOP, DROWZEE, 0
 ; Route 24

@@ -56,71 +56,85 @@ _MtMoonB2FSuperNerdThenThisIsMineText::
 	line "this is mine!@"
 	text_end
 
-_MtMoonB2FRocket1BattleText::
-	text "TEAM ROCKET will"
-	line "find the fossils,"
-	cont "revive and sell"
-	cont "them for cash!"
+_MtMoonB2FRocket1BattleText:: ; edit
+	text "Despair is typical"
+	line "of those who do"
+	cont "not understand"
+	cont "the causes of"
+	cont "evil, see no way"
+	cont "out, and are"
+	cont "incapable of"
+	cont "struggle."
 	done
 
-_MtMoonB2FRocket1EndBattleText::
-	text "Urgh!"
-	line "Now I'm mad!"
+_MtMoonB2FRocket1EndBattleText:: ; edit
+	text "Somtimes"
+	line "History needs a"
+	cont "push."
 	prompt
 
-_MtMoonB2FRocket1AfterBattleText::
-	text "You made me mad!"
-	line "TEAM ROCKET will"
-	cont "blacklist you!"
+_MtMoonB2FRocket1AfterBattleText:: ; edit
+	text "Every little"
+	line "difference may"
+	cont "become a big one"
+	cont "if it is insisted"
+	cont "on."
 	done
 
-_MtMoonB2FRocket2BattleText::
-	text "We, TEAM ROCKET,"
-	line "are #MON"
-	cont "gangsters!"
+_MtMoonB2FRocket2BattleText:: ; edit
+	text "Real liberty can"
+	line "exist only where"
+	cont "exploitation has"
+	cont "been abolished."
 	done
 
-_MtMoonB2FRocket2EndBattleText::
-	text "I blew"
-	line "it!"
+_MtMoonB2FRocket2EndBattleText:: ; edit
+	text "Not a"
+	line "step back!"
 	prompt
 
-_MtMoonB2FRocket2AfterBattleText::
-	text "Darn it all! My"
-	line "associates won't"
-	cont "stand for this!"
+_MtMoonB2FRocket2AfterBattleText:: ; edit
+	text "Everything depends"
+	line "on conditions,"
+	cont "time, and place."
 	done
 
-_MtMoonB2FRocket3BattleText::
-	text "We're pulling a"
-	line "big job here!"
-	cont "Get lost, kid!"
+_MtMoonB2FRocket3BattleText:: ; edit
+	text "The oppressed"
+	line "will always"
+	cont "believe the worst"
+	cont "about themselves."
 	done
 
-_MtMoonB2FRocket3EndBattleText::
-	text "So, you"
-	line "are good."
+_MtMoonB2FRocket3EndBattleText:: ; edit
+	text "..."
+	line "Wretched..."
 	prompt
 
-_MtMoonB2FRocket3AfterBattleText::
-	text "If you find a"
-	line "fossil, give it"
-	cont "to me and scram!"
+_MtMoonB2FRocket3AfterBattleText:: ; edit
+	text "What matters is"
+	line "not to know the"
+	cont "world, but to"
+	cont "change it."
 	done
 
-_MtMoonB2FRocket4BattleText::
-	text "Little kids"
-	line "should leave"
-	cont "grown-ups alone!"
+_MtMoonB2FRocket4BattleText:: ; edit
+	text "The first duty of"
+	line "a revolutionary"
+	cont "is to be educated."
 	done
 
-_MtMoonB2FRocket4EndBattleText::
-	text "I'm"
-	line "steamed!"
+_MtMoonB2FRocket4EndBattleText:: ; edit
+	text "Shoot,"
+	line "coward, you are"
+	cont "only going to"
+	cont "kill a man."
 	prompt
 
-_MtMoonB2FRocket4AfterBattleText::
-	text "#MON lived"
-	line "here long before"
-	cont "people came."
+_MtMoonB2FRocket4AfterBattleText:: ; edit
+	text "A true"
+	line "revolutionary is"
+	cont "guided by great"
+	cont "feelings of"
+	cont "love."
 	done

@@ -1,5 +1,5 @@
 _MtMoon1FHikerBattleText::
-	text "WHOA! You shocked"
+	text "WHOA! "
 	line "me! Oh, you're"
 	cont "just a kid!"
 	done
@@ -79,9 +79,8 @@ _MtMoon1FCooltrainerF2AfterBattleText::
 	done
 
 _MtMoon1FYoungster2BattleText::
-	text "Suspicious men"
-	line "are in the cave."
-	cont "What about you?"
+	text "There's something"
+	line "going on in here."
 	done
 
 _MtMoon1FYoungster2EndBattleText::
@@ -90,9 +89,8 @@ _MtMoon1FYoungster2EndBattleText::
 	prompt
 
 _MtMoon1FYoungster2AfterBattleText::
-	text "I saw them! I'm"
-	line "sure they're from"
-	cont "TEAM ROCKET!"
+	text "Something is"
+	line "going on in here."
 	done
 
 _MtMoon1FYoungster3BattleText::

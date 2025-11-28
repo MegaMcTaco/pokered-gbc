@@ -58,7 +58,7 @@ _CeruleanCityRivalIWentToBillsText::
 	cont "Smell ya later!"
 	done
 
-_CeruleanCityRocketText::
+_CeruleanCityRocketText:: ; edit
 	text "Firstly, do not"
 	line "fear hardship,"
 	cont "and secondly, do"

@@ -269,6 +269,8 @@ BuildFlyLocationsList:
 	ld a, ROUTE_4
 	jr z, .gotValue
 	ld a, ROUTE_10
+;	jr z, .gotValue
+;	ld a, SOUTH_CELADON
 .gotValue
 	ld [hl], a
 	inc hl

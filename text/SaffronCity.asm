@@ -1,67 +1,71 @@
-_SaffronCityRocket1Text::
-	text "What do you want?"
-	line "Get lost!"
-	done
+;_SaffronCityRocket1Text::
+;	text "What do you want?"
+;	line "Get lost!"
+;	done
 
-_SaffronCityRocket2Text::
-	text "BOSS said he'll"
-	line "take this town!"
-	done
+;_SaffronCityRocket2Text::
+;	text "BOSS said he'll"
+;	line "take this town!"
+;	done
 
-_SaffronCityRocket3Text::
-	text "Get out of the"
-	line "way!"
-	done
+;_SaffronCityRocket3Text::
+;	text "Get out of the"
+;	line "way!"
+;	done
 
-_SaffronCityRocket4Text::
-	text "SAFFRON belongs"
-	line "to TEAM ROCKET!"
-	done
+;_SaffronCityRocket4Text::
+;	text "SAFFRON belongs"
+;	line "to TEAM ROCKET!"
+;	done
 
-_SaffronCityRocket5Text::
-	text "Being evil makes"
-	line "me feel so alive!"
-	done
+;_SaffronCityRocket5Text::
+;	text "Being evil makes"
+;	line "me feel so alive!"
+;	done
 
-_SaffronCityRocket6Text::
-	text "Ow! Watch where"
-	line "you're walking!"
-	done
+;_SaffronCityRocket6Text::
+;	text "Ow! Watch where"
+;	line "you're walking!"
+;	done
 
-_SaffronCityRocket7Text::
-	text "With SILPH under"
-	line "control, we can"
-	cont "exploit #MON"
-	cont "around the world!"
-	done
+;_SaffronCityRocket7Text::
+;	text "With SILPH under"
+;	line "control, we can"
+;	cont "exploit #MON"
+;	cont "around the world!"
+;	done
 
 _SaffronCityScientistText::
-	text "You beat TEAM"
-	line "ROCKET all alone?"
-	cont "That's amazing!"
+	text "Some years ago,"
+	line "this city was"
+	cont "taken over by"
+	cont "TEAM ROCKET."
 	done
 
 _SaffronCitySilphWorkerMText::
-	text "Yeah! TEAM ROCKET"
-	line "is gone!"
-	cont "It's safe to go"
-	cont "out again!"
+	text "Boss makes a"
+	line "dollar, I make a"
+	cont "dime, so I slack"
+	cont "off on company"
+	cont "time."
 	done
-
+	
 _SaffronCitySilphWorkerFText::
-	text "People should be"
-	line "flocking back to"
-	cont "SAFFRON now."
+	text "I've never read"
+	line "Marx's Capital,"
+	cont "but I have the"
+	cont "marks of capital"
+	cont "all over me."
 	done
 
 _SaffronCityGentlemanText::
 	text "I flew here on my"
-	line "PIDGEOT when I"
-	cont "read about SILPH."
+	line "PIDGEOT to try"
+	cont "and visit SILPH."
 
-	para "It's already over?"
-	line "I missed the"
-	cont "media action."
+	para "But they won't"
+	line "let anyone go"
+	cont "upstairs anymore."
 	done
 
 _SaffronCityPidgeotText::
@@ -69,26 +73,31 @@ _SaffronCityPidgeotText::
 	text_end
 
 _SaffronCityRockerText::
-	text "I saw ROCKET"
-	line "BOSS escaping"
-	cont "SILPH's building."
+	text "All the workers"
+	line "in this city are"
+	cont "breaking their"
+	cont "backs just to"
+	cont "have their"
+	cont "surplus value"
+	cont "stolen by greedy"
+	cont "capitalists."
 	done
 
-_SaffronCityRocket8Text::
-	text "I'm a security"
-	line "guard."
+;_SaffronCityRocket8Text::
+;	text "I'm a security"
+;	line "guard."
+;
+;	para "Suspicious kids I"
+;	line "don't allow in!"
+;	done
 
-	para "Suspicious kids I"
-	line "don't allow in!"
-	done
+;_SaffronCityRocket9Text::
+;	text "..."
+;	line "Snore..."
 
-_SaffronCityRocket9Text::
-	text "..."
-	line "Snore..."
-
-	para "Hah! He's taking"
-	line "a snooze!"
-	done
+;	para "Hah! He's taking"
+;	line "a snooze!"
+;	done
 
 _SaffronCitySignText::
 	text "SAFFRON CITY"

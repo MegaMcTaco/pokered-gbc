@@ -2,14 +2,13 @@ _CeruleanCityRivalPreBattleText::
 	text "<RIVAL>: Yo!"
 	line "<PLAYER>!"
 
-	para "You're still"
-	line "struggling along"
-	cont "back here?"
+	para "How are you"
+	line "going so far?"
 
 	para "I'm doing great!"
 	line "I caught a bunch"
-	cont "of strong and"
-	cont "smart #MON!"
+	cont "of different"
+	cont "#MON!"
 
 	para "Here, let me see"
 	line "what you caught,"
@@ -18,14 +17,12 @@ _CeruleanCityRivalPreBattleText::
 
 _CeruleanCityRivalDefeatedText::
 	text "Hey!"
-	line "Take it easy!"
-	cont "You won already!"
+	line "Nice work!"
 	prompt
 
 _CeruleanCityRivalVictoryText::
 	text "Heh!"
-	line "You're no match"
-	cont "for my genius!"
+	line "Not bad."
 	prompt
 
 _CeruleanCityRivalIWentToBillsText::
@@ -37,13 +34,9 @@ _CeruleanCityRivalIWentToBillsText::
 	cont "show me his rare"
 	cont "#MON!"
 
-	para "That added a lot"
-	line "of pages to my"
+	para "That added a few"
+	line "pages to my"
 	cont "#DEX!"
-
-	para "After all, BILL's"
-	line "world famous as a"
-	cont "#MANIAC!"
 
 	para "He invented the"
 	line "#MON Storage"
@@ -54,8 +47,8 @@ _CeruleanCityRivalIWentToBillsText::
 	cont "thank him!"
 
 	para "Well, I better"
-	line "get rolling!"
-	cont "Smell ya later!"
+	line "get moving!"
+	cont "Catch you later!"
 	done
 
 _CeruleanCityRocketText:: ; edit

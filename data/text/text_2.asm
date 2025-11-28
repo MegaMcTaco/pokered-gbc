@@ -261,9 +261,9 @@ _CinnabarPokecenterGuyText::
 
 _SaffronCityPokecenterGuyText1::
 	text "It would be great"
-	line "if the ELITE FOUR"
-	cont "came and stomped"
-	cont "TEAM ROCKET!"
+	line "capitalists would"
+	cont "stop exploiting"
+	cont "the workers."
 	done
 
 _SaffronCityPokecenterGuyText2::

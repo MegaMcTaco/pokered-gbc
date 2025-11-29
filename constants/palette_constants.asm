@@ -48,7 +48,7 @@ DEF SET_PAL_DEFAULT EQU $ff
 	const PAL_CINNABAR  ; $09
 	const PAL_INDIGO    ; $0A
 	const PAL_SAFFRON   ; $0B
-;	const PAL_SOUTHCELADON
+	const PAL_SOUTHCELADON
 	const PAL_TOWNMAP   ; $0C
 	const PAL_LOGO1     ; $0D
 	const PAL_LOGO2     ; $0E
@@ -281,5 +281,6 @@ IF GEN_2_GRAPHICS
 	const PAL_AGATHA        ; $E9
 	const PAL_LANCE         ; $EA
 	const PAL_HERO          ; $EB
+	const PAL_JANINE
 ENDC
 DEF NUM_SGB_PALS EQU const_value

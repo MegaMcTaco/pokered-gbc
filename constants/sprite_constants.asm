@@ -55,7 +55,7 @@
 	const SPRITE_MOM                     ; $33
 	const SPRITE_BALDING_GUY             ; $34
 	const SPRITE_LITTLE_BOY              ; $35
-	const SPRITE_UNUSED_GAMEBOY_KID      ; $36
+	const SPRITE_UNUSED_GAMEBOY_KID      ; $36 
 	const SPRITE_GAMEBOY_KID             ; $37
 	const SPRITE_FAIRY                   ; $38
 	const SPRITE_AGATHA                  ; $39
@@ -68,6 +68,7 @@
 	const SPRITE_KOGAALT                 ; $40
 	const SPRITE_SABRINA                 ; $41
 	const SPRITE_BLAINE                  ; $42
+	const SPRITE_JANINE
 	const SPRITE_LAPRAS                  ; $43
 	const SPRITE_BILL                    ; $44
 	const SPRITE_SEEL                    ; $45

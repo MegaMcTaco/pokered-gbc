@@ -146,28 +146,32 @@ _FuchsiaGymRocker5AfterBattleText::
 	line "to learn!"
 	done
 
-_FuchsiaGymRocker6BattleText::
-	text "Master KOGA comes"
-	line "from a long line"
-	cont "of ninjas!"
+_FuchsiaGymJanine6BattleText::
+	text "My father KOGA"
+	line "comes rom a long"
+	cont "line of ninjas!"
 
-	para "What did you"
-	line "descend from?"
+	para "I am JANINE."
+	line "Prepare to face"
+	cont "my poison!"
 	done
 
-_FuchsiaGymRocker6EndBattleText::
-	text "Dropped"
-	line "my balls!"
+_FuchsiaGymJanine6EndBattleText::
+	text "You're a"
+	line "tough one. You"
+	cont "definitely won!"
 	prompt
 
-_FuchsiaGymRocker6AfterBattleText::
-	text "Where there is"
-	line "light, there is"
-	cont "shadow!"
-
-	para "Light and shadow!"
-	line "Which do you"
-	cont "choose?"
+_FuchsiaGymJanine6AfterBattleText::
+	text "I'm going to"
+	line "really apply"
+	
+	para "myself and improve"
+	line "my skills."
+	
+	para "I want to become"
+	line "better than both"
+	cont "Father and you!"
 	done
 
 _FuchsiaGymGymGuideChampInMakingText::

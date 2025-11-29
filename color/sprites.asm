@@ -511,6 +511,9 @@ SpritePaletteAssignments: ; Characters on the overworld
 
 	; 0x42: SPRITE_BLAINE
 	db SPR_PAL_BROWN
+	
+	; SPRITE_JANINE
+	db SPR_PAL_PURPLE
 
 	; 0x43: SPRITE_LAPRAS
 	db SPR_PAL_BLUE

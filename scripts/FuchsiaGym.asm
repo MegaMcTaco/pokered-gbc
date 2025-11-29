@@ -81,7 +81,7 @@ FuchsiaGym_TextPointers:
 	dw_const FuchsiaGymRocker3Text,           TEXT_FUCHSIAGYM_ROCKER3
 	dw_const FuchsiaGymRocker4Text,           TEXT_FUCHSIAGYM_ROCKER4
 	dw_const FuchsiaGymRocker5Text,           TEXT_FUCHSIAGYM_ROCKER5
-	dw_const FuchsiaGymRocker6Text,           TEXT_FUCHSIAGYM_ROCKER6
+	dw_const FuchsiaGymJanine6Text,           TEXT_FUCHSIAGYM_JANINE
 	dw_const FuchsiaGymGymGuideText,          TEXT_FUCHSIAGYM_GYM_GUIDE
 	dw_const FuchsiaGymKogaSoulBadgeInfoText, TEXT_FUCHSIAGYM_KOGA_SOUL_BADGE_INFO
 	dw_const FuchsiaGymKogaReceivedTM06Text,  TEXT_FUCHSIAGYM_KOGA_RECEIVED_TM06
@@ -100,7 +100,7 @@ FuchsiaGymTrainerHeader3:
 FuchsiaGymTrainerHeader4:
 	trainer EVENT_BEAT_FUCHSIA_GYM_TRAINER_4, 2, FuchsiaGymRocker5BattleText, FuchsiaGymRocker5EndBattleText, FuchsiaGymRocker5AfterBattleText
 FuchsiaGymTrainerHeader5:
-	trainer EVENT_BEAT_FUCHSIA_GYM_TRAINER_5, 2, FuchsiaGymRocker6BattleText, FuchsiaGymRocker6EndBattleText, FuchsiaGymRocker6AfterBattleText
+	trainer EVENT_BEAT_FUCHSIA_GYM_TRAINER_5, 2, FuchsiaGymJanine6BattleText, FuchsiaGymJanine6EndBattleText, FuchsiaGymJanine6AfterBattleText
 	db -1 ; end
 
 FuchsiaGymKogaText:
@@ -256,22 +256,22 @@ FuchsiaGymRocker5AfterBattleText:
 	text_far _FuchsiaGymRocker5AfterBattleText
 	text_end
 
-FuchsiaGymRocker6Text:
+FuchsiaGymJanine6Text:
 	text_asm
 	ld hl, FuchsiaGymTrainerHeader5
 	call TalkToTrainer
 	jp TextScriptEnd
 
-FuchsiaGymRocker6BattleText:
-	text_far _FuchsiaGymRocker6BattleText
+FuchsiaGymJanine6BattleText:
+	text_far _FuchsiaGymJanine6BattleText
 	text_end
 
-FuchsiaGymRocker6EndBattleText:
-	text_far _FuchsiaGymRocker6EndBattleText
+FuchsiaGymJanine6EndBattleText:
+	text_far _FuchsiaGymJanine6EndBattleText
 	text_end
 
-FuchsiaGymRocker6AfterBattleText:
-	text_far _FuchsiaGymRocker6AfterBattleText
+FuchsiaGymJanine6AfterBattleText:
+	text_far _FuchsiaGymJanine6AfterBattleText
 	text_end
 
 FuchsiaGymGymGuideText:

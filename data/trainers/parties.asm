@@ -47,6 +47,7 @@ TrainerDataPointers:
 	dw ChannelerData
 	dw AgathaData
 	dw LanceData
+	dw JanineData
 	assert_table_length NUM_TRAINERS
 
 ; if first byte != $FF, then
@@ -78,7 +79,7 @@ YoungsterData:
 	db 17, RATTATA, RATTATA, RATICATE, 0
 	db 18, NIDORAN_M, NIDORINO, 0
 ; Unused
-	db 17, SPEAROW, RATTATA, RATTATA, SPEAROW, 0
+;	db 17, SPEAROW, RATTATA, RATTATA, SPEAROW, 0
 
 BugCatcherData:
 ; Viridian Forest
@@ -98,7 +99,7 @@ BugCatcherData:
 	db 16, WEEDLE, CATERPIE, WEEDLE, 0
 	db 20, BUTTERFREE, 0
 ; Unused
-	db 18, METAPOD, CATERPIE, VENONAT, 0
+;	db 18, METAPOD, CATERPIE, VENONAT, 0
 ; Route 9
 	db 19, BEEDRILL, BEEDRILL, 0
 	db 20, CATERPIE, WEEDLE, VENONAT, 0
@@ -224,9 +225,9 @@ SuperNerdData:
 	db 22, GRIMER, MUK, GRIMER, 0
 	db 26, KOFFING, 0
 ; Unused
-	db 22, KOFFING, MAGNEMITE, WEEZING, 0
-	db 20, MAGNEMITE, MAGNEMITE, KOFFING, MAGNEMITE, 0
-	db 24, MAGNEMITE, VOLTORB, 0
+;	db 22, KOFFING, MAGNEMITE, WEEZING, 0
+;	db 20, MAGNEMITE, MAGNEMITE, KOFFING, MAGNEMITE, 0
+;	db 24, MAGNEMITE, VOLTORB, 0
 ; Cinnabar Gym
 	db 36, VULPIX, VULPIX, NINETALES, 0
 	db 34, PONYTA, CHARMANDER, VULPIX, GROWLITHE, 0
@@ -762,3 +763,7 @@ AgathaData:
 
 LanceData:
 	db $FF, 60, GYARADOS, 56, DRAGONAIR, 58, CHARIZARD, 62, AERODACTYL, 66, DRAGONITE, 0
+
+JanineData: 
+; Fuchsia Gym
+	db 38, VENONAT, GOLBAT, NIDOKING, VENOMOTH, 0

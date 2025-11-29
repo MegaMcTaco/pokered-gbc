@@ -11,7 +11,7 @@ WildDataPointers:
 	dw NothingWildMons         ; CINNABAR_ISLAND
 	dw NothingWildMons         ; INDIGO_PLATEAU
 	dw NothingWildMons         ; SAFFRON_CITY
-	dw NothingWildMons         ; LIGHTHOUSE
+	dw SouthCeladonWildMons ; South Celadon
 	dw Route1WildMons          ; ROUTE_1
 	dw Route2WildMons          ; ROUTE_2
 	dw Route3WildMons          ; ROUTE_3
@@ -238,7 +238,7 @@ WildDataPointers:
 	dw NothingWildMons
 	dw NothingWildMons
 	dw CinnabarVolcanoWildMons ; Cinnabar Volcano
-	dw SouthCeladonWildMons ; South Celadon
+	dw NothingWildMons ;Lighthouse
 	dw NothingWildMons
 	dw NothingWildMons
 	dw NothingWildMons

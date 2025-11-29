@@ -14,7 +14,7 @@ MapHSPointers:
 	dw NoHS
 	dw NoHS
 	dw SaffronCityHS
-	dw NoHS
+	dw SouthCeladonHS
 	dw NoHS
 	dw Route2HS
 	dw NoHS
@@ -241,7 +241,7 @@ MapHSPointers:
 	dw SilphCo11FHS
 	dw NoHS
 	dw CinnabarVolcanoHS ; new
-	dw SouthCeladonHS ; new
+	dw NoHS ; new
 	dw NoHS
 	dw NoHS
 	dw NoHS
@@ -387,7 +387,7 @@ PowerPlantHS:
 	db POWER_PLANT, POWERPLANT_TM_THUNDER, SHOW
 	db POWER_PLANT, POWERPLANT_TM_REFLECT, SHOW
 VictoryRoad2FHS:
-;	db VICTORY_ROAD_2F, VICTORYROAD2F_MOLTRES,       SHOW
+	db VICTORY_ROAD_2F, VICTORYROAD2F_MOLTRES,       SHOW
 	db VICTORY_ROAD_2F, VICTORYROAD2F_TM_SUBMISSION, SHOW
 	db VICTORY_ROAD_2F, VICTORYROAD2F_FULL_HEAL,     SHOW
 	db VICTORY_ROAD_2F, VICTORYROAD2F_TM_MEGA_KICK,  SHOW

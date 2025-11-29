@@ -12,7 +12,7 @@ MapHeaderPointers::
 	dw CinnabarIsland_h
 	dw IndigoPlateau_h
 	dw SaffronCity_h
-	dw Lighthouse_h
+	dw SouthCeladon_h ; SOUTH CELADON
 	dw Route1_h
 	dw Route2_h
 	dw Route3_h
@@ -239,7 +239,7 @@ MapHeaderPointers::
 	dw SilphCo11F_h
 	dw SilphCoElevator_h
 	dw CinnabarVolcano_h ; Cinnabar Volcano
-	dw SouthCeladon_h ; SOUTH CELADON
+	dw Lighthouse_h ; LIGHTHOUSE
 	dw TradeCenter_h
 	dw Colosseum_h
 	dw SouthCeladonGate_h ; SOUTH CELADON GATE

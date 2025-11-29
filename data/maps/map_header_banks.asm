@@ -12,7 +12,7 @@ MapHeaderBanks::
 	db BANK(CinnabarIsland_h)
 	db BANK(IndigoPlateau_h)
 	db BANK(SaffronCity_h)
-	db BANK(Lighthouse_h)
+	db BANK(SouthCeladon_h)
 	db BANK(Route1_h)
 	db BANK(Route2_h)
 	db BANK(Route3_h)
@@ -239,7 +239,7 @@ MapHeaderBanks::
 	db BANK(SilphCo11F_h)
 	db BANK(SilphCoElevator_h)
 	db BANK(CinnabarVolcano_h) ; CINNABAR VOLCANO
-	db BANK(SouthCeladon_h) ; SOUTH CELADON
+	db BANK(Lighthouse_h) ; SOUTH CELADON
 	db BANK(TradeCenter_h)
 	db BANK(Colosseum_h)
 	db BANK(SouthCeladonGate_h) ; SOUTH CELADON GATE

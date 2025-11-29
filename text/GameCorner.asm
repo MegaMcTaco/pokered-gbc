@@ -8,7 +8,7 @@ _GameCornerBeauty1Text::
 	done
 
 _GameCornerClerk1DoYouNeedSomeGameCoinsText::
-	text "Welcome to ROCKET"
+	text "Welcome to THE"
 	line "GAME CORNER!"
 
 	para "Do you need some"
@@ -48,12 +48,12 @@ _GameCornerClerk1DontHaveCoinCaseText::
 	line "COIN CASE!"
 	done
 
-_GameCornerMiddleAgedMan1Text::
+_GameCornerMiddleAgedMan1Text:: ; edit
 	text "Keep this quiet."
 
 	para "It's rumored that"
 	line "this place is run"
-	cont "by TEAM ROCKET."
+	cont "by communists."
 	done
 
 _GameCornerBeauty2Text::
@@ -165,19 +165,23 @@ _GameCornerGentlemanCloselyWatchTheReelsText::
 	done
 
 _GameCornerRocketImGuardingThisPosterText::
-	text "I'm guarding this"
-	line "poster!"
-	cont "Go away, or else!"
+	text "Historical"
+	line "experience is"
+	cont "written in iron"
+	cont "and blood."
 	done
 
 _GameCornerRocketBattleEndText::
-	text "Dang!"
+	text "Do"
+	line "not fear"
+	cont "hardship."
 	prompt
 
 _GameCornerRocketAfterBattleText::
-	text "Our hideout might"
-	line "be discovered! I"
-	cont "better tell BOSS!"
+	text "Political power"
+	line "grows out of"
+	cont "the barrel of a"
+	cont "gun."
 	done
 
 _GameCornerPosterSwitchBehindPosterText::

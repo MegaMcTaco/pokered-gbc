@@ -322,6 +322,14 @@ ComradeData:
 	db 11, SANDSHREW, GEODUDE, ONIX, 0
 	db 12, SPEAROW, DODUO, 0
 	db 16, RATICATE, 0	
+; Game Corner
+	db 25, SCIZOR, 0
+; Fighting Dojo
+	db 37, SCIZOR, STEELIX, 0
+	db 31, LEAFEON, GLACEON, SYLVEON, 0
+	db 32, UMBREON, ESPEON, 0
+	db 36, PINSIR, 0
+	db 31, FLAREON, JOLTEON, VAPOREON, 0	
 
 FisherData:
 ; SS Anne 2F Rooms
@@ -484,11 +492,11 @@ BirdKeeperData:
 
 BlackbeltData:
 ; Fighting Dojo
-	db 37, HITMONLEE, HITMONCHAN, 0
-	db 31, MANKEY, MANKEY, PRIMEAPE, 0
-	db 32, MACHOP, MACHOKE, 0
-	db 36, PRIMEAPE, 0
-	db 31, MACHOP, MANKEY, PRIMEAPE, 0
+;	db 37, HITMONLEE, HITMONCHAN, 0
+;	db 31, MANKEY, MANKEY, PRIMEAPE, 0
+;	db 32, MACHOP, MACHOKE, 0
+;	db 36, PRIMEAPE, 0
+;	db 31, MACHOP, MANKEY, PRIMEAPE, 0
 ; Viridian Gym
 	db 40, MACHOP, MACHOKE, 0
 	db 43, MACHOKE, 0
@@ -564,7 +572,7 @@ RocketData:
 ; Route 24
 	db 15, EKANS, ZUBAT, 0
 ; Game Corner
-	db 20, RATICATE, ZUBAT, 0
+;	db 20, RATICATE, ZUBAT, 0
 ; Rocket Hideout B1F
 	db 21, DROWZEE, MACHOP, 0
 	db 21, RATICATE, RATICATE, 0

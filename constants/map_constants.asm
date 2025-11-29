@@ -27,9 +27,9 @@ ENDM
 	map_const CINNABAR_ISLAND,               10, 10 ; $08
 	map_const INDIGO_PLATEAU,                10,  9 ; $09
 	map_const SAFFRON_CITY,                  20, 18 ; $0A
+	map_const SOUTH_CELADON,                 16, 22   ; $0B
 DEF NUM_CITY_MAPS EQU const_value	
 DEF FIRST_ROUTE_MAP EQU const_value
-	map_const LIGHTHOUSE,                    4, 4   ; $0B
 	map_const ROUTE_1,                       10, 18 ; $0C
 	map_const ROUTE_2,                       10, 36 ; $0D
 	map_const ROUTE_3,                       35,  9 ; $0E
@@ -257,7 +257,7 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const SILPH_CO_11F,                   9,  9 ; $EB
 	map_const SILPH_CO_ELEVATOR,              2,  2 ; $EC
 	map_const CINNABAR_VOLCANO,              14, 12 ; $ED CINNABAR_VOLCANO
-	map_const SOUTH_CELADON,                 16, 22 ; $EE SOUTH_CELADON
+	map_const LIGHTHOUSE,                     4,  4 ; $EE LIGHTHOUSE
 	map_const TRADE_CENTER,                   5,  4 ; $EF
 	map_const COLOSSEUM,                      5,  4 ; $F0
 	map_const SOUTH_CELADON_GATE,             5,  4 ; $F1 SOUTH CELADON GATE
@@ -278,3 +278,4 @@ DEF NUM_FLY_LOCATIONS EQU NUM_CITY_MAPS + 2
 	const_def NUM_CITY_MAPS
 	const FLYLOC_ROUTE_4_CENTER
 	const FLYLOC_ROUTE_10_CENTER
+	const FLYLOC_SOUTH_CELADON

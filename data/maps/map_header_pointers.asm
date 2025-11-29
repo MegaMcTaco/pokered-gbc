@@ -38,6 +38,7 @@ MapHeaderPointers::
 	dw Route23_h
 	dw Route24_h
 	dw Route25_h
+	dw Route26_h ; ROUTE 26	
 	dw RedsHouse1F_h
 	dw RedsHouse2F_h
 	dw BluesHouse_h
@@ -106,7 +107,6 @@ MapHeaderPointers::
 	dw SSAnne1FRooms_h
 	dw SSAnne2FRooms_h
 	dw SSAnneB1FRooms_h
-	dw Route26_h ; ROUTE 26
 	dw LancesRoom_h ; UNUSED_MAP_6A
 	dw LancesRoom_h ; UNUSED_MAP_6B
 	dw VictoryRoad1F_h

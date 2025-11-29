@@ -42,6 +42,7 @@ MapHSPointers:
 	dw Route25HS
 	dw NoHS
 	dw NoHS
+	dw NoHS
 	dw BluesHouseHS
 	dw OaksLabHS
 	dw NoHS
@@ -108,7 +109,6 @@ MapHSPointers:
 	dw SSAnne1FRoomsHS
 	dw SSAnne2FRoomsHS
 	dw SSAnneB1FRoomsHS
-	dw NoHS
 	dw NoHS
 	dw NoHS
 	dw VictoryRoad1FHS

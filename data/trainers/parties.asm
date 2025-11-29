@@ -331,7 +331,9 @@ ComradeData:
 	db 32, UMBREON, ESPEON, 0
 	db 36, PINSIR, 0
 	db 31, FLAREON, JOLTEON, VAPOREON, 0	
-
+; South Celadon 
+	db 31, GYARADOS, 0	
+	
 FisherData:
 ; SS Anne 2F Rooms
 	db 17, GOLDEEN, TENTACOOL, GOLDEEN, 0

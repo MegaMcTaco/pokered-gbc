@@ -27,7 +27,7 @@ ENDM
 	map_const CINNABAR_ISLAND,               10, 10 ; $08
 	map_const INDIGO_PLATEAU,                10,  9 ; $09
 	map_const SAFFRON_CITY,                  20, 18 ; $0A
-	map_const SOUTH_CELADON,                 16, 22   ; $0B
+	map_const SOUTH_CELADON,                 16, 22 ; $0B
 DEF NUM_CITY_MAPS EQU const_value	
 DEF FIRST_ROUTE_MAP EQU const_value
 	map_const ROUTE_1,                       10, 18 ; $0C
@@ -55,6 +55,7 @@ DEF FIRST_ROUTE_MAP EQU const_value
 	map_const ROUTE_23,                      10, 72 ; $22
 	map_const ROUTE_24,                      10, 18 ; $23
 	map_const ROUTE_25,                      30,  9 ; $24
+	map_const ROUTE_26,                      12, 36 ; $69 ROUTE_26
 DEF FIRST_INDOOR_MAP EQU const_value
 	map_const REDS_HOUSE_1F,                  4,  4 ; $25
 	map_const REDS_HOUSE_2F,                  4,  4 ; $26
@@ -124,7 +125,6 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const SS_ANNE_1F_ROOMS,              12,  8 ; $66
 	map_const SS_ANNE_2F_ROOMS,              12,  8 ; $67
 	map_const SS_ANNE_B1F_ROOMS,             12,  8 ; $68
-	map_const ROUTE_26,                      12, 36 ; $69 ROUTE_26
 	map_const UNUSED_MAP_6A,                 14, 12 ; $6A 
 	map_const UNUSED_MAP_6B,                  0,  0 ; $6B
 	map_const VICTORY_ROAD_1F,               10,  9 ; $6C

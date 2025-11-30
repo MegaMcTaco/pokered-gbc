@@ -3,8 +3,14 @@ Route5_Script:
 
 Route5_TextPointers:
 	def_text_pointers
+	dw_const Route5GuardText, TEXT_ROUTE5_GUARD
 	dw_const Route5UndergroundPathSignText, TEXT_ROUTE5_UNDERGROUND_PATH_SIGN
+
+Route5GuardText:
+	text_far _Route5GuardText
+	text_end
 
 Route5UndergroundPathSignText:
 	text_far _Route5UndergroundPathSignText
 	text_end
+

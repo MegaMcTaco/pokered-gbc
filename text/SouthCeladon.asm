@@ -20,6 +20,6 @@ _LaprasBattleText::
 	text_end
 		
 _CeladonBeachSignText::
-	text "SOUTH CELADON"
-	line "BEACH"
+	text "GULF OF"
+	line "VERMILION"
 	done		

@@ -69,10 +69,11 @@ _BillsHouseBillWhyDontYouGoInsteadOfMeText::
 	text "This is the HM"
 	line "CUT! "
 	
-	para "#MON can cut down"
-	line "grass, trees and"
-	cont "bushes with this"
-	cont "technique!"
+	para "#MON can cut"
+	line "down grass, trees"
+	cont "and bushes with"
+	cont "this technique!"
+	done
 
 _BillsHouseBillCheckOutMyRarePokemonText::
 	text "BILL: Look, bud,"

@@ -20,7 +20,7 @@ PokemonTower1FMrFujiText:
 	jr nz, .got_item
 	ld hl, .IThinkThisMayHelpYourQuestText
 	call PrintText
-	lb bc, POKE_FLUTE, 1
+	lb bc, BICYCLE, 1 ; POKE_FLUTE, 1
 	call GiveItem
 	jr nc, .bag_full
 	ld hl, .ReceivedPokeFluteText

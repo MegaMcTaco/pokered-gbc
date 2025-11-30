@@ -141,7 +141,7 @@ ViridianGymReceiveTM27:
 	ldh [hSpriteIndexOrTextID], a
 	call DisplayTextID
 	SetEvent EVENT_BEAT_VIRIDIAN_GYM_BLUE
-	lb bc, TM_FISSURE, 1
+	lb bc, HM_STRENGTH, 1 ; TM_FISSURE, 1
 	call GiveItem
 	jr nc, .bag_full
 	ld a, TEXT_VIRIDIANGYM_BLUE_RECEIVED_TM27

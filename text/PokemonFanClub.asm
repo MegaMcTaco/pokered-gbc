@@ -92,18 +92,15 @@ _PokemonFanClubReceivedBikeVoucherText::
 _PokemonFanClubExplainBikeVoucherText::
 	text_start
 
-	para "Exchange that for"
-	line "a BICYCLE!"
+	para "That's the TM"
+	line "FISSURE."
 
-	para "Don't worry, my"
-	line "FEAROW will FLY"
-	cont "me anywhere!"
-
-	para "So, I don't need a"
-	line "BICYCLE!"
+	para "It will take out"
+	line "#MON with just"
+	cont "one hit!"
 
 	para "I hope you like"
-	line "cycling!"
+	line "winning."
 	done
 
 _PokemonFanClubNoStoryText::

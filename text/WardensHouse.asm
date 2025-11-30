@@ -8,40 +8,41 @@ _WardensHouseWardenGibberish1Text::
 	done
 
 _WardensHouseWardenGibberish2Text::
-	text "I've lost mine,"
-	line "and need it to"
-	cont "evolve a #MON."
+	text "I'm looking for"
+	line "one to evolve"
+	cont "my Scyther with."
 	done
 
 _WardensHouseWardenGibberish3Text::
 	text "I'll give you a"
-	line "HM for METAL"
-	cont "COAT!"
+	line "# FLUTE for"
+	cont "a METAL COAT."
 	done
 
 _WardensHouseWardenGaveTheGoldTeethText::
-	text "<PLAYER> gave the"
-	line "METAL COAT to the"
-	cont "WARDEN!@"
+	text "<PLAYER> gave"
+	line "the METAL COAT to"
+	cont "the WARDEN!@"
 	text_end
 
 _WardensHouseWardenTeethPoppedInHisTeethText::
 	text_start
 
-	para "Thanks! This is"
-	line "for my Scyther!"
+	para "Thanks! Now,"
+	line "as promised."
 	prompt
 
 _WardensHouseWardenThanksText::
-	text "Now I can evolve"
-	line "my Scyther into"
-	cont "Scizor! How"
-	cont "incredible!"
+	text "This is a #"
+	line "FLUTE. Once"
+	cont "played, it will"
+	cont "wake up any"
+	cont "sleeping #MON"
 
-	para "As promised,"
-	line "here is the HM"
-	cont "I promised to"
-	cont "trade you."
+	para "I hear all paths"
+	line "to VERMILION"
+	cont "CITY are blocked"
+	cont "by SNORLAX!"
 	prompt
 
 _WardensHouseWardenReceivedHM04Text::
@@ -52,29 +53,32 @@ _WardensHouseWardenReceivedHM04Text::
 	text_end
 
 _WardensHouseWardenHM04ExplanationText::
-	text "WARDEN: HM04"
-	line "teaches STRENGTH!"
+	text "Maybe you can"
+	line "use the #"
+	cont "FLUTE to wake"
+	cont "them up?"
+	done
 
-	para "It lets #MON"
-	line "move boulders"
-	cont "when you're out-"
-	cont "side of battle."
+;	para "It lets #MON"
+;	line "move boulders"
+;	cont "when you're out-"
+;	cont "side of battle."
 
 ;joenote - add hotkey info
-	para "Press SELECT when"
-	line "facing a boulder"
-	cont "to activate it."
+;	para "Press SELECT when"
+;	line "facing a boulder"
+;	cont "to activate it."
 
-	para "Oh yes, did you"
-	line "find SECRET HOUSE"
-	cont "in SAFARI ZONE?"
+;	para "Oh yes, did you"
+;	line "find SECRET HOUSE"
+;	cont "in SAFARI ZONE?"
 
-	para "If you do, you"
-	line "win an HM!"
-
-	para "I hear it's the"
-	line "rare SURF HM."
-	done
+;	para "If you do, you"
+;	line "win an HM!"
+;
+;	para "I hear it's the"
+;	line "rare SURF HM."
+;	done
 
 _WardensHouseWardenHM04NoRoomText::
 	text "Your pack is"
@@ -82,8 +86,8 @@ _WardensHouseWardenHM04NoRoomText::
 	done
 
 _WardensHouseDisplayPhotosAndFossilsText::
-	text "#MON photos"
-	line "and fossils."
+	text "A photo of"
+	line "Comrade Stalin."
 	done
 
 _WardensHouseDisplayMerchandiseText::

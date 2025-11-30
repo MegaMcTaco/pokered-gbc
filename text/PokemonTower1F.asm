@@ -33,7 +33,7 @@ _PokemonTower1FMrFujiIThinkThisMayHelpYourQuestText::
 
 	para "I think this may"
 	line "help you with"
-	cont "your research."
+	cont "your travels."
 	prompt
 
 _PokemonTower1FMrFujiReceivedPokeFluteText::
@@ -45,15 +45,11 @@ _PokemonTower1FMrFujiReceivedPokeFluteText::
 
 _PokemonTower1FMrFujiPokeFluteExplanationText::
 	text_start
-
-	para "Upon hearing #"
-	line "FLUTE, sleeping"
-	cont "#MON will"
-	cont "spring awake."
-
-	para "It works on all"
-	line "sleeping #MON."
-	done
+	
+	para "You'll get"
+	line "around much"
+	cont "faster with a"
+	cont "BICYCLE!"
 
 _PokemonTower1FMrFujiPokeFluteNoRoomText::
 	text "You must make"
@@ -62,7 +58,7 @@ _PokemonTower1FMrFujiPokeFluteNoRoomText::
 
 _PokemonTower1FMrFujiHasMyFluteHelpedYouText::
 	text "MR.FUJI: Has my"
-	line "FLUTE helped you?"
+	line "BICYCLE helped?"
 	done	
 
 ;_PokemonTower1FMiddleAgedWomanText::

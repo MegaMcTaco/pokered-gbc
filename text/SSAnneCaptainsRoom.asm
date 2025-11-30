@@ -16,24 +16,17 @@ _SSAnneCaptainsRoomCaptainIFeelMuchBetterText::
 	line "Thank you! I"
 	cont "feel much better!"
 
-	para "You want to see"
-	line "my CUT technique?"
-
-	para "I could show you"
-	line "if I wasn't ill..."
-
 	para "I know! You can"
 	line "have this!"
 
 	para "Teach it to your"
-	line "#MON and you"
-	cont "can see it CUT"
+	line "#MON and SURF"
 	cont "any time!"
 
 ;joenote - add hotkey info
 	para "Press SELECT when"
-	line "facing grass or a"
-	cont "bush to use it."
+	line "facing water to"
+	cont "use it."
 	prompt
 
 _SSAnneCaptainsRoomCaptainReceivedHM01Text::

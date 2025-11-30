@@ -58,21 +58,21 @@ _ViridianGymBlueEarthBadgeInfoText::
 
 _ViridianGymBlueReceivedTM27Text::
 	text "<PLAYER> received"
-	line "TM27!@"
+	line "HM04!@"
 	text_end
 
 _ViridianGymBlueTM27ExplanationText::
 	text_start
 
-	para "TM27 is FISSURE!"
-	line "It will take out"
-	cont "#MON with just"
-	cont "one hit!"
+	para "It lets #MON"
+	line "move boulders"
+	cont "when you're out-"
+	cont "side of battle."
 
-	para "I found it here"
-	line "in the GYM. It"
-	cont "was left behind."
-	done
+;joenote - add hotkey info
+	para "Press SELECT when"
+	line "facing a boulder"
+	cont "to activate it."
 
 _ViridianGymBlueTM27NoRoomText::
 	text "You do not have"

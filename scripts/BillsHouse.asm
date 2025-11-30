@@ -165,7 +165,7 @@ BillsHouseBillSSTicketText:
 	jr nz, .got_ss_ticket
 	ld hl, .ThankYouText
 	call PrintText
-	lb bc, S_S_TICKET, 1
+	lb bc, HM_CUT, 1 ; S_S_TICKET, 1
 	call GiveItem
 	jr nc, .bag_full
 	ld hl, .SSTicketReceivedText

@@ -39,7 +39,7 @@ WardensHouseWardenText:
 .gave_gold_teeth
 	ld hl, .ThanksText
 	call PrintText
-	lb bc, HM_STRENGTH, 1
+	lb bc, POKE_FLUTE, 1 ; HM_STRENGTH, 1
 	call GiveItem
 	jr nc, .bag_full
 	ld hl, .ReceivedHM04Text

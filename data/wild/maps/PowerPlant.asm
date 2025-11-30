@@ -8,14 +8,9 @@ PowerPlantWildMons:
 	db 23, ELECTABUZZ
 	db 32, ELECTRODE
 	db 35, MAGNETON
-IF DEF(_RED)
 	db 33, RAICHU
-	db 36, ELECTABUZZ
-ENDC
-IF DEF(_BLUE)
-	db 33, RAICHU
-	db 36, RAICHU
-ENDC
+	db 39, ELECTABUZZ
+
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

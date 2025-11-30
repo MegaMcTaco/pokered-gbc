@@ -32,8 +32,8 @@ _BillsHouseBillNoYouGottaHelpText::
 	line "gotta help a guy"
 	cont "in deep trouble!"
 
-	para "What do you say,"
-	line "chief? Please?"
+	para "This is the third"
+	line "time this month!"
 	cont "OK? All right!"
 	prompt
 
@@ -66,19 +66,13 @@ _SSTicketNoRoomText::
 	done
 
 _BillsHouseBillWhyDontYouGoInsteadOfMeText::
-	text "That cruise ship,"
-	line "S.S.ANNE, is in"
-	cont "VERMILION CITY."
-	cont "Its passengers"
-	cont "are all trainers!"
-
-	para "They invited me"
-	line "to their party,"
-	cont "but I can't stand"
-	cont "fancy do's. Why"
-	cont "don't you go"
-	cont "instead of me?"
-	done
+	text "This is the HM"
+	line "CUT! "
+	
+	para "#MON can cut down"
+	line "grass, trees and"
+	cont "bushes with this"
+	cont "technique!"
 
 _BillsHouseBillCheckOutMyRarePokemonText::
 	text "BILL: Look, bud,"

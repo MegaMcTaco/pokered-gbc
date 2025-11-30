@@ -148,7 +148,7 @@ _FuchsiaGymRocker5AfterBattleText::
 
 _FuchsiaGymJanine6BattleText::
 	text "My father KOGA"
-	line "comes rom a long"
+	line "comes from a long"
 	cont "line of ninjas!"
 
 	para "I am JANINE."

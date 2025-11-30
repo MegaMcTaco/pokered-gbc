@@ -1,4 +1,5 @@
 	object_const_def
+	const_export ROUTE8_GUARD
 	const_export ROUTE8_SUPER_NERD1
 	const_export ROUTE8_GAMBLER1
 	const_export ROUTE8_SUPER_NERD2
@@ -23,6 +24,7 @@ Route8_Object:
 	bg_event 17,  3, TEXT_ROUTE8_UNDERGROUND_SIGN
 
 	def_object_events
+	object_event 13,  4, SPRITE_GUARD, STAY, DOWN, TEXT_ROUTE8_GUARD
 	object_event  8,  5, SPRITE_SUPER_NERD, STAY, RIGHT, TEXT_ROUTE8_SUPER_NERD1, OPP_SUPER_NERD, 3
 	object_event 13,  9, SPRITE_GAMBLER, STAY, UP, TEXT_ROUTE8_GAMBLER1, OPP_GAMBLER, 5
 	object_event 42,  6, SPRITE_SUPER_NERD, STAY, UP, TEXT_ROUTE8_SUPER_NERD2, OPP_SUPER_NERD, 4

@@ -1,3 +1,6 @@
+	object_const_def
+	const_export ROUTE7_GUARD
+
 Route7_Object:
 	db $f ; border block
 
@@ -12,5 +15,6 @@ Route7_Object:
 	bg_event  3, 13, TEXT_ROUTE7_UNDERGROUND_PATH_SIGN
 
 	def_object_events
+	object_event  5,  14, SPRITE_GUARD, STAY, DOWN, TEXT_ROUTE7_GUARD
 
 	def_warps_to ROUTE_7

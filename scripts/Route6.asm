@@ -15,6 +15,7 @@ Route6_ScriptPointers:
 
 Route6_TextPointers:
 	def_text_pointers
+	dw_const Route6GuardText, TEXT_ROUTE6_GUARD	
 	dw_const Route6CooltrainerM1Text,       TEXT_ROUTE6_COOLTRAINER_M1
 	dw_const Route6CooltrainerF1Text,       TEXT_ROUTE6_COOLTRAINER_F1
 	dw_const Route6Youngster1Text,          TEXT_ROUTE6_YOUNGSTER1
@@ -38,6 +39,10 @@ Route6TrainerHeader4:
 Route6TrainerHeader5:
 	trainer EVENT_BEAT_ROUTE_6_TRAINER_5, 3, Route6Youngster2BattleText, Route6Youngster2EndBattleText, Route6Youngster2AfterBattleText
 	db -1 ; end
+	
+Route6GuardText:
+	text_far _Route6GuardText
+	text_end	
 	
 Route6CooltrainerM1Text:
 	text_asm

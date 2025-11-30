@@ -1,3 +1,10 @@
+_Route8GuardText::
+	text "This underground"
+	line "path is closed"
+	cont "until further"
+	cont "notice."
+	done
+
 _Route8SuperNerd1BattleText::
 	text "You look good at"
 	line "#MON, but"

@@ -1,3 +1,11 @@
+_Route6GuardText::
+	text "This underground"
+	line "path is closed"
+	cont "until further"
+	cont "notice."
+	done
+
+
 _Route6CooltrainerM1BattleText::
 	text "Who's there?"
 	line "Quit listening in"

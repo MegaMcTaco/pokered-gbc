@@ -5,6 +5,32 @@ StartMenu_Pokedex::
 	call LoadGBPal
 	call UpdateSprites
 	jp RedisplayStartMenu
+	
+StartMenu_PortablePC:: ; new
+	ld a, [wCurMap] ; we don't want to cheese the Elite4, do we?
+	cp LORELEIS_ROOM
+	jr z, .cantUseItHere
+	cp BRUNOS_ROOM
+	jr z, .cantUseItHere
+	cp AGATHAS_ROOM
+	jr z, .cantUseItHere
+	cp LANCES_ROOM
+	jr z, .cantUseItHere
+; if none of the above cp is met, let's open the pc and do the things
+	callfar ActivatePC ; main part
+	jr .done
+.cantUseItHere ; no cheese!
+	ld hl, CantUsePCHere
+	call PrintText
+.done
+	call LoadScreenTilesFromBuffer2 ; restore saved screen
+	call LoadTextBoxTilePatterns
+	call UpdateSprites
+	jp RedisplayStartMenu
+
+CantUsePCHere:
+	text_far _CantUsePCHere
+	text_end	
 
 StartMenu_Pokemon::
 	ld a, [wPartyCount]
@@ -130,7 +156,7 @@ StartMenu_Pokemon::
 	dw .teleport
 	dw .softboiled
 .fly
-	bit BIT_THUNDERBADGE, a
+	bit BIT_RAINBOWBADGE, a ; USED TO BE THUNDERBADGE
 	jp z, .newBadgeRequired
 	call CheckIfInFlyMap ; PureRGBnote: CHANGED: you can FLY from more places than vanilla game.
 	jr z, .canFly
@@ -172,7 +198,7 @@ StartMenu_Pokemon::
 	jp z, .loop
 	jp CloseTextDisplay
 .surf
-	bit BIT_SOULBADGE, a
+	bit BIT_THUNDERBADGE, a ; USED TO BE SOULBADGE
 	jp z, .newBadgeRequired
 	farcall IsSurfingAllowed
 	ld hl, wd728
@@ -189,7 +215,7 @@ StartMenu_Pokemon::
 	call GBPalWhiteOutWithDelay3
 	jp .goBackToMap
 .strength
-	bit BIT_RAINBOWBADGE, a
+	bit BIT_EARTHBADGE, a ; USED TO BE RAINBOWBADGE
 	jp z, .newBadgeRequired
 	predef PrintStrengthTxt
 	call GBPalWhiteOutWithDelay3

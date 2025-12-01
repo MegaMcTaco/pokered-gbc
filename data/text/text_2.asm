@@ -1828,3 +1828,8 @@ _BoyGirlText::
 	text "First, are you a"
 	line "boy or a girl?"
 	done
+	
+_CantUsePCHere:: ; new, for portablePC
+	text "You cannot use"
+	line "this here!"
+	prompt

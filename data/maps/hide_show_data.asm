@@ -7,12 +7,12 @@ MapHSPointers:
 	dw ViridianCityHS
 	dw PewterCityHS
 	dw CeruleanCityHS
-	dw NoHS
-	dw NoHS
-	dw NoHS
-	dw NoHS
-	dw NoHS
-	dw NoHS
+	dw NoHS ; Lavender
+	dw NoHS ; Vermilion
+	dw NoHS ; Celadon
+	dw NoHS ; Fuchsia
+	dw NoHS ; Cinnabar 
+	dw NoHS ; Indigo
 	dw SaffronCityHS
 	dw SouthCeladonHS
 	dw NoHS

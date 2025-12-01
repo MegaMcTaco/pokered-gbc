@@ -245,7 +245,7 @@ VermilionCityMachopText:
 VermilionCitySailor2Text:
 	text_asm
 	ld a, [wObtainedBadges]
-	bit 4, a ; after obtaining the soul badge the ship returns
+	bit 7, a ; after obtaining the earth badge the ship returns (soul badge was 4)
 	jr z, .default
 	ld hl, VermilionCityText15
 	ret

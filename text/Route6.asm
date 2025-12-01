@@ -79,6 +79,11 @@ _Route6CooltrainerF2AfterBattleText::
 	text "I want to get"
 	line "stronger! What's"
 	cont "your secret?"
+	
+	para "Dialectical"
+	line "Materialism?"
+	
+	para "What's that?"
 	done
 
 _Route6Youngster2BattleText::

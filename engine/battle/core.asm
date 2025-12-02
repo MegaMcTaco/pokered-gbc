@@ -4090,16 +4090,16 @@ CheckForDisobedience:
 	bit BIT_EARTHBADGE, [hl]
 	ld a, 101
 	jr nz, .next
-	bit BIT_MARSHBADGE, [hl]
-	ld a, 101
+	bit BIT_THUNDERBADGE, [hl]
+	ld a, 70
 	jr nz, .next
 	bit BIT_RAINBOWBADGE, [hl]
-	ld a, 101
+	ld a, 50
 	jr nz, .next
 	bit BIT_CASCADEBADGE, [hl]
-	ld a, 101
+	ld a, 30
 	jr nz, .next
-	ld a, 101
+	ld a, 10
 .next
 	ld b, a
 	ld c, a
@@ -6732,7 +6732,7 @@ ApplyBadgeStatBoosts:
 	bit BIT_BOULDERBADGE, b
 	call nz, ApplyBoostToStat
 	ld hl, wBattleMonSpeed
-	bit BIT_THUNDERBADGE, b
+	bit BIT_MARSHBADGE, b ; USED TO BE THUNDERBADGE	
 	call nz, ApplyBoostToStat
 	ld hl, wBattleMonDefense
 	bit BIT_SOULBADGE, b

@@ -47,14 +47,14 @@ _CeladonGymErikaPostBattleAdviceText::
 	cont "unattractive."
 	done
 
-_CeladonGymRainbowBadgeInfoText::
+_CeladonGymRainbowBadgeInfoText:: ; EDITED
 	text "The RAINBOWBADGE"
 	line "will make #MON"
 	cont "up to L50 obey."
 
 	para "It also allows"
 	line "#MON to use"
-	cont "STRENGTH in and"
+	cont "FLY in and"
 	cont "out of battle."
 
 	para "Please also take"

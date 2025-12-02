@@ -39,20 +39,11 @@ _SaffronGymSabrinaPostBattleAdviceText::
 
 _SaffronGymSabrinaMarshBadgeInfoText::
 	text "The MARSHBADGE"
-	line "makes #MON up"
-	cont "to L70 obey you!"
+	line "cranks up your"
+	cont "#MON's SPEED!"
 
-	para "Stronger #MON"
-	line "will become wild,"
-	cont "ignoring your"
-	cont "orders in battle!"
-
-	para "Just don't raise"
-	line "your #MON too"
-	cont "much!"
-
-	para "Wait, please take"
-	line "this TM with you!"
+	para "Please take"
+	line "this TM with you."
 	done
 
 _SaffronGymSabrinaReceivedTM46Text::

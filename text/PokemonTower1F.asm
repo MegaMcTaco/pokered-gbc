@@ -50,6 +50,7 @@ _PokemonTower1FMrFujiPokeFluteExplanationText::
 	line "around much"
 	cont "faster with a"
 	cont "BICYCLE!"
+	done
 
 _PokemonTower1FMrFujiPokeFluteNoRoomText::
 	text "You must make"

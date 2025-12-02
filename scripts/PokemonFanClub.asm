@@ -109,7 +109,7 @@ PokemonFanClubChairmanText:
 	; tell the story
 	ld hl, .StoryText
 	call PrintText
-	lb bc, TM_FISSURE, 1 ; BIKE_VOUCHER, 1
+	lb bc, MASTER_BALL, 1 ; BIKE_VOUCHER, 1
 	call GiveItem
 	jr nc, .bag_full
 	ld hl, .BikeVoucherText

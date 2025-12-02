@@ -92,15 +92,15 @@ _PokemonFanClubReceivedBikeVoucherText::
 _PokemonFanClubExplainBikeVoucherText::
 	text_start
 
-	para "That's the TM"
-	line "FISSURE."
+	para "That's the"
+	line "MASTER BALL!"
 
-	para "It will take out"
-	line "#MON with just"
-	cont "one hit!"
+	para "It will catch"
+	line "any #MON with-"
+	cont "out fail!"
 
-	para "I hope you like"
-	line "winning."
+	para "Gotta catch 'em"
+	line "all somehow!"
 	done
 
 _PokemonFanClubNoStoryText::

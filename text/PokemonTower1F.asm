@@ -57,8 +57,11 @@ _PokemonTower1FMrFujiPokeFluteNoRoomText::
 	done
 
 _PokemonTower1FMrFujiHasMyFluteHelpedYouText::
-	text "MR.FUJI: Has my"
-	line "BICYCLE helped?"
+	text "MR.FUJI: Have"
+	line "you exchanged"
+	cont "the bike voucher"
+	cont "for a BICYCLE in"
+	cont "CERULEAN CITY yet?"
 	done	
 
 ;_PokemonTower1FMiddleAgedWomanText::

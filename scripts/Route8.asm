@@ -15,7 +15,7 @@ Route8_ScriptPointers:
 
 Route8_TextPointers:
 	def_text_pointers
-	dw_const Route8GuardText, 			TEXT_ROUTE8_GUARD
+
 	dw_const Route8SuperNerd1Text,      TEXT_ROUTE8_SUPER_NERD1
 	dw_const Route8Gambler1Text,        TEXT_ROUTE8_GAMBLER1
 	dw_const Route8SuperNerd2Text,      TEXT_ROUTE8_SUPER_NERD2
@@ -25,6 +25,7 @@ Route8_TextPointers:
 	dw_const Route8CooltrainerF3Text,   TEXT_ROUTE8_COOLTRAINER_F3
 	dw_const Route8Gambler2Text,        TEXT_ROUTE8_GAMBLER2
 	dw_const Route8CooltrainerF4Text,   TEXT_ROUTE8_COOLTRAINER_F4
+	dw_const Route8GuardText, 			TEXT_ROUTE8_GUARD
 	dw_const Route8UndergroundSignText, TEXT_ROUTE8_UNDERGROUND_SIGN
 
 Route8TrainerHeaders:
@@ -48,10 +49,6 @@ Route8TrainerHeader7:
 Route8TrainerHeader8:
 	trainer EVENT_BEAT_ROUTE_8_TRAINER_8, 4, Route8CooltrainerF4BattleText, Route8CooltrainerF4EndBattleText, Route8CooltrainerF4AfterBattleText
 	db -1 ; end
-
-Route8GuardText:
-	text_far _Route8GuardText
-	text_end
 
 Route8SuperNerd1Text:
 	text_asm
@@ -217,4 +214,8 @@ Route8CooltrainerF4AfterBattleText:
 
 Route8UndergroundSignText:
 	text_far _Route8UndergroundSignText
+	text_end
+
+Route8GuardText:
+	text_far _Route8GuardText
 	text_end

@@ -152,7 +152,7 @@ DrawBadges:
 	ret
 
 .FaceBadgeTiles
-	db $20, $28, $30, $38, $40, $48, $50, $58
+	db $20, $28, $48, $38, $40, $30, $50, $58 ; this is what swapped Surge and Sabrina around in Trainer Card properly
 
 LeaderNameList:	;joenote - for restoring leader names
 	dw .brock

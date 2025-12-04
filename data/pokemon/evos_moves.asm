@@ -81,8 +81,8 @@ EvosMovesPointerTable:
 	dw DittoEvosMoves
 	dw MeowthEvosMoves
 	dw KrabbyEvosMoves
-	dw MissingNo4FEvosMoves
-	dw MissingNo50EvosMoves
+	dw SlowkingEvosMoves
+	dw KingdraEvosMoves
 	dw MissingNo51EvosMoves
 	dw VulpixEvosMoves
 	dw NinetalesEvosMoves
@@ -286,6 +286,7 @@ NidokingEvosMoves:
 
 SlowbroEvosMoves:
 ; Evolutions
+	db EVOLVE_ITEM, KINGS_ROCK, 1, SLOWKING
 	db 0
 ; Learnset
 	db 18, DISABLE
@@ -1160,16 +1161,29 @@ KrabbyEvosMoves:
 	db 40, HARDEN
 	db 0
 
-MissingNo4FEvosMoves:
-; Evolutions
+SlowkingEvosMoves:
+;Evolutions
 	db 0
-; Learnset
+;Learnset
+	db 18,DISABLE
+	db 22,HEADBUTT
+	db 27,GROWL
+	db 33,WATER_GUN
+	db 44,AMNESIA
+	db 55,PSYCHIC_M
+	db 60,RECOVER
 	db 0
 
-MissingNo50EvosMoves:
+KingdraEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 8, SMOKESCREEN
+	db 15, LEER
+	db 22, WATER_GUN
+	db 30, DRAGON_RAGE
+	db 40, AGILITY
+	db 51, HYDRO_PUMP
 	db 0
 
 MissingNo51EvosMoves:
@@ -1296,6 +1310,7 @@ HorseaEvosMoves:
 
 SeadraEvosMoves:
 ; Evolutions
+	db EVOLVE_ITEM, DRAGON_SCALE, 1, KINGDRA
 	db 0
 ; Learnset
 	db 19, SMOKESCREEN

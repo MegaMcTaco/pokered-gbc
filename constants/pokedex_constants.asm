@@ -166,8 +166,8 @@
 	const DEX_HERACROSS  ; 160
 	const DEX_CROBAT 	 ; 161
 	const DEX_BELLOSSOM  ; 162
-;	const DEX_SLOWKING   ; 163
-;	const DEX_KINGDRA	 ; 164
+	const DEX_SLOWKING   ; 163
+	const DEX_KINGDRA	 ; 164
 ;	const DEX_HITMONTOP  ; 165
 ;	const DEX_BLISSEY    ; 166
 ;	const DEX_SLUGMA     ; 167

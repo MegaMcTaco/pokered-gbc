@@ -85,8 +85,8 @@
 	const DITTO              ; $4C
 	const MEOWTH             ; $4D
 	const KRABBY             ; $4E
-	const_skip               ; $4F
-	const_skip               ; $50
+	const SLOWKING           ; $4F SLOWKING
+	const KINGDRA            ; $50 KINGDRA
 	const_skip               ; $51
 	const VULPIX             ; $52
 	const NINETALES          ; $53

@@ -68,7 +68,7 @@ PokedexEntryPointers:
 	dw DragoniteDexEntry
 	dw HeracrossDexEntry
 	dw CrobatDexEntry
-	dw MissingNoDexEntry
+	dw BellossomDexEntry
 	dw DoduoDexEntry
 	dw PoliwagDexEntry
 	dw JynxDexEntry
@@ -78,8 +78,8 @@ PokedexEntryPointers:
 	dw DittoDexEntry
 	dw MeowthDexEntry
 	dw KrabbyDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
+	dw SlowkingDexEntry
+	dw KingdraDexEntry
 	dw MissingNoDexEntry
 	dw VulpixDexEntry
 	dw NinetalesDexEntry
@@ -742,6 +742,20 @@ KrabbyDexEntry:
 	dw 65
 	text_far _KrabbyDexEntry
 	text_end
+	
+SlowkingDexEntry: ; 40fd1 (10:4fd1)
+	db "ROYAL@"
+	db 7
+	dw 1753
+	text_far _SlowkingDexEntry
+	db "@"
+	
+KingdraDexEntry:
+	db "DRAGON@"
+	db 2
+	dw 152
+	text_far _KingdraDexEntry
+	db "@"
 
 VulpixDexEntry:
 	db "FOX@"

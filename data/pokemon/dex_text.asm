@@ -777,6 +777,27 @@ _KrabbyDexEntry::
 	next "when walking"
 	next "sideways"
 	dex
+	
+_SlowkingDexEntry::
+	text "It has incredible"
+	next "intellect and"
+	next "intuition."
+
+	page "Whatever the"
+	next "situation, it"
+	next "remains calm and"
+	next "collected"
+	dex
+
+_KingdraDexEntry::
+	text "It is said that it"
+	next "usually hides in"
+	next "underwater caves."
+	
+	page "It can create"
+	next "WHIRLPOOLS by"
+	next "yawning"
+	dex
 
 _VulpixDexEntry::
 	text "At the time of"

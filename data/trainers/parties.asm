@@ -315,7 +315,7 @@ ComradeData:
 ; Viridian Forest
 	db 10, BEEDRILL, BUTTERFREE, 0
 ; Nugget Bridge
-	db 20, FARFETCHD, 0
+	db 20, HERACROSS, 0
 ; Cerulean Backyard
 	db 18, BULBASAUR, 0
 ; Mt. Moon B2F

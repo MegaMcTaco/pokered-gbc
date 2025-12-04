@@ -1,10 +1,10 @@
 Route2WildMons:
 	def_grass_wildmons 25 ; encounter rate
-	db  3, WEEDLE
-	db  3, CATERPIE
-	db  4, PIDGEY
-	db  4, RATTATA
-	db  5, NIDORAN_M
+	db  3, KINGDRA
+	db  3, SLOWKING
+	db  4, BELLOSSOM
+	db  4, SKARMORY
+	db  5, HERACROSS
 IF DEF(_RED)
 	db  3, WEEDLE
 	db  2, RATTATA

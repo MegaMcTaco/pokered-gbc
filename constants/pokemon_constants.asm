@@ -87,21 +87,21 @@
 	const KRABBY             ; $4E
 	const SLOWKING           ; $4F SLOWKING
 	const KINGDRA            ; $50 KINGDRA
-	const_skip               ; $51
+	const_skip               ; $51 POLITOED
 	const VULPIX             ; $52
 	const NINETALES          ; $53
 	const PIKACHU            ; $54
 	const RAICHU             ; $55
-	const_skip               ; $56
-	const_skip               ; $57
+	const_skip               ; $56 HOUNDOUR
+	const_skip               ; $57 HOUNDOOM
 	const DRATINI            ; $58
 	const DRAGONAIR          ; $59
 	const KABUTO             ; $5A
 	const KABUTOPS           ; $5B
 	const HORSEA             ; $5C
 	const SEADRA             ; $5D
-	const_skip               ; $5E
-	const_skip               ; $5F
+	const_skip               ; $5E SLUGMA
+	const_skip               ; $5F MAGCARGO
 	const SANDSHREW          ; $60
 	const SANDSLASH          ; $61
 	const OMANYTE            ; $62
@@ -121,32 +121,32 @@
 	const WEEDLE             ; $70
 	const KAKUNA             ; $71
 	const BEEDRILL           ; $72
-	const_skip               ; $73
+	const_skip               ; $73 HITMONTOP
 	const DODRIO             ; $74
 	const PRIMEAPE           ; $75
 	const DUGTRIO            ; $76
 	const VENOMOTH           ; $77
 	const DEWGONG            ; $78
-	const_skip               ; $79
-	const_skip               ; $7A
+	const_skip               ; $79 HOOTHOOT
+	const_skip               ; $7A NOCTOWL
 	const CATERPIE           ; $7B
 	const METAPOD            ; $7C
 	const BUTTERFREE         ; $7D
 	const MACHAMP            ; $7E
-	const_skip               ; $7F
+	const_skip               ; $7F MURKROW
 	const GOLDUCK            ; $80
 	const HYPNO              ; $81
 	const GOLBAT             ; $82
 	const MEWTWO             ; $83
 	const SNORLAX            ; $84
 	const MAGIKARP           ; $85
-	const_skip               ; $86
-	const_skip               ; $87
-	const MUK                ; $88
-	const_skip               ; $89
+	const_skip               ; $86 CHIKORITA
+	const_skip               ; $87 BAYLEEF
+	const MUK                ; $88 
+	const_skip               ; $89 MEGANIUM
 	const KINGLER            ; $8A
 	const CLOYSTER           ; $8B
-	const_skip               ; $8C
+	const_skip               ; $8C 
 	const ELECTRODE          ; $8D
 	const CLEFABLE           ; $8E
 	const WEEZING            ; $8F

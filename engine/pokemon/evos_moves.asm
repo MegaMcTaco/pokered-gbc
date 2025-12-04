@@ -452,6 +452,18 @@ EeveelutionForceLearnMove:
 	cp VAPOREON
 	ld b, WATER_GUN
 	jr z, .forceLearnMove
+	cp ESPEON
+	ld b, CONFUSION
+	jr z, .forceLearnMove
+	cp UMBREON
+	ld b, BITE
+	jr z, .forceLearnMove
+	cp LEAFEON
+	ld b, RAZOR_LEAF
+	jr z, .forceLearnMove
+	cp GLACEON
+	ld b, ICY_WIND
+	jr z, .forceLearnMove
 	jr .done
 .forceLearnMove
 	push af ; put species number on the stack

@@ -1,4 +1,4 @@
-	db DEX_SCIZOR ; pokedex id
+	db 	 ; pokedex id
 
 	db  70, 130, 100, 65,  80
 	;   hp  atk  def  spd  spc
@@ -18,7 +18,7 @@ ENDC
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm SWORDS_DANCE, TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   \
+	tmhm SWORDS_DANCE, STEEL_WING, 	 TOXIC,        DOUBLE_EDGE,  HYPER_BEAM,   \
 	     RAGE,         MIMIC,        DOUBLE_TEAM,  BIDE,         SWIFT,        \
 	     SKULL_BASH,   REST,         SUBSTITUTE,   CUT
 	; end

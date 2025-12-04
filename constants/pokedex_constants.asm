@@ -166,16 +166,16 @@
 	const DEX_HERACROSS  ; 160
 	const DEX_CROBAT 	 ; 161
 	const DEX_BELLOSSOM  ; 162
-;	const DEX_MISDREAVUS ; 163
-;	const DEX_SLUGMA     ; 164
-;	const DEX_MURKROW    ; 165
-;	const DEX_HOOTHOOT   ; 166
-;	const DEX_NOCTOWL    ; 167
-;	const DEX_HOUNDOUR   ; 168
-;	const DEX_HOUNDOOM   ; 169
-;	const DEX_BLISSEY    ; 170
-;	const DEX_SLOWKING   ; 171
-;	const DEX_KINGDRA	 ; 172
-;	const DEX_HITMONTOP  ; 173
+;	const DEX_SLOWKING   ; 163
+;	const DEX_KINGDRA	 ; 164
+;	const DEX_HITMONTOP  ; 165
+;	const DEX_BLISSEY    ; 166
+;	const DEX_SLUGMA     ; 167
+;	const DEX_MURKROW    ; 168
+;	const DEX_HOOTHOOT   ; 169
+;	const DEX_NOCTOWL    ; 170
+;	const DEX_HOUNDOUR   ; 171
+;	const DEX_HOUNDOOM   ; 172
+
 	
 DEF NUM_POKEMON EQU const_value - 1

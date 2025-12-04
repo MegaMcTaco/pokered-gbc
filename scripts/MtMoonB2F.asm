@@ -252,7 +252,7 @@ MtMoonB2FDomeFossilText:
 	; ld a, [wCurrentMenuItem]
 	; and a
 	; jr nz, .done
-	lb bc, DOME_FOSSIL, 1
+	lb bc, OLD_AMBER, 1
 	call GiveItem
 	jp nc, MtMoonB2FYouHaveNoRoomText
 	call MtMoonB2FReceivedFossilText
@@ -280,7 +280,7 @@ MtMoonB2FHelixFossilText:
 	; ld a, [wCurrentMenuItem]
 	; and a
 	; jr nz, .done
-	lb bc, HELIX_FOSSIL, 1
+	lb bc, OLD_AMBER, 1
 	call GiveItem
 	jp nc, MtMoonB2FYouHaveNoRoomText
 	call MtMoonB2FReceivedFossilText

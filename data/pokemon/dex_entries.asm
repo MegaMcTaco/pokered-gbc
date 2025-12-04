@@ -80,7 +80,7 @@ PokedexEntryPointers:
 	dw KrabbyDexEntry
 	dw SlowkingDexEntry
 	dw KingdraDexEntry
-	dw MissingNoDexEntry
+	dw PolitoedDexEntry
 	dw VulpixDexEntry
 	dw NinetalesDexEntry
 	dw PikachuDexEntry
@@ -409,15 +409,15 @@ TangelaDexEntry:
 	
 EspeonDexEntry:
     db "SUN@"
-    db 8
-    dw 584
+    db 9
+    dw 265
    text_far _EspeonDexEntry
     db "@"	
 	
 UmbreonDexEntry:
     db "MOONLIGHT@"
-	db 8 
-	dw 595 
+	db 10
+	dw 270 
 	text_far _UmbreonDexEntry
 	db "@"
 	
@@ -542,8 +542,8 @@ GolemDexEntry:
 	
 LeafeonDexEntry:
 	db "LEAF@"
-	db 8
-	dw 640
+	db 10
+	dw 255
 	text_far _LeafeonDexEntry
 	db "@"
 
@@ -556,8 +556,8 @@ MagmarDexEntry:
 	
 GlaceonDexEntry:	
 	db "FRESH SNOW@"
-	db 9
-	dw 571
+	db 8
+	dw 259
 	text_far _GlaceonDexEntry
 	db "@"	
 
@@ -584,8 +584,8 @@ KoffingDexEntry:
 	
 SylveonDexEntry:
     db "AFFECTION@"
-	db 8
-	dw 518
+	db 10
+	dw 235
     text_far _SylveonDexEntry
 	db "@"
 
@@ -668,15 +668,15 @@ HeracrossDexEntry:
 
 CrobatDexEntry:
 	db "BAT@"
-	db 5
-	dw 1653
+	db 18
+	dw 750
 	text_far _CrobatDexEntry
 	db "@"	
 	
 BellossomDexEntry:
 	db "FLOWER@"
 	db 4
-	dw 130
+	dw 58
 	text_far _BellossomDexEntry
 	db "@"	
 
@@ -745,17 +745,24 @@ KrabbyDexEntry:
 	
 SlowkingDexEntry: ; 40fd1 (10:4fd1)
 	db "ROYAL@"
-	db 7
-	dw 1753
+	db 20
+	dw 795
 	text_far _SlowkingDexEntry
 	db "@"
 	
 KingdraDexEntry:
 	db "DRAGON@"
-	db 2
-	dw 152
+	db 18
+	dw 1520
 	text_far _KingdraDexEntry
 	db "@"
+	
+PolitoedDexEntry:
+	db "FROG@"
+	db 11
+	dw 339
+	text_far _PolitoedDexEntry
+	text_end	
 
 VulpixDexEntry:
 	db "FOX@"

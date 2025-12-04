@@ -87,7 +87,7 @@
 	const KRABBY             ; $4E
 	const SLOWKING           ; $4F SLOWKING
 	const KINGDRA            ; $50 KINGDRA
-	const_skip               ; $51 POLITOED
+	const POLITOED           ; $51 POLITOED
 	const VULPIX             ; $52
 	const NINETALES          ; $53
 	const PIKACHU            ; $54

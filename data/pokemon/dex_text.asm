@@ -798,6 +798,16 @@ _KingdraDexEntry::
 	next "WHIRLPOOLS by"
 	next "yawning"
 	dex
+	
+_PolitoedDexEntry::
+	text "Whenever three or"
+	next "more of these get"
+	next "together, they"
+
+	page "sing in a loud"
+	next "voice that sounds"
+	next "like bellowing"
+	dex	
 
 _VulpixDexEntry::
 	text "At the time of"

@@ -239,6 +239,7 @@ IF GEN_2_GRAPHICS
 	const PAL_BELLOSSOM
 	const PAL_SLOWKING
 	const PAL_KINGDRA
+	const PAL_POLITOED
 	const PAL_YOUNGSTER     ; $BC
 	const PAL_BUGCATCHER    ; $BD
 	const PAL_LASS          ; $BE

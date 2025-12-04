@@ -168,6 +168,7 @@
 	const DEX_BELLOSSOM  ; 162
 	const DEX_SLOWKING   ; 163
 	const DEX_KINGDRA	 ; 164
+	const DEX_POLITOED
 ;	const DEX_HITMONTOP  ; 165
 ;	const DEX_BLISSEY    ; 166
 ;	const DEX_SLUGMA     ; 167

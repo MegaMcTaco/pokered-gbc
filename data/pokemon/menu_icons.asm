@@ -164,4 +164,5 @@ MonPartyData:
 	nybble ICON_GRASS	  ; Bellossom
 	nybble ICON_MON       ; Slowking
 	nybble ICON_WATER     ; Kingdra
+	nybble ICON_MON       ; Politoed
 	end_nybble_array NUM_POKEMON

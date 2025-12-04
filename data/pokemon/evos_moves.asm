@@ -83,7 +83,7 @@ EvosMovesPointerTable:
 	dw KrabbyEvosMoves
 	dw SlowkingEvosMoves
 	dw KingdraEvosMoves
-	dw MissingNo51EvosMoves
+	dw PolitoedEvosMoves
 	dw VulpixEvosMoves
 	dw NinetalesEvosMoves
 	dw PikachuEvosMoves
@@ -1186,10 +1186,27 @@ KingdraEvosMoves:
 	db 51, HYDRO_PUMP
 	db 0
 
-MissingNo51EvosMoves:
+
+PolitoedEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 6, POUND
+	db 9, DEFENSE_CURL
+	db 15, HYPNOSIS
+	db 17, WATER_GUN
+	db 19, BUBBLEBEAM
+	db 21, LOW_KICK
+	db 23, HEADBUTT
+	db 24, ICE_PUNCH
+	db 25, SUBMISSION
+	db 32, BODY_SLAM
+	db 40, TAKE_DOWN
+	db 42, AMNESIA
+	db 44, HYDRO_PUMP
+	db 46, HAZE
+	db 50, DOUBLE_EDGE
+	db 53, WATERFALL
 	db 0
 
 VulpixEvosMoves:
@@ -1514,6 +1531,7 @@ ParasEvosMoves:
 PoliwhirlEvosMoves:
 ; Evolutions
 	db EVOLVE_ITEM, WATER_STONE, 1, POLIWRATH
+	db EVOLVE_ITEM, KINGS_ROCK, 1, POLITOED
 	db 0
 ; Learnset
 	db 16, HYPNOSIS

@@ -122,19 +122,20 @@ RedrawPartyMenu_::
 	rl b
 	ld c, a
 	add hl, bc
-	ld de, wEvosMoves
+	ld de, wEvoDataBuffer
 	ld a, BANK(EvosMovesPointerTable)
 	ld bc, 2
 	call FarCopyData
-	ld hl, wEvosMoves
+	ld hl, wEvoDataBuffer
 	ld a, [hli]
 	ld h, [hl]
 	ld l, a
-	ld de, wEvosMoves
+	ld de, wEvoDataBuffer
 	ld a, BANK(EvosMovesPointerTable)
-	ld bc, wEvosMovesEnd - wEvosMoves
+; max is Eevee: 5 * 4 byte stone evolutions, 1 * 3 byte level evolution, 0 terminator
+	ld bc, 6 * 4 + 3 + 1
 	call FarCopyData
-	ld hl, wEvosMoves
+	ld hl, wEvoDataBuffer
 	ld de, .notAbleToEvolveText
 ; loop through the pokemon's evolution entries
 .checkEvolutionsLoop

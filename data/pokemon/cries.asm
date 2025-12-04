@@ -68,12 +68,12 @@ CryData::
 	mon_cry SFX_CRY_1D, $11, $40 ; Tauros
 	mon_cry SFX_CRY_16, $00, $80 ; Scizor
 	mon_cry SFX_CRY_17, $FF, $C0 ; Steelix
-	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
+	mon_cry SFX_CRY_18, $40, $A0 ; Skarmory
 	mon_cry SFX_CRY_10, $DD, $01 ; Farfetch'd
 	mon_cry SFX_CRY_1A, $44, $40 ; Venonat
 	mon_cry SFX_CRY_0F, $3C, $C0 ; Dragonite
-	mon_cry SFX_CRY_00, $80, $10 ; MissingNo.
-	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
+	mon_cry SFX_CRY_14, $00, $80 ; Heracross
+	mon_cry SFX_CRY_1D, $00, $C0 ; Crobat
 	mon_cry SFX_CRY_1D, $E0, $80 ; MissingNo.
 	mon_cry SFX_CRY_0B, $BB, $01 ; Doduo
 	mon_cry SFX_CRY_0E, $FF, $FF ; Poliwag

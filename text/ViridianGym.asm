@@ -73,6 +73,7 @@ _ViridianGymBlueTM27ExplanationText::
 	para "Press SELECT when"
 	line "facing a boulder"
 	cont "to activate it."
+	done
 
 _ViridianGymBlueTM27NoRoomText::
 	text "You do not have"

@@ -62,12 +62,12 @@ PokedexEntryPointers:
 	dw TaurosDexEntry
 	dw ScizorDexEntry
 	dw SteelixDexEntry
-	dw MissingNoDexEntry
+	dw SkarmoryDexEntry
 	dw FarfetchdDexEntry
 	dw VenonatDexEntry
 	dw DragoniteDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
+	dw HeracrossDexEntry
+	dw CrobatDexEntry
 	dw MissingNoDexEntry
 	dw DoduoDexEntry
 	dw PoliwagDexEntry
@@ -630,6 +630,13 @@ SteelixDexEntry:
 	dw 8818
 	text_far _SteelixDexEntry
 	db "@"
+	
+SkarmoryDexEntry:
+	db "ARMOR BIRD@"
+	db 5
+	dw 1113
+	text_far _SkarmoryDexEntry
+	db "@"
 
 FarfetchdDexEntry:
 	db "WILD DUCK@"
@@ -651,6 +658,20 @@ DragoniteDexEntry:
 	dw 2100
 	text_far _DragoniteDexEntry
 	text_end
+	
+HeracrossDexEntry:
+	db "SINGLEHORN@"
+	db 4
+	dw 1190
+	text_far _HeracrossDexEntry
+	db "@"
+
+CrobatDexEntry:
+	db "BAT@"
+	db 5
+	dw 1653
+	text_far _CrobatDexEntry
+	db "@"	
 
 DoduoDexEntry:
 	db "TWIN BIRD@"

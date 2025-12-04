@@ -69,12 +69,12 @@
 	const TAUROS             ; $3C
 	const SCIZOR             ; $3D
 	const STEELIX            ; $3E
-	const_skip               ; $3F
+	const SKARMORY           ; $3F SKARMORY
 	const FARFETCHD          ; $40
 	const VENONAT            ; $41
 	const DRAGONITE          ; $42
-	const_skip               ; $43
-	const_skip               ; $44
+	const HERACROSS          ; $43 HERACROSS
+	const CROBAT             ; $44 CROBAT
 	const_skip               ; $45
 	const DODUO              ; $46
 	const POLIWAG            ; $47

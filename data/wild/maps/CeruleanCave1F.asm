@@ -1,6 +1,6 @@
 CeruleanCave1FWildMons:
 	def_grass_wildmons 10 ; encounter rate
-	db 46, GOLBAT
+	db 46, CROBAT
 	db 46, HYPNO
 	db 46, MAGNETON
 	db 49, ARBOK

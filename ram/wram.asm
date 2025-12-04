@@ -465,6 +465,11 @@ wLastSwitchInEnemyMonHP:: dw
 ; total amount of money made using Pay Day during the current battle
 wTotalPayDayMoney:: ds 3
 
+NEXTU
+; evolution data for one mon
+; max is Eevee: 5 * 4 byte stone evolutions, 1 * 3 byte level evolution, 0 terminator
+wEvoDataBuffer:: ds 6 * 4 + 3 + 1
+
 wSafariEscapeFactor:: db
 wSafariBaitFactor:: db
 
@@ -898,9 +903,9 @@ wNumMovesMinusOne:: db
 UNION
 wcd6d:: ds NAME_BUFFER_LENGTH ; buffer for various data
 
-NEXTU
-wEvosMoves:: ds MAX_EVOLUTIONS * EVOLUTION_SIZE + 1
-wEvosMovesEnd::
+;NEXTU
+;wEvosMoves:: ds MAX_EVOLUTIONS * EVOLUTION_SIZE + 1
+;wEvosMovesEnd::
 
 NEXTU
 	ds 4

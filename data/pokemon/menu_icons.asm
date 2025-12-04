@@ -158,4 +158,7 @@ MonPartyData:
 	nybble ICON_QUADRUPED ; Sylveon
 	nybble ICON_BUG       ; Scizor
 	nybble ICON_SNAKE     ; Steelix
+	nybble ICON_BIRD      ; Skarmory
+	nybble ICON_BUG       ; Heracross
+	nybble ICON_MON       ; Crobat
 	end_nybble_array NUM_POKEMON

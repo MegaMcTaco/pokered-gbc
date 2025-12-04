@@ -82,9 +82,11 @@ Route20_TextPointers:
 	dw_const Route20Swimmer7Text,           TEXT_ROUTE20_SWIMMER7
 	dw_const Route20Swimmer8Text,           TEXT_ROUTE20_SWIMMER8
 	dw_const Route20Swimmer9Text,           TEXT_ROUTE20_SWIMMER9
+	dw_const BoulderText,             	    TEXT_VOLCANO_BOULDER
 	dw_const Route20SeafoamIslandsSignText, TEXT_ROUTE20_SEAFOAM_ISLANDS_WEST_SIGN
 	dw_const Route20SeafoamIslandsSignText, TEXT_ROUTE20_SEAFOAM_ISLANDS_EAST_SIGN
 	dw_const CinnabarVolcanoSignText,       TEXT_CINNABAR_VOLCANO_SIGN
+
 
 Route20TrainerHeaders:
 	def_trainers

@@ -1,0 +1,27 @@
+	db DEX_HERACROSS ; pokedex id
+
+	db  80,  125,  75,  85,  95
+	;   hp  atk  def  spd  spc
+
+	db BUG, FIGHTING ; type
+	db 80 ; catch rate
+	db 200 ; base exp
+
+IF GEN_2_GRAPHICS
+	INCBIN "gfx/pokemon/gsfront/heracross.pic", 0, 1 ; sprite dimensions
+ELSE
+	INCBIN "gfx/pokemon/front/heracross.pic", 0, 1 ; sprite dimensions
+ENDC
+	dw HeracrossPicFront, HeracrossPicBack
+
+	db TACKLE, VICEGRIP, NO_MOVE, NO_MOVE ; level 1 learnset
+	db GROWTH_SLOW ; growth rate
+
+	; tm/hm learnset
+	tmhm SWORDS_DANCE, TOXIC,        BODY_SLAM,    DOUBLE_EDGE,  HYPER_BEAM,  \
+	     COUNTER,      SEISMIC_TOSS, EARTHQUAKE,   DIG, 		MIMIC,        \
+	     MIMIC,        DOUBLE_TEAM,  REST,         SUBSTITUTE,   CUT,		  \
+		 STRENGTH
+	; end
+
+	db BANK(HeracrossPicFront)

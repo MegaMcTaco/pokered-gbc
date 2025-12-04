@@ -617,6 +617,16 @@ _SteelixDexEntry::
 	next "changes to become"
 	next "diamond-like"
 	dex
+	
+_SkarmoryDexEntry::
+	text "Its sturdy wings"
+	next "look heavy, but"
+	next "they are actually"
+	
+	page "hollow and light,"
+	next "allowing it to fly"
+	next "freely in the sky"
+	dex
 
 _FarfetchdDexEntry::
 	text "The sprig of"
@@ -646,6 +656,26 @@ _DragoniteDexEntry::
 	page "Its intelligence"
 	next "is said to match"
 	next "that of humans"
+	dex
+
+_HeracrossDexEntry::
+	text "This powerful"
+	next "#MON thrusts"
+	next "its prized horn"
+	
+	page "under its enemies'"
+	next "bellies then lifts"
+	next "and throws them"
+	dex
+	
+_CrobatDexEntry::
+	text "As a result of its"
+	next "pursuit of faster,"
+	next "yet more silent"
+	
+	page "flight, a new set"
+	next "of wings grew on"
+	next "its hind legs."
 	dex
 
 _DoduoDexEntry::

@@ -7,7 +7,7 @@ IF DEF(_RED)
 	db 24, EXEGGCUTE
 	db 33, DODRIO
 	db 26, EXEGGUTOR
-	db 25, NIDORAN_F ; change to Heracross eventually
+	db 25, HERACROSS
 ENDC
 IF DEF(_BLUE)
 	db 25, NIDORAN_F

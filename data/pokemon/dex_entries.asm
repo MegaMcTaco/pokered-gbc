@@ -672,6 +672,13 @@ CrobatDexEntry:
 	dw 1653
 	text_far _CrobatDexEntry
 	db "@"	
+	
+BellossomDexEntry:
+	db "FLOWER@"
+	db 4
+	dw 130
+	text_far _BellossomDexEntry
+	db "@"	
 
 DoduoDexEntry:
 	db "TWIN BIRD@"

@@ -677,6 +677,16 @@ _CrobatDexEntry::
 	next "of wings grew on"
 	next "its hind legs."
 	dex
+	
+_BellossomDexEntry::
+	text "The flowers that"
+	next "bloom on its head"
+	next "are said to be"
+
+	page "more beautiful if"
+	next "it evolved from a"
+	next "more smelly GLOOM"
+	dex
 
 _DoduoDexEntry::
 	text "A bird that makes"

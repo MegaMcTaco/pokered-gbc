@@ -163,6 +163,7 @@ IF GEN_2_GRAPHICS
 	db PAL_SKARMORY
 	db PAL_HERACROSS
 	db PAL_CROBAT
+	db PAL_BELLOSSOM
 TrainerPalettes: ; Gen II trainer sprites are given their own palettes
 	db PAL_HERO
 	db PAL_YOUNGSTER

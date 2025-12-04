@@ -75,7 +75,7 @@
 	const DRAGONITE          ; $42
 	const HERACROSS          ; $43 HERACROSS
 	const CROBAT             ; $44 CROBAT
-	const_skip               ; $45
+	const BELLOSSOM          ; $45 BELLOSSOM
 	const DODUO              ; $46
 	const POLIWAG            ; $47
 	const JYNX               ; $48

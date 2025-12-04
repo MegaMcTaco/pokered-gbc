@@ -1,0 +1,27 @@
+	db DEX_BELLOSSOM ; pokedex id
+
+	db  75,  80,  85, 50,  110
+	;   hp  atk  def  spd  spc
+
+	db GRASS, GRASS ; type
+	db 45 ; catch rate
+	db 184 ; base exp
+
+IF GEN_2_GRAPHICS
+	INCBIN "gfx/pokemon/gsfront/bellossom.pic", 0, 1 ; sprite dimensions
+ELSE
+	INCBIN "gfx/pokemon/front/bellossom.pic", 0, 1 ; sprite dimensions
+ENDC
+	dw BellossomPicFront, BellossomPicBack
+
+	db SOLARBEAM, MOONBLAST, PETAL_DANCE, GROWTH ; level 1 learnset
+	db GROWTH_MEDIUM_SLOW ; growth rate
+
+	; tm/hm learnset
+	tmhm SWORDS_DANCE, TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
+	     HYPER_BEAM,   RAGE,         MEGA_DRAIN,   SOLARBEAM,    MIMIC,        \
+	     DOUBLE_TEAM,  REFLECT,      BIDE,         REST,         SUBSTITUTE,   \
+	     CUT,          FLASH
+	; end
+
+	db BANK(BellossomPicFront)

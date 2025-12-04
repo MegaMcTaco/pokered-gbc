@@ -8,7 +8,7 @@ TradeMons:
 	; the same species as English Red and Blue.
 	db HAUNTER,   KADABRA,   TRADE_DIALOGSET_CASUAL,    "LENIN@@@@@@" ; Route 11 - Alakazam Trade Evolution
 	db GRAVELER,  MACHOKE,   TRADE_DIALOGSET_CASUAL,    "STALIN@@@@@" ; Route 2 - Machamp Trade Evolution
-	db BUTTERFREE, BEEDRILL,  TRADE_DIALOGSET_HAPPY,    "FANON@@@@@@" ; Pewter Museum - Aerodactyl for Skarmory
+	db AERODACTYL, SKARMORY,  TRADE_DIALOGSET_HAPPY,    "FANON@@@@@@" ; Pewter Museum - Aerodactyl for Skarmory
 	db PONYTA,     SEEL,      TRADE_DIALOGSET_CASUAL,   "MAO@@@@@@@@" ; Cinnabar Island - Cubone for Larvitar 
 	db ABRA,       MR_MIME,   TRADE_DIALOGSET_HAPPY,    "MARX@@@@@@@" ; Vermillion City - Squirtle for Totodile
 	db KADABRA,    HAUNTER,   TRADE_DIALOGSET_CASUAL,   "ENGELS@@@@@" ; Route 18 - Gengar Trade Evolution

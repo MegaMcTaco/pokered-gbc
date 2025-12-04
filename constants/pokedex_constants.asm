@@ -165,7 +165,7 @@
 	const DEX_SKARMORY	 ; 159
 	const DEX_HERACROSS  ; 160
 	const DEX_CROBAT 	 ; 161
-;	const DEX_BELLOSSOM  ; 162
+	const DEX_BELLOSSOM  ; 162
 ;	const DEX_MISDREAVUS ; 163
 ;	const DEX_SLUGMA     ; 164
 ;	const DEX_MURKROW    ; 165

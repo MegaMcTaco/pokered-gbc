@@ -5,7 +5,7 @@ IF DEF(_RED)
 	db 26, DODUO
 	db 22, TANGELA
 	db 23, EXEGGCUTE
-	db 33, PINSIR ; change to Noctowl eventually
+	db 33, HERACROSS
 	db 25, EXEGGUTOR
 	db 25, TAUROS
 	db 25, CUBONE

@@ -71,7 +71,7 @@ EvosMovesPointerTable:
 	dw DragoniteEvosMoves
 	dw HeracrossEvosMoves
 	dw CrobatEvosMoves
-	dw MissingNo45EvosMoves
+	dw BellossomEvosMoves
 	dw DoduoEvosMoves
 	dw PoliwagEvosMoves
 	dw JynxEvosMoves
@@ -1050,10 +1050,15 @@ CrobatEvosMoves::
 	db 33, WING_ATTACK
 	db 44, HAZE
 
-MissingNo45EvosMoves:
+BellossomEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 14, POISONPOWDER
+	db 16, STUN_SPORE
+	db 18, SLEEP_POWDER
+	db 25, MEGA_DRAIN
+	db 45, PETAL_DANCE
 	db 0
 
 DoduoEvosMoves:
@@ -2262,6 +2267,7 @@ OddishEvosMoves:
 GloomEvosMoves:
 ; Evolutions
 	db EVOLVE_ITEM, LEAF_STONE, 1, VILEPLUME
+	db EVOLVE_ITEM, SUN_STONE, 1, BELLOSSOM
 	db 0
 ; Learnset
 	db 15, POISONPOWDER

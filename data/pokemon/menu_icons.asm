@@ -161,4 +161,5 @@ MonPartyData:
 	nybble ICON_BIRD      ; Skarmory
 	nybble ICON_BUG       ; Heracross
 	nybble ICON_MON       ; Crobat
+	nybble ICON_GRASS	  ; Bellossom
 	end_nybble_array NUM_POKEMON

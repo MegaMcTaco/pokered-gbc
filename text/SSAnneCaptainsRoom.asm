@@ -55,8 +55,8 @@ _SSAnneCaptainsRoomTrashText::
 	done
 
 _SSAnneCaptainsRoomSeasickBookText::
-	text "How to Conquer"
-	line "Seasickness..."
+	text "Combat Liberalism"
+	line "by Mao Zedong."
 	cont "The CAPTAIN's"
 	cont "reading this!"
 	done

@@ -39,4 +39,6 @@ UsableItems_PartyMenu:
 	db ELIXER
 	db MAX_ELIXER
 	db METAL_COAT
+	db DRAGON_SCALE
+	db KINGS_ROCK
 	db -1 ; end

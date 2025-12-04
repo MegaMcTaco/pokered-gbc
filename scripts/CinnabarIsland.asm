@@ -65,7 +65,7 @@ CinnabarIsland_TextPointers:
 
 CinnabarIslandDoorIsLockedText:
 	text_asm
-	ld b, SECRET_KEY
+	ld b, DRAGON_SCALE
 	predef GetIndexOfItemInBag
 	ld a, b
 	cp $FF ; not in bag

@@ -42,12 +42,12 @@ ItemPrices::
 	bcd3 4800  ; RARE_CANDY
 	bcd3 0     ; DOME_FOSSIL
 	bcd3 0     ; HELIX_FOSSIL
-	bcd3 0     ; SECRET_KEY
+	bcd3 0     ; SECRET_KEY - DRAGON SCALE
 	bcd3 100   ; SUN_STONE
 	bcd3 0     ; BIKE_VOUCHER
 	bcd3 950   ; X_ACCURACY
 	bcd3 100   ; LEAF_STONE
-	bcd3 0     ; CARD_KEY
+	bcd3 0     ; CARD_KEY - KINGS ROCK
 	bcd3 10000 ; NUGGET
 	bcd3 100   ; ICE_STONE
 	bcd3 1000  ; POKE_DOLL

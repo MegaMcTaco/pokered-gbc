@@ -59,12 +59,12 @@ ItemUsePtrTable:
 	dw ItemUseVitamin    ; RARE_CANDY
 	dw UnusableItem      ; DOME_FOSSIL
 	dw UnusableItem      ; HELIX_FOSSIL
-	dw UnusableItem      ; SECRET KEY
+	dw ItemUseEvoStone   ; SECRET KEY - NOW DRAGON SCALE
 	dw ItemUseEvoStone   ; SUN_STONE
 	dw UnusableItem      ; BIKE_VOUCHER
 	dw ItemUseXAccuracy  ; X_ACCURACY
 	dw ItemUseEvoStone   ; LEAF_STONE
-	dw UnusableItem      ; CARD_KEY
+	dw ItemUseEvoStone   ; CARD_KEY - NOW KINGS ROCK
 	dw UnusableItem      ; NUGGET
 	dw ItemUseEvoStone   ; ICE_STONE
 	dw ItemUsePokeDoll   ; POKE_DOLL

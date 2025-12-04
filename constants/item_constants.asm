@@ -51,12 +51,12 @@ DEF SAFARI_ROCK EQU CASCADEBADGE ; overload
 	const RARE_CANDY    ; $28
 	const DOME_FOSSIL   ; $29
 	const HELIX_FOSSIL  ; $2A
-	const SECRET_KEY    ; $2B
+	const DRAGON_SCALE  ; $2B ; WAS SECRET_KEY
 	const SUN_STONE     ; $2C ; SUN STONE
 	const BIKE_VOUCHER  ; $2D
 	const X_ACCURACY    ; $2E
 	const LEAF_STONE    ; $2F
-	const CARD_KEY      ; $30
+	const KINGS_ROCK    ; $30 ; WAS CARD_KEY
 	const NUGGET        ; $31
 	const ICE_STONE     ; $32 ; ICE STONE
 	const POKE_DOLL     ; $33

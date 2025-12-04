@@ -22,7 +22,7 @@ PrintCardKeyText:
 	cp $5e
 	ret nz
 .cardKeyDoorInFrontOfPlayer
-	ld b, CARD_KEY
+	ld b, KINGS_ROCK
 	call IsItemInBag
 	jr z, .noCardKey
 	call GetCoordsInFrontOfPlayer
@@ -89,7 +89,7 @@ CheckAllCardKeyEvents::
 	ret
 
 PrintCardKeyDoneText::
-	ld b, CARD_KEY
+	ld b, KINGS_ROCK
 	predef GetIndexOfItemInBag
 	ld a, b
 	ld [wWhichPokemon], a ; load item index to be removed

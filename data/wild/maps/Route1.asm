@@ -1,7 +1,7 @@
 Route1WildMons:
 	def_grass_wildmons 25 ; encounter rate
-	db  95, ARTICUNO
-	db  95, MEWTWO
+	db  3, PIDGEY
+	db  3, RATTATA
 	db  3, RATTATA
 	db  2, RATTATA
 	db  2, PIDGEY

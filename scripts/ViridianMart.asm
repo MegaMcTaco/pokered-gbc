@@ -99,4 +99,4 @@ ViridianMartCooltrainerMText:
 	text_end
 
 ViridianMartClerkText:
-   script_mart MASTER_BALL, MOON_STONE, LEAF_STONE, SUN_STONE, ICE_STONE, KINGS_ROCK, DRAGON_SCALE, METAL_COAT
+   script_mart MASTER_BALL, POKE_BALL, ANTIDOTE, PARLYZ_HEAL, BURN_HEAL

@@ -16,4 +16,4 @@ CeruleanMartCooltrainerFText:
 	text_end
 
 CeruleanMartClerkText:
-	script_mart MASTER_BALL, LEAF_STONE, REPEL, ANTIDOTE, BURN_HEAL, AWAKENING, PARLYZ_HEAL
+	script_mart POKE_BALL, POTION, REPEL, ANTIDOTE, BURN_HEAL, AWAKENING, PARLYZ_HEAL

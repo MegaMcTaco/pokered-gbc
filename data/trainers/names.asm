@@ -48,4 +48,5 @@ TrainerNames::
 	li "AGATHA"
 	li "LANCE"
 	li "JANINE"
+	li "RED"
 	assert_list_length NUM_TRAINERS

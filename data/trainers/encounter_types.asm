@@ -15,4 +15,5 @@ RadTrainerList::
 	db OPP_SCIENTIST
 	db OPP_BLUE
 	db OPP_ROCKET
+	db OPP_RED
 	db -1 ; end

@@ -302,7 +302,7 @@ BlainePic::        INCBIN "gfx/trainers/blaine.pic"
 SabrinaPic::       INCBIN "gfx/trainers/sabrina.pic"
 GentlemanPic::     INCBIN "gfx/trainers/gentleman.pic"
 Rival2Pic::        INCBIN "gfx/trainers/rival2.pic"
-RedPic::           INCBIN "gfx/trainers/rival3.pic"
+Rival3Pic::        INCBIN "gfx/trainers/rival3.pic"
 LoreleiPic::       INCBIN "gfx/trainers/lorelei.pic"
 ChannelerPic::     INCBIN "gfx/trainers/channeler.pic"
 AgathaPic::        INCBIN "gfx/trainers/agatha.pic"
@@ -366,6 +366,7 @@ DiglettPicFront::     INCBIN "gfx/pokemon/gsfront/diglett.pic"
 DiglettPicBack::      INCBIN "gfx/pokemon/gsback/diglettb.pic"
 TaurosPicFront::      INCBIN "gfx/pokemon/gsfront/tauros.pic"
 TaurosPicBack::       INCBIN "gfx/pokemon/gsback/taurosb.pic"
+RedPic::          	  INCBIN "gfx/gstrainers/redchamp.pic"
 ENDC
 
 IF !GEN_2_GRAPHICS
@@ -419,6 +420,7 @@ DiglettPicFront::     INCBIN "gfx/pokemon/front/diglett.pic"
 DiglettPicBack::      INCBIN "gfx/pokemon/back/diglettb.pic"
 TaurosPicFront::      INCBIN "gfx/pokemon/front/tauros.pic"
 TaurosPicBack::       INCBIN "gfx/pokemon/back/taurosb.pic"
+RedPic::           	  INCBIN "gfx/trainers/redchamp.pic"
 ENDC
 
 

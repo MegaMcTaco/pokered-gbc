@@ -57,4 +57,5 @@ TrainerClassMoveChoiceModifications:
 	move_choices 1       ; AGATHA
 	move_choices 1, 3    ; LANCE
 	move_choices 1, 3    ; JANINE
+	move_choices 1, 3    ; RED
 	assert_list_length NUM_TRAINERS

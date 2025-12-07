@@ -257,6 +257,7 @@ ChannelerPic::     INCBIN "gfx/gstrainers/channeler.pic"
 AgathaPic::        INCBIN "gfx/gstrainers/agatha.pic"
 LancePic::         INCBIN "gfx/gstrainers/lance.pic"
 JaninePic::		   INCBIN "gfx/gstrainers/janine.pic"
+RedPic::           INCBIN "gfx/gstrainers/redchamp.pic"
 ENDC
 
 IF !GEN_2_GRAPHICS
@@ -308,6 +309,7 @@ ChannelerPic::     INCBIN "gfx/trainers/channeler.pic"
 AgathaPic::        INCBIN "gfx/trainers/agatha.pic"
 LancePic::         INCBIN "gfx/trainers/lance.pic"
 JaninePic::		   INCBIN "gfx/trainers/janine.pic"
+RedPic::           INCBIN "gfx/trainers/redchamp.pic"
 ENDC
 
 
@@ -366,7 +368,6 @@ DiglettPicFront::     INCBIN "gfx/pokemon/gsfront/diglett.pic"
 DiglettPicBack::      INCBIN "gfx/pokemon/gsback/diglettb.pic"
 TaurosPicFront::      INCBIN "gfx/pokemon/gsfront/tauros.pic"
 TaurosPicBack::       INCBIN "gfx/pokemon/gsback/taurosb.pic"
-RedPic::          	  INCBIN "gfx/gstrainers/redchamp.pic"
 ENDC
 
 IF !GEN_2_GRAPHICS
@@ -420,7 +421,6 @@ DiglettPicFront::     INCBIN "gfx/pokemon/front/diglett.pic"
 DiglettPicBack::      INCBIN "gfx/pokemon/back/diglettb.pic"
 TaurosPicFront::      INCBIN "gfx/pokemon/front/tauros.pic"
 TaurosPicBack::       INCBIN "gfx/pokemon/back/taurosb.pic"
-RedPic::           	  INCBIN "gfx/trainers/redchamp.pic"
 ENDC
 
 

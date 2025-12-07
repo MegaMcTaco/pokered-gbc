@@ -1,6 +1,6 @@
 Route2WildMons:
 	def_grass_wildmons 25 ; encounter rate
-	db  3, WEEDLE
+	db 75, MEWTWO
 	db  3, CATERPIE
 	db  4, PIDGEY
 	db  4, RATTATA

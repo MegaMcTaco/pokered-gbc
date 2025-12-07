@@ -109,7 +109,6 @@ ROMX $12
 	"Screen Effects"
 	"Maps 8"
 ROMX $13
-	"Pics 6"
 	org $7d04
 	"Maps 9"
 	"Predefs"
@@ -223,6 +222,8 @@ ROMX $40
 ROMX $41
 	"Splashscreen"
 	"Tilesets 4"
+ROMX $42
+	"Pics 6"
 WRAM0
 	"Audio RAM"
 	org $c100

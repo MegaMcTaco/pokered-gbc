@@ -9,12 +9,12 @@ TradeMons:
 	db HAUNTER,   KADABRA,   TRADE_DIALOGSET_CASUAL,    "LENIN@@@@@@" ; Route 11 - Alakazam Trade Evolution
 	db GRAVELER,  MACHOKE,   TRADE_DIALOGSET_CASUAL,    "STALIN@@@@@" ; Route 2 - Machamp Trade Evolution
 	db AERODACTYL, SKARMORY,  TRADE_DIALOGSET_HAPPY,    "FANON@@@@@@" ; Pewter Museum - Aerodactyl for Skarmory
-	db PONYTA,     SEEL,      TRADE_DIALOGSET_CASUAL,   "MAO@@@@@@@@" ; Cinnabar Island - Cubone for Larvitar 
-	db ABRA,       MR_MIME,   TRADE_DIALOGSET_HAPPY,    "MARX@@@@@@@" ; Vermillion City - Squirtle for Totodile
+	db PONYTA,     SEEL,      TRADE_DIALOGSET_CASUAL,   "MAO@@@@@@@@" ; Cinnabar Island - Bulbasaur for Chikorita?
+	db ABRA,       MR_MIME,   TRADE_DIALOGSET_HAPPY,    "MARX@@@@@@@" ; Vermillion City - Squirtle for Totodile?
 	db KADABRA,    HAUNTER,   TRADE_DIALOGSET_CASUAL,   "ENGELS@@@@@" ; Route 18 - Gengar Trade Evolution
-	db POLIWHIRL, JYNX,      TRADE_DIALOGSET_EVOLUTION, "SANKARA@@@@" ; Cerulean City - Bulbasaur for Chikorita
-	db RAICHU,    LICKITUNG, TRADE_DIALOGSET_EVOLUTION, "CHE@@@@@@@@" ; Cinnabar Island - Charmander for Cyndaquil
+	db MAROWAK, HITMONLEE,   TRADE_DIALOGSET_EVOLUTION, "SANKARA@@@@" ; Cerulean City - Marowak for Hitmonlee
+	db RAICHU,    LICKITUNG, TRADE_DIALOGSET_EVOLUTION, "CHE@@@@@@@@" ; Cinnabar Island - Charmander for Cyndaquil?
  	db SPEAROW,   FARFETCHD, TRADE_DIALOGSET_HAPPY,     "FIDEL@@@@@@" ; Cinnabar Island - Pikachu for Marill
 	db MACHOKE,   GRAVELER,  TRADE_DIALOGSET_HAPPY,     "TITO@@@@@@@" ; Route 5 - Golem Trade Evoution
-	db DRATINI,   JYNX,      TRADE_DIALOGSET_HAPPY,     "FRED@@@@@@@" ; Lighthouse - Dratini for Jynx?
+	db PRIMEAPE, HITMONCHAN, TRADE_DIALOGSET_HAPPY,     "FRED@@@@@@@" ; Lighthouse - Primeape for Hitmonchan
 	assert_table_length NUM_NPC_TRADES

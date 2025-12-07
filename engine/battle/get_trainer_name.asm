@@ -9,7 +9,7 @@ GetTrainerName_::
 	jr z, .foundName
 	cp RIVAL2
 	jr z, .foundName
-	cp RIVAL3
+	cp RED
 	jr z, .foundName
 	ld [wd0b5], a
 	ld a, TRAINER_NAME

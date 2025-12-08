@@ -77,6 +77,8 @@ SpriteSheetPointerTable:
 	overworld_sprite LaprasSprite, 12			; SPRITE_LAPRAS
 	overworld_sprite BillSprite, 12			    ; SPRITE_BILL
 	overworld_sprite SeelSprite, 12             ; SPRITE_SEEL
+	overworld_sprite MewSprite, 12
+	overworld_sprite MewtwoSprite, 12
 	overworld_sprite PokeBallSprite, 4          ; SPRITE_POKE_BALL
 	overworld_sprite FossilSprite, 4            ; SPRITE_FOSSIL
 	overworld_sprite BoulderSprite, 4           ; SPRITE_BOULDER

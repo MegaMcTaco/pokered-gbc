@@ -523,6 +523,12 @@ SpritePaletteAssignments: ; Characters on the overworld
 
 	; 0x45: SPRITE_SEEL
 	db SPR_PAL_BLUE
+	
+	; SPRITE_MEW
+	db SPR_PAL_ORANGE
+	
+	; SPRITE_MEWTWO
+	db SPR_PAL_ORANGE
 
 	; 0x46: SPRITE_BALL
 	db SPR_PAL_ORANGE

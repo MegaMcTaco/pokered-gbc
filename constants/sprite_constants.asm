@@ -72,6 +72,8 @@
 	const SPRITE_LAPRAS                  ; $43
 	const SPRITE_BILL                    ; $44
 	const SPRITE_SEEL                    ; $45
+	const SPRITE_MEW
+	const SPRITE_MEWTWO	
 DEF FIRST_STILL_SPRITE EQU const_value
 	const SPRITE_POKE_BALL               ; $46
 	const SPRITE_FOSSIL                  ; $47

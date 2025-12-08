@@ -41,7 +41,7 @@ EnterMap::
 OverworldLoop::
 	call DelayFrame
 OverworldLoopLessDelay::
-	;call DelayFrame
+	call DelayFrame
 	call LoadGBPal
 	ld a, [wd736]
 	bit 6, a ; jumping down a ledge?
@@ -220,7 +220,7 @@ OverworldLoopLessDelay::
 	jp c, PlayThudAndLoop
 
 .noCollision
-	ld a, $10
+	ld a, $08
 	ld [wWalkCounter], a
 	jr .moveAhead2
 
@@ -300,7 +300,6 @@ OverworldLoopLessDelay::
 	ld hl, wCurrentMapScriptFlags
 	set 5, [hl]
 	set 6, [hl]
-	set 3, [hl] ; PureRGBnote: ADDED: new bit indicating we reloaded a map from a battle
 	xor a
 	ldh [hJoyHeld], a
 	ld a, [wCurMap]
@@ -634,13 +633,6 @@ ExtraWarpCheck::
 
 MapEntryAfterBattle::
 	farcall IsPlayerStandingOnWarp ; for enabling warp testing after collisions
-;;;;;;;;;; PureRGBnote: ADDED: skip fading in in maps that use a specific bit in their header - allows tile block replacements to go unseen
-	ld a, [wCurMapConnections]
-	bit 4, a
-	ret nz
-;;;;;;;;;;
-	; fall through
-MapFadeAfterBattle::
 	ld a, [wMapPalOffset]
 	and a
 	jp z, GBFadeInFromWhite
@@ -1343,7 +1335,7 @@ AdvancePlayerSprite::
 	ld [wXCoord], a
 .afterUpdateMapCoords
 	ld a, [wWalkCounter] ; walking animation counter
-	cp $0f
+	cp $07
 	jp nz, .scrollBackgroundAndSprites
 ; if this is the first iteration of the animation
 	ld a, c
@@ -1490,6 +1482,8 @@ AdvancePlayerSprite::
 	ld b, a
 	ld a, [wSpritePlayerStateData1XStepVector]
 	ld c, a
+	sla b
+	sla c
 	ldh a, [hSCY]
 	add b
 	ldh [hSCY], a ; update background scroll Y
@@ -1862,21 +1856,7 @@ RunMapScript::
 	push de
 	jp hl ; jump to script
 .return
-
-;;;;;;;;;; PureRGBnote: ADDED: code that will fade back in after battle in specific maps with a bit in their header
-;;;;;;;;;; used to keep tileblock replacements unseen
-	ld hl, wCurrentMapScriptFlags
-	bit 3, [hl]
-	res 3, [hl]
-	ret z
-	ld a, [wCurMapConnections]
-	bit 4, a
-	ret z
-	ld a, [wIsInBattle]
-	cp $ff
-	ret z
-	jp MapFadeAfterBattle
-;;;;;;;;;;
+	ret
 
 LoadWalkingPlayerSpriteGraphics::
 	ld de, RedSprite
@@ -1890,7 +1870,7 @@ LoadWalkingPlayerSpriteGraphics::
 	
 
 LoadSurfingPlayerSpriteGraphics::
-	ld de, LaprasSprite
+	ld de, SeelSprite
 	ld hl, vNPCSprites
 	jr LoadPlayerSpriteGraphicsCommon
 

@@ -780,6 +780,9 @@ DEF INDIGO_PLATEAU_EVENTS_END EQU const_value - 1
 	const_skip 8
 	const EVENT_BEAT_ARTICUNO
 
+; Post Game events
+;	const_next $9E0
+;	const EVENT_PLAYER_IS_CHAMPION
 
 ; End of events
 	const_next $A00
@@ -790,5 +793,9 @@ DEF INDIGO_PLATEAU_EVENTS_END EQU const_value - 1
 	const_skip 7
 	const EVENT_BEAT_BEACH_BEAUTY
 	const EVENT_BEAT_LAPRAS
+	
+
+
+	
 
 DEF NUM_EVENTS EQU const_value

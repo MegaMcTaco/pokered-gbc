@@ -58,9 +58,12 @@ _CinnabarGymBlaineTM38ExplanationText::
 	para "Teach it to fire-"
 	line "type #MON!"
 
-	para "CHARMELEON or"
-	line "PONYTA would be"
-	cont "good bets!"
+	para "If you are so"
+	line "strong, you"
+	cont "should search for"
+	cont "the flaming"
+	cont "#MON in the"
+	cont "volcano!"
 	done
 
 _CinnabarGymBlaineTM38NoRoomText::
@@ -210,3 +213,36 @@ _CinnabarGymGuideBeatBlaineText::
 	text "<PLAYER>! You beat"
 	line "that fire brand!"
 	text_end
+
+_CinnabarGymRematchPreBattleText:: ; change all this text eventually
+	text "I can't believe"
+	line "you caught the"
+	cont "#MON MOLTRES!"
+
+	para "My fire is"
+	line "burning hotter"
+	cont "than ever!"
+
+	para "I challenge"
+	line "you to a"
+	cont "fiery rematch!"
+	done
+
+_CinnabarGymRematchAcceptedText::
+	text "You will leave"
+	line "this place burnt"
+	cont "to a crisp!"
+	done
+
+_CinnabarGymRematchRefusedText::
+	text "I bet you're"
+	line "scared! Hahaha!"
+	done
+
+_CinnabarGymRematchDefeatedText::
+	text "Doused!"
+	prompt
+
+_CinnabarGymRematchPostBattleText::
+	text "Extinguished"
+	line "yet again!"

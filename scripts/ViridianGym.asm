@@ -15,7 +15,7 @@ ViridianGym_Script:
 
 .LeaderName:
 ;	db "BLUE@"	;joenote - let's remove this funny nonsense spoiler
-	db "---@"
+	db "BLUE@"
 
 ViridianGymResetScripts:
 	xor a

@@ -16,6 +16,8 @@ CinnabarVolcano_ScriptPointers:
 CinnabarVolcano_TextPointers:
 	def_text_pointers
 	dw_const CinnabarVolcanoMoltresText, TEXT_CINNABARVOLCANO_MOLTRES
+	dw_const BoulderText,             	    TEXT_VOLCANO_BOULDER1	
+	dw_const BoulderText,             	    TEXT_VOLCANO_BOULDER2	
 
 CinnabarVolcanoTrainerHeaders:
 	def_trainers

@@ -246,3 +246,4 @@ _CinnabarGymRematchDefeatedText::
 _CinnabarGymRematchPostBattleText::
 	text "Extinguished"
 	line "yet again!"
+	done

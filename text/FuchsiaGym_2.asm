@@ -192,3 +192,36 @@ _FuchsiaGymGymGuideBeatKogaText::
 	line "ninja can terrify"
 	cont "even now!"
 	done
+
+_FuchsiaGymRematchPreBattleText::
+	text "Is it true that"
+    line "you caught the"
+	cont "#MON ARTICUNO?"
+
+	para "I must request"
+	line "a rematch!"
+
+	done
+
+_FuchsiaGymRematchAcceptedText::
+	text "You will cower"
+	line "when your #MON"
+	cont "badly poisoned!"
+	done
+
+_FuchsiaGymRematchRefusedText::
+	text "My #MON"
+	line "are ready!"
+	done
+
+_FuchsiaGymRematchDefeatedText::
+	text "Defeated"
+	line "yet again!"
+	prompt
+
+_FuchsiaGymRematchPostBattleText::
+	text "My poison tactics"
+	line "were no match for"
+	cont "your strength!"
+
+	done

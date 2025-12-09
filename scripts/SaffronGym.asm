@@ -43,6 +43,15 @@ SaffronGymSabrinaPostBattle:
 	ld a, D_RIGHT | D_LEFT | D_UP | D_DOWN
 	ld [wJoyIgnore], a
 
+	CheckEvent EVENT_BEAT_SABRINA
+	jr z, SaffronGymSabrinaReceiveTM46Script	
+	ld a, TEXT_SAFFRONGYM_REMATCH_POST_BATTLE
+	ldh [hSpriteIndexOrTextID], a
+	call DisplayTextID
+	jp SaffronGymResetScripts
+
+
+
 SaffronGymSabrinaReceiveTM46Script:
 	ld a, TEXT_SAFFRONGYM_SABRINA_MARSH_BADGE_INFO
 	ldh [hSpriteIndexOrTextID], a
@@ -85,6 +94,7 @@ SaffronGym_TextPointers:
 	dw_const SaffronGymSabrinaMarshBadgeInfoText, TEXT_SAFFRONGYM_SABRINA_MARSH_BADGE_INFO
 	dw_const SaffronGymSabrinaReceivedTM46Text,   TEXT_SAFFRONGYM_SABRINA_RECEIVED_TM46
 	dw_const SaffronGymSabrinaTM46NoRoomText,     TEXT_SAFFRONGYM_SABRINA_TM46_NO_ROOM
+	dw_const SaffronGymRematchPostBattleText,     TEXT_SAFFRONGYM_REMATCH_POST_BATTLE
 
 SaffronGymTrainerHeaders:
 	def_trainers 2
@@ -114,6 +124,8 @@ SaffronGymSabrinaText:
 	call DisableWaitingAfterTextDisplay
 	jr .done
 .afterBeat
+	CheckEvent EVENT_FOUND_MEW
+	jr nz, .SabrinaRematch
 	ld hl, .PostBattleAdviceText
 	call PrintText
 	jr .done
@@ -128,6 +140,33 @@ SaffronGymSabrinaText:
 	call SaveEndBattleTextPointers
 	ld a, $6
 	ld [wGymLeaderNo], a
+	jr .endBattle
+.SabrinaRematch
+	ld hl, .PreBattleRematchText
+	call PrintText
+	call YesNoChoice
+	ld a, [wCurrentMenuItem]
+	and a
+	jr nz, .refused
+	ld hl, .PreBattleRematchAcceptedText
+	call PrintText
+	call Delay3
+	ld hl, wd72d
+	set 6, [hl]
+	set 7, [hl]
+	ld hl, SaffronGymRematchDefeatedText
+	ld de, SaffronGymRematchDefeatedText
+	call SaveEndBattleTextPointers
+	ld a, OPP_SABRINA
+	ld [wCurOpponent], a
+	ld a, 2
+	ld [wTrainerNo], a
+	jr .endBattle
+.refused
+	ld hl, .PreBattleRematchRefusedText
+	call PrintText
+	jr .done
+.endBattle	
 	ldh a, [hSpriteIndex]
 	ld [wSpriteIndex], a
 	call EngageMapTrainer
@@ -150,6 +189,26 @@ SaffronGymSabrinaText:
 
 .PostBattleAdviceText:
 	text_far _SaffronGymSabrinaPostBattleAdviceText
+	text_end
+
+.PreBattleRematchText:
+	text_far _SaffronGymRematchPreBattleText
+	text_end
+
+.PreBattleRematchAcceptedText:
+	text_far _SaffronGymRematchAcceptedText
+	text_end
+
+.PreBattleRematchRefusedText:
+	text_far _SaffronGymRematchRefusedText
+	text_end
+
+SaffronGymRematchDefeatedText:
+	text_far _SaffronGymRematchDefeatedText
+	text_end
+
+SaffronGymRematchPostBattleText:
+	text_far _SaffronGymRematchPostBattleText
 	text_end
 
 SaffronGymSabrinaMarshBadgeInfoText:

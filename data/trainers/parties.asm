@@ -690,7 +690,7 @@ BlaineData: ; GYM #7
 
 SabrinaData: ; GYM #3
 	db $FF, 21, KADABRA, 20, MR_MIME, 26, HYPNO, 29, ESPEON, 0
-;	db $FF, 42, KADABRA, 42, MR_MIME, 38, HYPNO, 37, SLOWBRO, 42, ESPEON, 45, ALAKAZAM, 0
+	db $FF, 42, KADABRA, 42, MR_MIME, 38, HYPNO, 37, SLOWBRO, 42, ESPEON, 45, ALAKAZAM, 0
 
 GentlemanData:
 ; SS Anne 1F Rooms

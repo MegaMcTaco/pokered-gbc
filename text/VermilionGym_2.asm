@@ -55,6 +55,49 @@ _VermilionGymLTSurgeReceivedThunderBadgeText::
 	para "Fine then, take"
 	line "the THUNDERBADGE!"
 	prompt
+	
+_VermilionGymRematchPreBattleText::
+	text "At ease, kid!"
+
+	para "You think you're"
+	line "hot stuff 'cause"
+	cont "you caught that"
+	cont "legendary #MON"
+	cont "ZAPDOS?"
+
+	para "Are you ready to"
+	line "face my full"
+	line "lightning power?"
+
+	done
+
+_VermilionGymRematchAcceptedText::
+	text "I'm pumped up!"
+	line "Let's thunder on!"
+	done
+
+_VermilionGymRematchRefusedText::
+	text "Are you scared, kid?"
+	done
+
+_VermilionGymRematchDefeatedText::
+	text "Stand down, kid!"
+
+	para "My #MON"
+	line "were no match for"
+	cont "your skill!"
+
+	prompt
+
+_VermilionGymRematchPostBattleText::
+	text "I'm proud of you,"
+	line "kid!"
+
+	para "I went all out,"
+	line "but I could not"
+	cont "defeat you!"
+
+	done	
 
 _VermilionGymGentlemanBattleText::
 	text "When I was in the"

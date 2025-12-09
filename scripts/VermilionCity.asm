@@ -52,7 +52,7 @@ VermilionCityDefaultScript:
 	ldh [hSpriteIndexOrTextID], a
 	call DisplayTextID
 	ld a, [wObtainedBadges] ; ship returns after obtaining the soul badge
-	bit 4, a
+	bit BIT_EARTHBADGE, a
 	jr nz, .default
 	CheckEvent EVENT_SS_ANNE_LEFT
 	jr nz, .ship_departed
@@ -162,7 +162,7 @@ VermilionCityGambler1Text:
 VermilionCitySailor1Text:
 	text_asm
 	ld a, [wObtainedBadges]
-	bit 4, a ; after obtaining soul badge the ship returns
+	bit BIT_EARTHBADGE, a ; after obtaining soul badge the ship returns
 	jr nz, .default
 	CheckEvent EVENT_SS_ANNE_LEFT
 	jr nz, .ship_departed

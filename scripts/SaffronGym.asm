@@ -42,14 +42,13 @@ SaffronGymSabrinaPostBattle:
 	jp z, SaffronGymResetScripts
 	ld a, D_RIGHT | D_LEFT | D_UP | D_DOWN
 	ld [wJoyIgnore], a
-
+; fallthrough
 	CheckEvent EVENT_BEAT_SABRINA
 	jr z, SaffronGymSabrinaReceiveTM46Script	
 	ld a, TEXT_SAFFRONGYM_REMATCH_POST_BATTLE
 	ldh [hSpriteIndexOrTextID], a
 	call DisplayTextID
 	jp SaffronGymResetScripts
-
 SaffronGymSabrinaReceiveTM46Script:
 	ld a, TEXT_SAFFRONGYM_SABRINA_MARSH_BADGE_INFO
 	ldh [hSpriteIndexOrTextID], a

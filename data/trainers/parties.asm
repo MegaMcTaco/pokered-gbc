@@ -692,7 +692,7 @@ LtSurgeData: ; GYM #6
 
 BlaineData: ; GYM #7
 	db $FF, 44, MAGMAR, 43, RAPIDASH, 42, GROWLITHE, 47, VULPIX, 42, PONYTA, 0
-	db $FF, 52, CHARIZARD, 50, MAGMAR, 52, RAPIDASH, 55, FLAREON, 57, ARCANINE, 59, NINETALES, 0 ; rematch after beating Blaine
+	db $FF, 52, CHARIZARD, 50, MAGMAR, 52, RAPIDASH, 55, FLAREON, 57, ARCANINE, 59, NINETALES, 0 ; rematch after beating Moltres
 	
 GentlemanData:
 ; SS Anne 1F Rooms

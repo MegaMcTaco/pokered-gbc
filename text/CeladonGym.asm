@@ -134,10 +134,9 @@ _CeladonGymEndBattleText4::
 	prompt
 
 _CeladonGymAfterBattleText4::
-	text "Oh, you weren't"
-	line "peeping? We get a"
-	cont "lot of gawkers!"
-	done
+	text "Some men come"
+	line "here to look at"
+	cont "women trainers."
 
 _CeladonGymBattleText5::
 	text "Look at my grass"
@@ -217,4 +216,46 @@ _CeladonGymAfterBattleText8::
 
 	para "Wait 'til next"
 	line "time!"
+	done
+
+
+_CeladonGymRematchPreBattleText:: ; new
+	text "Oh, it seems that"
+	line "you moved the"
+	cont "SNORLAX blocking"
+	cont "ROUTE 12."
+
+	para "We should battle"
+	line "again with my"
+	cont "strongest team."
+
+	done
+
+_CeladonGymRematchAcceptedText::
+	text "I shall not lose"
+	line "this time."
+	done
+
+_CeladonGymRematchRefusedText::
+	text "Very well."
+	line "We shall battle"
+	cont "later."
+	done
+
+_CeladonGymRematchDefeatedText::
+	text "You"
+	line "might be stronger"
+	line "but my #MON"
+	cont "are much cuter."
+	prompt
+
+_CeladonGymRematchPostBattleText::
+	text "Have you heard of"
+	line "VENUSAUR, the"
+	cont "grass #MON?"
+
+	para "BULBASAUR is"
+	line "hard to find, but"
+	cont "VENUSAUR is"
+	cont "worth it.."
 	done

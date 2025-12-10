@@ -8,9 +8,8 @@ _CeladonCityLittleGirlText::
 	done
 
 _CeladonCityGramps1Text::
-	text "Heheh! This GYM"
-	line "is great! It's"
-	cont "full of women!"
+	text "Women hold up"
+	line "half the sky."
 	done
 
 _CeladonCityGirlText::
@@ -76,14 +75,19 @@ _CeladonCityPoliwrathText::
 	line "ribit!@"
 	text_end
 
-_CeladonCityRocket1Text::
-	text "What are you"
-	line "staring at?"
+_CeladonCityRocket1Text:: ; edited
+	text "No one is free"
+	line "until we're all"
+	cont "free."
 	done
 
-_CeladonCityRocket2Text::
-	text "Keep out of TEAM"
-	line "ROCKET's way!"
+_CeladonCityRocket2Text:: ; edited
+	text "The totality"
+	line "is within the"
+	cont "specific and"
+	cont "the specific "
+	cont "is within the"
+	cont "totality."
 	done
 
 _CeladonCityTrainerTips1Text::

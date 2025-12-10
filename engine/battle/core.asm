@@ -1179,11 +1179,15 @@ HandlePlayerBlackOut:
 	ld b, SET_PAL_BATTLE_BLACK
 	call RunPaletteCommand
 	ld hl, PlayerBlackedOutText2
+	ld a, [wForfeitTrainerBattle] ; new
+	and a
+	jr z, .printText
+	ld hl, PlayerBlackedOutText3 ; new	
 	ld a, [wLinkState]
 	cp LINK_STATE_BATTLING
-	jr nz, .noLinkBattle
+	jr nz, .printText
 	ld hl, LinkBattleLostText
-.noLinkBattle
+.printText
 	call PrintText
 	ld a, [wd732]
 	res 5, a
@@ -1198,6 +1202,10 @@ Rival1WinText:
 
 PlayerBlackedOutText2:
 	text_far _PlayerBlackedOutText2
+	text_end
+
+PlayerBlackedOutText3:
+	text_far _PlayerBlackedOutText3
 	text_end
 
 LinkBattleLostText:
@@ -1562,7 +1570,7 @@ TryRunningFromBattle:
 	ld hl, hEnemySpeed
 	ld c, 2
 	call StringCmp
-	jr nc, .canEscape ; jump if player speed greater than enemy speed
+	jp nc, .canEscape ; jump if player speed greater than enemy speed
 	xor a
 	ldh [hMultiplicand], a
 	ld a, 32
@@ -1587,7 +1595,7 @@ TryRunningFromBattle:
 	call Divide ; divide (player speed * 32) by ((enemy speed / 4) % 256)
 	ldh a, [hQuotient + 2]
 	and a ; is the quotient greater than 256?
-	jr nz, .canEscape ; if so, the player can escape
+	jp nz, .canEscape ; if so, the player can escape
 	ld a, [wNumRunAttempts]
 	ld c, a
 ; add 30 to the quotient for each run attempt
@@ -1611,11 +1619,36 @@ TryRunningFromBattle:
 	ld a, $1
 	ld [wActionResultOrTookBattleTurn], a ; you lose your turn when you can't escape
 	ld hl, CantEscapeText
-	jr .printCantEscapeOrNoRunningText
-.trainerBattle
-	ld hl, NoRunningText
-.printCantEscapeOrNoRunningText
 	call PrintText
+	jr .printCantEscapeOrNoRunningText
+.trainerBattle ; new - ability to forfeit a trainer battle, good for softlock scenarios
+	ld a, [wCurOpponent]
+	cp OPP_RIVAL1
+	jr nz, .skipRivalCheck
+	ld a, [wCurMap]
+	cp OAKS_LAB
+	jr z, .noRunning
+.skipRivalCheck
+	ld hl, ForfeitText
+	call PrintText
+	call YesNoChoice
+	ld a, [wCurrentMenuItem]
+	and a
+	ret nz
+	ld a, 1
+	ld [wForfeitTrainerBattle], a
+; return anim
+	callfar RetreatMon
+	ld c, 50
+	call DelayFrames
+	call AnimateRetreatingPlayerMon
+; blackout
+	jp HandlePlayerBlackOut
+	ret
+.noRunning
+	ld hl, NoRunningRival1Text
+	call PrintText
+.printCantEscapeOrNoRunningText
 	ld a, 1
 	ld [wForcePlayerToChooseMon], a
 	call SaveScreenTilesToBuffer1
@@ -1656,6 +1689,14 @@ CantEscapeText:
 
 NoRunningText:
 	text_far _NoRunningText
+	text_end
+
+NoRunningRival1Text:
+	text_far _NoRunningRival1Text
+	text_end
+
+ForfeitText:
+	text_far _ForfeitText
 	text_end
 
 GotAwayText:

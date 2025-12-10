@@ -81,7 +81,8 @@ _VermilionGymRematchRefusedText::
 	done
 
 _VermilionGymRematchDefeatedText::
-	text "Stand down, kid!"
+	text "Stand down"
+	line "kid!"
 
 	para "My #MON"
 	line "were no match for"

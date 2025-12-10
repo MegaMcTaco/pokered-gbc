@@ -43,7 +43,7 @@ PewterGymBrockPostBattle:
 	ld a, D_RIGHT | D_LEFT | D_UP | D_DOWN
 	ld [wJoyIgnore], a
 ; fallthrough
-	CheckEvent EVENT_BEAT_ZAPDOS
+	CheckEvent EVENT_BEAT_MEWTWO
 	jr z, PewterGymScriptReceiveTM34	
 	ld a, TEXT_PEWTERGYM_REMATCH_POST_BATTLE
 	ldh [hSpriteIndexOrTextID], a
@@ -112,7 +112,7 @@ PewterGymBrockText:
 	call DisableWaitingAfterTextDisplay
 	jr .done
 .afterBeat
-	CheckEvent EVENT_BEAT_ZAPDOS
+	CheckEvent EVENT_BEAT_MEWTWO
 	jr nz, .BrockRematch
 	ld hl, .PostBattleAdviceText
 	call PrintText

@@ -668,7 +668,7 @@ BrunoData:
 
 BrockData: ; GYM #1
 	db $FF, 12, GEODUDE, 14, ONIX, 16, RHYHORN, 0
-	db $FF, 35, OMANYTE, 38, GOLEM, 34, ONIX, 42, KABUTOPS, 40, RHYHORN, 0 ; rematch after beating Zapdos (change to fossil-related event or Route 2 Snorlax instead)
+	db $FF, 58, OMASTAR, 62, GOLEM, 65, ONIX, 58, KABUTOPS, 60, RHYDON, 62, AERODACTYL, 0 ; rematch after beating Mewtwo
 
 MistyData: ; GYM #2 
 	db $FF, 18, STARYU, 21, STARMIE, 25, VAPOREON, 25, POLITOED, 0
@@ -688,7 +688,7 @@ KogaData: ; GYM #5
 
 LtSurgeData: ; GYM #6
 	db $FF, 35, VOLTORB, 37, JOLTEON, 38, MAGNEMITE, 45, RAICHU, 0
-	db $FF, 60, ELECTRODE, 59, ELECTABUZZ, 64, JOLTEON, 60, MAGNETON, 60, RAICHU, 55, PIKACHU, 0 ; rematch after beating Zapdos
+	db $FF, 55, ELECTRODE, 56, ELECTABUZZ, 56, JOLTEON, 58, MAGNETON, 58, RAICHU, 52, PIKACHU, 0 ; rematch after beating Zapdos
 
 BlaineData: ; GYM #7
 	db $FF, 44, MAGMAR, 43, RAPIDASH, 42, GROWLITHE, 47, VULPIX, 42, PONYTA, 0

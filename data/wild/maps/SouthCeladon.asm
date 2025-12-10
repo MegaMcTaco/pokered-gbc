@@ -2,12 +2,12 @@ SouthCeladonWildMons:
 	def_grass_wildmons 10 ; encounter rate
 	db 17, SHELLDER ; 51
 	db 18, KRABBY ; 51
-	db 22, PIDGEOTTO ; 39
+	db 15, SQUIRTLE ; 39
 	db 22, FARFETCHD ; 25
 	db 26, POLIWHIRL ; 13
 	db 25, EEVEE ; 10
 	db 25, PIKACHU ; 10
-	db 24, WARTORTLE  ;  3
+	db 22, WARTORTLE  ;  3
 	db 28, KINGLER ;  1
 	db 27, CHANSEY ;  1
 	end_grass_wildmons

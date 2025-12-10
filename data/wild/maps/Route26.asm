@@ -1,15 +1,15 @@
 Route26WildMons:
 	def_grass_wildmons 10 ; encounter rate
-	db 32, PIDGEOTTO
-	db 30, HAUNTER
-	db 25, EEVEE
-	db 15, CHARMANDER
-	db 15, SQUIRTLE
+	db 22, RATICATE
+	db 20, GASTLY
+	db 25, HAUNTER
+	db 20, EKANS
+	db 20, DODUO
 	db 15, BULBASAUR
-	db 30, KADABRA
-	db 30, GRAVELER
-	db 30, MACHOKE
-	db 30, SLOWBRO
+	db 18, KADABRA ; change to Hoothoot eventually
+	db 20, EEVEE
+	db 22, MACHOKE ; change to Noctowl eventually
+	db 25, IVYSAUR
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

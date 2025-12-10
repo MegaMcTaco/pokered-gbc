@@ -245,6 +245,7 @@ INCLUDE "text/SaffronPokecenter.asm"
 INCLUDE "text/MrPsychicsHouse.asm"
 INCLUDE "text/CinnabarVolcano.asm"
 INCLUDE "text/SouthCeladon.asm"
+INCLUDE "text/Route26.asm"
 
 INCLUDE "data/text/text_4.asm"
 

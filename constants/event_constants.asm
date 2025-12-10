@@ -794,6 +794,9 @@ DEF INDIGO_PLATEAU_EVENTS_END EQU const_value - 1
 	const EVENT_BEAT_BEACH_BEAUTY
 	const EVENT_BEAT_LAPRAS
 	
+	const_next $A0C
+	const_skip 5
+	const EVENT_BEAT_ROUTE26_TRAINER
 
 
 	

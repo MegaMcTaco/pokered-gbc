@@ -2073,6 +2073,8 @@ wCinnabarVolcanoCurScript:: db ; new
 	ds 1 ; edited, was 4
 wSouthCeladonCurScript:: db ; new
 	ds 1 ; edited, was 4
+wRoute26CurScript:: db ; new
+	ds 1
 wFuchsiaGymCurScript:: db
 wSaffronGymCurScript:: db
 	ds 1

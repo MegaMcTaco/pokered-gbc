@@ -23,6 +23,7 @@ SuperRodData:
 	dbw ROUTE_23,            .Group9
 	dbw ROUTE_24,            .Group3
 	dbw ROUTE_25,            .Group3
+	dbw ROUTE_26,            .Group7
 	dbw CERULEAN_GYM,        .Group3
 	dbw VERMILION_DOCK,      .Group4
 	dbw SEAFOAM_ISLANDS_B3F, .Group8

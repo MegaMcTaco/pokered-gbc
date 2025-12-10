@@ -12,5 +12,16 @@ Route26WildMons:
 	db 25, IVYSAUR
 	end_grass_wildmons
 
-	def_water_wildmons 0 ; encounter rate
+	def_water_wildmons 5 ; encounter rate
+	db  5, TENTACOOL
+	db 10, GOLDEEN
+	db  5, TENTACOOL
+	db 10, GOLDEEN
+	db  5, TENTACOOL
+	db 10, GOLDEEN
+	db 10, TENTACOOL
+	db 10, GOLDEEN
+	db 10, TENTACOOL
+	db 10, GOLDEEN
+	
 	end_water_wildmons

@@ -40,7 +40,7 @@ MapHSPointers:
 	dw NoHS
 	dw Route24HS
 	dw Route25HS
-	dw NoHS
+	dw Route26HS ; ROUTE 26
 	dw NoHS
 	dw NoHS
 	dw BluesHouseHS
@@ -572,5 +572,7 @@ SouthCeladonHS:
 	db SOUTH_CELADON, SOUTHCELADON_LAPRAS, SHOW
 	db SOUTH_CELADON, SOUTHCELADON_HP_UP,         SHOW
 	db SOUTH_CELADON, SOUTHCELADON_WATER_STONE, SHOW
+Route26HS:
+	db ROUTE_26, ROUTE26_SUN_STONE, SHOW
 		db $FF, $01, SHOW ; end
 	assert_table_length NUM_HS_OBJECTS + 1

@@ -334,6 +334,8 @@ ComradeData:
 	db 31, FLAREON, JOLTEON, VAPOREON, 0	
 ; South Celadon 
 	db 31, GYARADOS, 0	
+; Route 26
+	db 35, IVYSAUR, 0
 	
 FisherData:
 ; SS Anne 2F Rooms

@@ -50,8 +50,6 @@ SaffronGymSabrinaPostBattle:
 	call DisplayTextID
 	jp SaffronGymResetScripts
 
-
-
 SaffronGymSabrinaReceiveTM46Script:
 	ld a, TEXT_SAFFRONGYM_SABRINA_MARSH_BADGE_INFO
 	ldh [hSpriteIndexOrTextID], a
@@ -159,7 +157,7 @@ SaffronGymSabrinaText:
 	call SaveEndBattleTextPointers
 	ld a, OPP_SABRINA
 	ld [wCurOpponent], a
-	ld a, 2
+	ld a, 1
 	ld [wTrainerNo], a
 	jr .endBattle
 .refused

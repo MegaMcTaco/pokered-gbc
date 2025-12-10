@@ -3,25 +3,25 @@ _WardensHouseWardenGibberish1Text::
 	line "to my home!"
 
 	para "Do you have"
-	line "a METAL COAT"
+	line "a DRAGON SCALE"
 	cont "by any chance?"
 	done
 
 _WardensHouseWardenGibberish2Text::
 	text "I'm looking for"
 	line "one to evolve"
-	cont "my Scyther with."
+	cont "my SEADRA with."
 	done
 
 _WardensHouseWardenGibberish3Text::
 	text "I'll give you a"
 	line "# FLUTE for"
-	cont "a METAL COAT."
+	cont "a DRAGON SCALE."
 	done
 
 _WardensHouseWardenGaveTheGoldTeethText::
 	text "<PLAYER> gave"
-	line "the METAL COAT to"
+	line "a DRAGON SCALE to"
 	cont "the WARDEN!@"
 	text_end
 

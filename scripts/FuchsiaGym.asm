@@ -45,7 +45,7 @@ FuchsiaGymKogaPostBattleScript:
 	ld a, D_RIGHT | D_LEFT | D_UP | D_DOWN
 	ld [wJoyIgnore], a
 ; fallthrough
-	CheckEvent EVENT_BEAT_ARTICUNO
+	CheckEvent EVENT_BEAT_KOGA
 	jr z, FuchsiaGymReceiveTM06	
 	ld a, TEXT_FUCHSIAGYM_REMATCH_POST_BATTLE
 	ldh [hSpriteIndexOrTextID], a
@@ -121,7 +121,7 @@ FuchsiaGymKogaText:
 	call DisableWaitingAfterTextDisplay
 	jr .done
 .afterBeat
-	CheckEvent EVENT_BEAT_KOGA
+	CheckEvent EVENT_BEAT_ARTICUNO
 	jr nz, .KogaRematch
 	ld hl, .PostBattleAdviceText
 	call PrintText

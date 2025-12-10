@@ -13,7 +13,7 @@ WardensHouseWardenText:
 	text_asm
 	CheckEvent EVENT_GOT_HM04
 	jr nz, .got_item
-	ld b, METAL_COAT
+	ld b, DRAGON_SCALE
 	call IsItemInBag
 	jr nz, .have_gold_teeth
 	CheckEvent EVENT_GAVE_GOLD_TEETH
@@ -32,7 +32,7 @@ WardensHouseWardenText:
 .have_gold_teeth
 	ld hl, .GaveTheGoldTeethText
 	call PrintText
-	ld a, METAL_COAT
+	ld a, DRAGON_SCALE
 	ldh [hItemToRemoveID], a
 	farcall RemoveItemByID
 	SetEvent EVENT_GAVE_GOLD_TEETH

@@ -157,7 +157,7 @@ SaffronGymSabrinaText:
 	call SaveEndBattleTextPointers
 	ld a, OPP_SABRINA
 	ld [wCurOpponent], a
-	ld a, 1
+	ld a, 2
 	ld [wTrainerNo], a
 	jr .endBattle
 .refused

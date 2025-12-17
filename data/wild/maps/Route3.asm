@@ -7,7 +7,7 @@ Route3WildMons:
 	db  7, EKANS
 	db  8, PIDGEY
 	db  8, SPEAROW
-	db  3, JIGGLYPUFF
+	db  4, JIGGLYPUFF
 	db  5, SANDSHREW
 	db  7, MANKEY
 	end_grass_wildmons

@@ -5,7 +5,7 @@ Route26WildMons:
 	db 25, HAUNTER
 	db 20, EKANS
 	db 20, DODUO
-	db 15, BULBASAUR
+	db 18, BULBASAUR
 	db 18, KADABRA ; change to Hoothoot eventually
 	db 20, EEVEE
 	db 22, MACHOKE ; change to Noctowl eventually

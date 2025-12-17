@@ -676,7 +676,7 @@ MistyData: ; GYM #2
 
 SabrinaData: ; GYM #3
 	db $FF, 21, KADABRA, 20, MR_MIME, 26, HYPNO, 29, ESPEON, 0
-	db $FF, 42, ESPEON, 42, KADABRA, 40, MR_MIME, 39, SLOWBRO, 42, HYPNO, 45, ALAKAZAM, 0 ; rematch after beating Mew
+	db $FF, 42, ESPEON, 42, KADABRA, 40, MR_MIME, 39, SLOWBRO, 42, HYPNO, 45, ALAKAZAM, 0 ; rematch after beating Mew - currently not loading this team?
 
 ErikaData: ; GYM #4
 	db $FF, 29, VICTREEBEL, 27, LEAFEON, 29, VILEPLUME, 29, BELLOSSOM, 30, IVYSAUR, 0

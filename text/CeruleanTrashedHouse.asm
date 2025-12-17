@@ -1,36 +1,39 @@
 _CeruleanTrashedHouseFishingGuruTheyStoleATMText::
-	text "Those miserable"
-	line "ROCKETs!"
+	text "Those wonderful"
+	line "COMRADEs!"
 
-	para "Look what they"
-	line "did here!"
+	para "They patrol the"
+	line "area nowadays."
 
-	para "They stole a TM"
-	line "for teaching"
-	cont "#MON how to"
-	cont "DIG holes!"
+	para "It's nice to"
+	line "feel safe after"
+	cont "being a victim"
+	cont "of theft years"
+	cont "ago."
 
-	para "That cost me a"
-	line "bundle, it did!"
+	para "The community"
+	line "feels safer!"
 	done
 
 _CeruleanTrashedHouseFishingGuruWhatsLostIsLostText::
-	text "I figure what's"
-	line "lost is lost!"
+	text "They've taught"
+	line "me a lot too!"
 
-	para "I decided to teach"
-	line "DIGLETT how to"
-	cont "DIG without a TM!"
+	para "I've been reading"
+	line "MAO and STALIN,"
+	cont "which has helped"
+	cont "me understand"
+	cont "dialectical"
+	cont "materialism."
 	done
 
 _CeruleanTrashedHouseGirlText::
-	text "TEAM ROCKET must"
-	line "be trying to DIG"
-	cont "their way into no"
-	cont "good!"
+	text "The COMRADEs,"
+	line "they really are"
+	cont "for the people."
 	done
 
 _CeruleanTrashedHouseWallHoleText::
-	text "TEAM ROCKET left"
-	line "a way out!"
+	text "There's a back"
+	line "door!"
 	done

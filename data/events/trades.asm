@@ -6,7 +6,7 @@ TradeMons:
 	; from the Japanese Blue trades, which used species that evolve.
 	; Japanese Red and Green used TRADE_DIALOGSET_CASUAL, and had
 	; the same species as English Red and Blue.
-	db HAUNTER,   KADABRA,   TRADE_DIALOGSET_CASUAL,    "LENIN@@@@@@" ; Route 11 - Alakazam Trade Evolution
+	db HAUNTER,   KADABRA,   TRADE_DIALOGSET_HAPPY,     "LENIN@@@@@@" ; Route 11 - Alakazam Trade Evolution
 	db GRAVELER,  MACHOKE,   TRADE_DIALOGSET_CASUAL,    "STALIN@@@@@" ; Route 2 - Machamp Trade Evolution
 	db AERODACTYL, SKARMORY,  TRADE_DIALOGSET_HAPPY,    "FANON@@@@@@" ; Pewter Museum - Aerodactyl for Skarmory
 	db PONYTA,     SEEL,      TRADE_DIALOGSET_CASUAL,   "MAO@@@@@@@@" ; Cinnabar Island - Bulbasaur for Chikorita?

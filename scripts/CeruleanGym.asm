@@ -43,7 +43,7 @@ CeruleanGymMistyPostBattleScript:
 	ld a, D_RIGHT | D_LEFT | D_UP | D_DOWN
 	ld [wJoyIgnore], a
 
-	CheckEvent EVENT_PLAYER_IS_CHAMPION
+	CheckEvent EVENT_BEAT_MISTY
 	jr z, CeruleanGymReceiveTM11	
 	ld a, TEXT_CERULEANGYM_REMATCH_POST_BATTLE
 	ldh [hSpriteIndexOrTextID], a

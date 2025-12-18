@@ -170,11 +170,11 @@ _CeruleanGymRematchPostBattleText::
 	line "strong!"
 
 	para "You should check"
-	cont "out the cave to"
-	line "the west of"
-	line "Cerulean City."
+	line "out the cave to"
+	cont "the west of"
+	cont "Cerulean City."
 
 	para "I heard super"
-	cont "strong #MON"
-	line "live there!"
+	line "strong #MON"
+	cont "live there!"
 	done

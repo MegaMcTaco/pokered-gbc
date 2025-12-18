@@ -54,11 +54,12 @@ _LancesRoomLanceAfterBattleText::
 	line "another trainer!"
 	cont "His name is..."
 
-	para "<RIVAL>!"
-	line "He beat the ELITE"
-	cont "FOUR before you!"
+	para "RED!"
+	line "He has been the"
+	cont "champion for a"
+	cont "little while now."
 
-	para "He is the real"
+	para "Go and face the"
 	line "#MON LEAGUE"
 	cont "champion!@"
 	text_end

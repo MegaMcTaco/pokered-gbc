@@ -4,7 +4,7 @@ _AgathaBeforeBattleText::
 
 	para "OAK's taken a lot"
 	line "of interest in"
-	cont "you, child!"
+	cont "you!"
 
 	para "That old duff was"
 	line "once tough and"
@@ -25,7 +25,7 @@ _AgathaBeforeBattleText::
 _AgathaEndBattleText::
 	text "Oh ho!"
 	line "You're something"
-	cont "special, child!"
+	cont "special!"
 	prompt
 
 _AgathaAfterBattleText::
@@ -35,7 +35,7 @@ _AgathaAfterBattleText::
 
 	para "I have nothing"
 	line "else to say! Run"
-	cont "along now, child!"
+	cont "along now!"
 	done
 
 _AgathasRoomAgathaDontRunAwayText::

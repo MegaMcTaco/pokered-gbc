@@ -49,6 +49,7 @@ SaffronGymSabrinaPostBattle:
 	ldh [hSpriteIndexOrTextID], a
 	call DisplayTextID
 	jp SaffronGymResetScripts
+	
 SaffronGymSabrinaReceiveTM46Script:
 	ld a, TEXT_SAFFRONGYM_SABRINA_MARSH_BADGE_INFO
 	ldh [hSpriteIndexOrTextID], a
@@ -164,10 +165,6 @@ SaffronGymSabrinaText:
 	call PrintText
 	jr .done
 .endBattle	
-	ldh a, [hSpriteIndex]
-	ld [wSpriteIndex], a
-	call EngageMapTrainer
-	call InitBattleEnemyParameters
 	ld a, SCRIPT_SAFFRONGYM_SABRINA_POST_BATTLE
 	ld [wSaffronGymCurScript], a
 .done

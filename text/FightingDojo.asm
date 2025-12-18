@@ -1,12 +1,13 @@
 _FightingDojoKarateMasterText::
-	text "Grunt!"
+	text "Comrade!"
 
-	para "I am the KARATE"
-	line "MASTER! I am the"
-	cont "LEADER here!"
+	para "The test begins"
+	line "to see if you are"
+	cont "ready to fight"
+	cont "imperialism."
 
-	para "You wish to"
-	line "challenge us?"
+	para "Do not hold back."
+	line "Show no mercy."
 	cont "Expect no mercy!"
 
 	para "Fwaaa!"
@@ -21,15 +22,15 @@ _FightingDojoKarateMasterIWillGiveYouAPokemonText::
 	text "Indeed, I have"
 	line "lost!"
 
-	para "But, I beseech"
-	line "you, do not take"
-	cont "our emblem as"
-	cont "your trophy!"
-
-	para "In return, I will"
-	line "give you my"
+	para "But, victory is"
+	line "impossible unless"
+	cont "one has learned"
+	cont "how to attack"
+	cont "and retreat"
+	cont "properly."
+	cont "You may use our"
 	cont "prized fighting"
-	cont "#MON!"
+	cont "#MON, comrade!"
 	done
 
 _FightingDojoKarateMasterStayAndTrainWithUsText::
@@ -40,8 +41,11 @@ _FightingDojoKarateMasterStayAndTrainWithUsText::
 	done
 
 _FightingDojoBlackbelt1BattleText::
-	text "Hoargh! Take your"
-	line "shoes off!"
+	text "Criticism is an"
+	line "act of love and"
+	cont "good faith, not"
+	cont "an act of"
+	cont "betrayal."
 	done
 
 _FightingDojoBlackbelt1EndBattleText::
@@ -50,64 +54,72 @@ _FightingDojoBlackbelt1EndBattleText::
 	prompt
 
 _FightingDojoBlackbelt1AfterBattleText::
-	text "You wait 'til you"
-	line "see our Master!"
+	text "This is not"
+	line "infighting!"
 
-	para "I'm a small fry"
-	line "compared to him!"
+	para "We are resolving"
+	line "contradictions!"
 	done
 
 _FightingDojoBlackbelt2BattleText::
-	text "I hear you're"
-	line "good! Show me!"
+	text "You may read"
+	line "thousands of"
+	cont "books on theory,"
+	cont "but if you don't"
+	cont "learn to apply"
+	cont "those theories"
+	cont "in real life,"
+	cont "you're nothing"
+	cont "but a bookshelf."
 	done
 
 _FightingDojoBlackbelt2EndBattleText::
-	text "Judge!"
-	line "1 point!"
+	text "You're"
+	line "well read!"
 	prompt
 
 _FightingDojoBlackbelt2AfterBattleText::
-	text "Our Master is a"
-	line "pro fighter!"
+	text "I see you've"
+	line "been studying!"
 	done
 
 _FightingDojoBlackbelt3BattleText::
-	text "Nothing tough"
-	line "frightens me!"
+	text "Why don't you"
+	line "live for the"
+	cont "people?"
 
-	para "I break boulders"
-	line "for training!"
+	para "Why don't you"
+	line "struggle for"
+	cont "the people?"
 	done
 
 _FightingDojoBlackbelt3EndBattleText::
-	text "Yow!"
-	line "Stubbed fingers!"
+	text "I am the"
+	line "people! I'm not"
+	cont "the pig!"
 	prompt
 
 _FightingDojoBlackbelt3AfterBattleText::
-	text "The only thing"
-	line "that frightens us"
-	cont "is psychic power!"
+	text "Why don't you"
+	line "die for the"
+	cont "people?"
 	done
 
 _FightingDojoBlackbelt4BattleText::
-	text "Hoohah!"
-
-	para "You're trespassing"
-	line "in our FIGHTING"
-	cont "DOJO!"
+	text "Only a fool let's"
+	line "somebody else"
+	cont "tell them who"
+	cont "their enemy is."
 	done
 
 _FightingDojoBlackbelt4EndBattleText::
 	text "Oof!"
-	line "I give up!"
 	prompt
 
 _FightingDojoBlackbelt4AfterBattleText::
-	text "The prime fighters"
-	line "across the land"
-	cont "train here."
+	text "Only the strong go"
+	line "crazy. The weak"
+	cont "just go along."
 	done
 
 _FightingDojoHitmonleePokeBallText::

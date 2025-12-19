@@ -1005,21 +1005,8 @@ OaksLabOak1Text:
 	ld [wGymLeaderNo], a	;set bgm to gym leader music
 	ld a, OPP_PROF_OAK	;load the trainer type
 	ld [wCurOpponent], a	;set as the current opponent
-	; select oak's team based on the starter chosen
-	ld a, [wRivalStarter]
-	cp STARTER2	;did rival choose squirtle?
-	jr nz, .NotStarter2
-	ld a, $2 	;then oak has venusaur
-	jr .team_selected
-.NotStarter2
-	cp STARTER3	;did rival choose bulbasaur?
-	jr nz, .NotStarter3 
-	ld a, $3 	;then oak has charizard
-	jr .team_selected
-.NotStarter3	;rival chose charmander
-	ld a, $1 	;then oak has blastoise	
-.team_selected
-	ld [wTrainerNo], a	;load oak's team
+	ld a, 2
+	ld [wTrainerNo], a
 	xor a
 	ld [hJoyHeld], a
 	ld a, $13

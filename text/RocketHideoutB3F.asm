@@ -1,7 +1,12 @@
 _RocketHideoutB3FRocket1BattleText::
-	text "Stop meddling in"
-	line "TEAM ROCKET's"
-	cont "affairs!"
+	text "Remember, the"
+	line "storm is a good"
+	cont "opportunity for"
+	cont "the pine and the"
+	cont "cypress to show"
+	cont "their strength"
+	cont "and their"
+	cont "stability."
 	done
 
 _RocketHideoutB3FRocket1EndBattleText::
@@ -10,10 +15,10 @@ _RocketHideoutB3FRocket1EndBattleText::
 	prompt
 
 _RocketHideoutB3FRocket1AfterBattleText::
-	text "SILPH SCOPE?"
-	line "The machine the"
-	cont "BOSS stole. It's"
-	cont "here somewhere."
+	text "When the prison"
+	line "doors are opened,"
+	cont "the real dragon"
+	cont "will fly out."
 	done
 
 _RocketHideout3BattleTxt::
@@ -24,7 +29,7 @@ _RocketHideout3BattleTxt::
 
 _RocketHideout3EndBattleText3::
 	text "What?"
-	line "I lost? No!"
+	line "I lost?"
 	prompt
 
 _RocketHide3AfterBattleText3::

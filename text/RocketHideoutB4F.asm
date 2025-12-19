@@ -1,12 +1,12 @@
 _RocketHideoutB4FGiovanniImpressedYouGotHereText::
-	text "So! I must say, I"
-	line "am impressed you"
-	cont "got here!"
+	text "<PLAYER>!"
+	line "I am impressed"
+	cont "you got here!"
 	done
 
 _RocketHideoutB4FGiovanniWhatCannotBeText::
-	text "WHAT!"
-	line "This cannot be!"
+	text "WOW!"
+	line "Wonderful battle!"
 	prompt
 
 _RocketHideoutB4FGiovanniHopeWeMeetAgainText::
@@ -14,22 +14,28 @@ _RocketHideoutB4FGiovanniHopeWeMeetAgainText::
 	line "raise #MON"
 	cont "with utmost care."
 
-	para "A child like you"
-	line "would never"
-	cont "understand what I"
-	cont "hope to achieve."
+	para "But we are also"
+	line "exploiting them"
+	cont "when we use them"
+	cont "for battle."
 
-	para "I shall step"
-	line "aside this time!"
+	para "To truly be free,"
+	line "and liberate us"
+	cont "all, we must"
+	cont "release all our"
+	cont "#MON."
 
-	para "I hope we meet"
-	line "again..."
+	para "Spread the word."
+	line "I will see you."
+	cont "back at my LAB."
 	done
 
 _RocketHideoutB4FGiovanniBattleText::
-	text "I know you! You"
-	line "ruined our plans"
-	cont "at MT.MOON!"
+	text "If they come for"
+	line "me in the morning,"
+	cont "they will come"
+	cont "for you in the"
+	cont "night."
 	done
 
 _RocketHideoutB4FGiovanniEndBattleText::
@@ -38,15 +44,21 @@ _RocketHideoutB4FGiovanniEndBattleText::
 	prompt
 
 _RocketHideoutB4FGiovanniAfterBattleText::
-	text "Do you have"
-	line "something against"
-	cont "TEAM ROCKET?"
+	text "You have to act"
+	line "as if it were"
+	cont "possible to"
+	cont "radically"
+	cont "transform the"
+	cont "world."
+	
+	para "And you have to do"
+	line "it all the time."
 	done
 
 _RocketHideoutB4FRocket1BattleText::
-	text "How can you not"
-	line "see the beauty of"
-	cont "our evil?"
+	text "Can you see"
+	line "the beauty of"
+	cont "COMMUNISM?"
 	done
 
 _RocketHideoutB4FRocket1EndBattleText::
@@ -54,18 +66,22 @@ _RocketHideoutB4FRocket1EndBattleText::
 	prompt
 
 _RocketHideoutB4FRocket1AfterBattleText::
-	text "BOSS! I'm sorry I"
-	line "failed you!"
+	text "We have to talk"
+	line "about liberating"
+	cont "minds as well"
+	cont "as liberating"
+	cont "society."
 	done
 
 _RocketHideoutB4FRocket2BattleText::
 	text "The elevator"
-	line "doesn't work? Who"
-	cont "has the LIFT KEY?"
+	line "doesn't work? I'll"
+	cont "battle you for" 
+	cont "the LIFT KEY!"
 	done
 
 _RocketHideoutB4FRocket2EndBattleText::
-	text "No!"
+	text "Fuck!"
 	prompt
 
 _RocketHideoutB4FRocket2AfterBattleText::

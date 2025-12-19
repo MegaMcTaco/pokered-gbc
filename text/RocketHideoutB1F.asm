@@ -3,23 +3,24 @@ _RocketHideoutB1FRocket5EndBattleText::
 	text_end
 
 _RocketHideoutB1FRocket1BattleText::
-	text "Who are you? How"
-	line "did you get here?"
+	text "Welcome, comrade."
+	line "You are finally"
+	cont "here."
 	done
 
 _RocketHideoutB1FRocket1EndBattleText::
 	text "Oww!"
-	line "Beaten!"
+	line "Great battle!"
 	prompt
 
 _RocketHideoutB1FRocket1AfterBattleText::
-	text "Are you dissing"
-	line "TEAM ROCKET?"
+	text "Welcome to"
+	line "the party."
 	done
 
 _RocketHideoutB1FRocket2BattleText::
-	text "You broke into"
-	line "our operation?"
+	text "You were asked"
+	line "to come here?"
 	done
 
 _RocketHideoutB1FRocket2EndBattleText::
@@ -27,24 +28,25 @@ _RocketHideoutB1FRocket2EndBattleText::
 	prompt
 
 _RocketHideoutB1FRocket2AfterBattleText::
-	text "You're not going"
-	line "to get away with"
-	cont "this, brat!"
+	text "You're better"
+	line "than I expected!"
 	done
 
 _RocketHideoutB1FRocket3BattleText::
-	text "Intruder alert!"
+	text "Red alert!"
 	done
 
 _RocketHideoutB1FRocket3EndBattleText::
-	text "I"
-	line "can't do it!"
+	text "Very"
+	line "good."
 	prompt
 
 _RocketHideoutB1FRocket3AfterBattleText::
-	text "SILPH SCOPE?"
-	line "I don't know"
-	cont "where it is!"
+	text "Thought without"
+	line "practice is empty."
+	
+	para "Action without"
+	line "thought is blind."
 	done
 
 _RocketHideoutB1FRocket4BattleText::
@@ -58,17 +60,19 @@ _RocketHideoutB1FRocket4EndBattleText::
 	prompt
 
 _RocketHideoutB1FRocket4AfterBattleText::
-	text "OK, I'll talk!"
-	line "Take the elevator"
-	cont "to see my BOSS!"
+	text "The job of the"
+	line "conscious is"
+	cont "to make the"
+	cont "unconscious"
+	cont "conscious."
 	done
 
 _RocketHideoutB1FRocket5BattleText::
-	text "Are you lost, you"
-	line "little rat?"
+	text "This used to be"
+	line "TEAM ROCKETs"
+	cont "hideout."
 	done
 
 _RocketHideoutB1FRocket5AfterBattleText::
-	text "Uh-oh, that fight"
-	line "opened the door!"
+	text "Yalla hajmo!"
 	done

@@ -109,17 +109,10 @@ _CeruleanCitySuperNerd2Text::
 	done
 
 _CeruleanCityGuardText::
-	text "The people here"
-	line "were robbed."
-
-	para "It's obvious that"
-	line "TEAM ROCKET is"
-	cont "behind this most"
-	cont "heinous crime!"
-
-	para "Even our POLICE"
-	line "force has trouble"
-	cont "with the ROCKETs!"
+	text "Reading Mao"
+	line "outside with"
+	cont "a cigarette is"
+	cont "a way of life."
 	done
 
 _CeruleanCityCooltrainerF1SlowbroUseSonicboomText::

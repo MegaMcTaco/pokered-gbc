@@ -720,7 +720,6 @@
 	const_skip
 	const EVENT_BEAT_MEWTWO
 
-
 ; Indigo Plateau events
 	const_next $8E0
 DEF INDIGO_PLATEAU_EVENTS_START EQU const_value
@@ -783,6 +782,7 @@ DEF INDIGO_PLATEAU_EVENTS_END EQU const_value - 1
  ; Post Game events
 	const_next $9E0
 	const EVENT_PLAYER_IS_CHAMPION
+	const EVENT_BEAT_PROF_OAK
 
 ; End of events
 	const_next $A00

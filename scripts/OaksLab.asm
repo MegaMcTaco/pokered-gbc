@@ -30,6 +30,7 @@ OaksLab_ScriptPointers:
 	dw_const OaksLabOakGivesPokedexScript,           SCRIPT_OAKSLAB_OAK_GIVES_POKEDEX
 	dw_const OaksLabRivalLeavesWithPokedexScript,    SCRIPT_OAKSLAB_RIVAL_LEAVES_WITH_POKEDEX
 	dw_const OaksLabNoopScript,                      SCRIPT_OAKSLAB_NOOP
+	dw_const OaksLabEndBattle, 						 SCRIPT_OAKSLAB_PROF_OAK_END_BATTLE
 
 OaksLabDefaultScript:
 	CheckEvent EVENT_OAK_APPEARED_IN_PALLET
@@ -648,6 +649,15 @@ OaksLabRivalLeavesWithPokedexScript:
 	ld a, SCRIPT_OAKSLAB_NOOP
 	ld [wOaksLabCurScript], a
 	ret
+	
+OaksLabEndBattle:
+	ld a, [wIsInBattle]
+	cp $ff
+	SetEvent EVENT_BEAT_PROF_OAK
+	ld a, TEXT_OAKSLAB_BULBASAUR_POKE_BALL ; NEED TO CHANGE THIS
+	ldh [hSpriteIndexOrTextID], a	
+	jp TextScriptEnd
+	ret
 
 OaksLabNoopScript:
 	ret
@@ -980,7 +990,7 @@ OaksLabOak1Text:
 	call PrintText
 	;;;;;;;;;;;;;;;;;;;;;;;;
 	; dereknote - prof oak battle (taken from shinpokemon)
-	CheckEvent EVENT_BEAT_ROCKET_HIDEOUT_GIOVANNI	;has elite 4 been beaten?
+	CheckEvent EVENT_PLAYER_IS_CHAMPION	;has elite 4 been beaten?
 	jr z, .dex_check	;if no then leave this section and do the pokedex check like normal
 	call YesNoChoice	;else call a yes/no choice box
 	ld a, [wCurrentMenuItem]	;load the player choice
@@ -1009,10 +1019,10 @@ OaksLabOak1Text:
 	ld [wTrainerNo], a
 	xor a
 	ld [hJoyHeld], a
-	ld a, $13
+	ld a, SCRIPT_OAKSLAB_PROF_OAK_END_BATTLE
 	ld [wOaksLabCurScript], a
 	ld [wCurMapScript], a
-	jp TextScriptEnd
+	jp .done
 .dex_check
 ;;;;;;;;;;;;;;;;;;;;;;;;
 	ld a, $1

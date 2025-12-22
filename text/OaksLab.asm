@@ -427,4 +427,16 @@ _OaksLabVictoryText::
 	line "exciting battling"
 	cont "can be!"
 	done
+	
+_OaksLabBeatProfOakText::	
+	text "Haha!"
+	line "Wonderful!"
+
+	para "Splendid battle,"
+	line "<PLAYER>!"
+	
+	para "I'd forgotten how"
+	line "exciting battling"
+	cont "can be!"
+	done
 ;;;;;;;;

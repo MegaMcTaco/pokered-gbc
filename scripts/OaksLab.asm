@@ -29,8 +29,8 @@ OaksLab_ScriptPointers:
 	dw_const OaksLabRivalArrivesAtOaksRequestScript, SCRIPT_OAKSLAB_RIVAL_ARRIVES_AT_OAKS_REQUEST
 	dw_const OaksLabOakGivesPokedexScript,           SCRIPT_OAKSLAB_OAK_GIVES_POKEDEX
 	dw_const OaksLabRivalLeavesWithPokedexScript,    SCRIPT_OAKSLAB_RIVAL_LEAVES_WITH_POKEDEX
-	dw_const OaksLabNoopScript,                      SCRIPT_OAKSLAB_NOOP
-	dw_const OaksLabEndBattle, 						 SCRIPT_OAKSLAB_PROF_OAK_END_BATTLE
+	dw_const ResetOakScript,                         SCRIPT_OAKSLAB_NOOP
+	dw_const OaksLabEndBattleScript, 				 SCRIPT_OAKSLAB_PROF_OAK_END_BATTLE
 
 OaksLabDefaultScript:
 	CheckEvent EVENT_OAK_APPEARED_IN_PALLET
@@ -650,17 +650,21 @@ OaksLabRivalLeavesWithPokedexScript:
 	ld [wOaksLabCurScript], a
 	ret
 	
-OaksLabEndBattle:
+OaksLabEndBattleScript:
 	ld a, [wIsInBattle]
 	cp $ff
+	jp z, ResetOakScript
+	predef HealParty
 	SetEvent EVENT_BEAT_PROF_OAK
-	ld a, TEXT_OAKSLAB_BULBASAUR_POKE_BALL ; NEED TO CHANGE THIS
-	ldh [hSpriteIndexOrTextID], a	
-	jp TextScriptEnd
-	ret
+	call EnableAutoTextBoxDrawing
+	ld a, TEXT_OAKSLAB_POST_PROF_OAK_BATTLE ; NEED TO CHANGE THIS
+	ldh [hSpriteIndexOrTextID], a
+	call DisplayTextID
+	jp ResetOakScript
 
-OaksLabNoopScript:
-	ret
+ResetOakScript:
+	ld a, SCRIPT_OAKSLAB_NOOP
+	ld [wOaksLabCurScript], a
 
 OaksLabScript_RemoveParcel:
 	ld hl, wBagItems
@@ -760,6 +764,7 @@ OaksLab_TextPointers:
 	dw_const OaksLabOakGotPokedexText,            TEXT_OAKSLAB_OAK_GOT_POKEDEX
 	dw_const OaksLabOakThatWasMyDreamText,        TEXT_OAKSLAB_OAK_THAT_WAS_MY_DREAM
 	dw_const OaksLabRivalLeaveItAllToMeText,      TEXT_OAKSLAB_RIVAL_LEAVE_IT_ALL_TO_ME
+	dw_const OaksLabPostProfOakBattleText,		  TEXT_OAKSLAB_POST_PROF_OAK_BATTLE
 
 OaksLab_TextPointers2:
 	dw OaksLabRivalText
@@ -1132,6 +1137,10 @@ OaksLabOak1Text:
 	
 .OaksLabVictoryText:
 	text_far _OaksLabVictoryText
+	text_end
+	
+OaksLabPostProfOakBattleText:
+	text_far _OaksLabPostProfOakBattleText
 	text_end
 ;;;;;;;;
 

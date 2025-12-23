@@ -138,6 +138,11 @@ SaffronGymSabrinaText:
 	call SaveEndBattleTextPointers
 	ld a, $6
 	ld [wGymLeaderNo], a
+	ldh a, [hSpriteIndex]
+	ld [wSpriteIndex], a
+	call EngageMapTrainer
+	call InitBattleEnemyParameters
+	xor a
 	jr .endBattle
 .SabrinaRematch
 	ld hl, .PreBattleRematchText

@@ -35,7 +35,7 @@ _OaksLabYouWantCharmanderText::
 	done
 
 _OaksLabYouWantSquirtleText::
-	text "I have 3 of"
+	text "I have 2 of"
 	line "them here, as"
 	cont "you can see."
 	cont "Do you want"
@@ -211,7 +211,7 @@ _OaksLabOakChooseMonText::
 
 	para "Here..."
 
-	para "There are 3"
+	para "There are 2"
 	line "#MON here!"
 
 	para "They are inside"

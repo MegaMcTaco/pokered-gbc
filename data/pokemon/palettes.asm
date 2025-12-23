@@ -173,8 +173,8 @@ TrainerPalettes: ; Gen II trainer sprites are given their own palettes
 	db PAL_BUGCATCHER
 	db PAL_LASS
 	db PAL_SAILOR
-	db PAL_JR_TRAINER_M
-	db PAL_JR_TRAINER_F
+	db PAL_SAGE ; was PAL_JR_TRAINER_M
+	db PAL_TEACHER ; was PAL_JR_TRAINER_F
 	db PAL_POKEMANIAC
 	db PAL_SUPERNERD
 	db PAL_HIKER

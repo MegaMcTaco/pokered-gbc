@@ -19,8 +19,8 @@ ENDM
 	trainer_const BUG_CATCHER    ; $02
 	trainer_const LASS           ; $03
 	trainer_const SAILOR         ; $04
-	trainer_const JR_TRAINER_M   ; $05
-	trainer_const JR_TRAINER_F   ; $06
+	trainer_const SAGE		     ; $05 ; WAS JR_TRAINER_M
+	trainer_const TEACHER        ; $06 ; WAS JR_TRAINER_F
 	trainer_const POKEMANIAC     ; $07
 	trainer_const SUPER_NERD     ; $08
 	trainer_const HIKER          ; $09

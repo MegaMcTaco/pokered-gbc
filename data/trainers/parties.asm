@@ -4,8 +4,8 @@ TrainerDataPointers:
 	dw BugCatcherData
 	dw LassData
 	dw SailorData
-	dw JrTrainerMData
-	dw JrTrainerFData
+	dw SageData ; was JrTrainerMData
+	dw TeacherData ; JrTrainerFData
 	dw PokemaniacData
 	dw SuperNerdData
 	dw HikerData
@@ -147,7 +147,7 @@ SailorData:
 ; Vermilion Gym
 	db 21, PIKACHU, RAICHU, 0
 
-JrTrainerMData:
+SageData: ; was JrTrainerMData
 ; Pewter Gym
 	db 11, DIGLETT, SANDSHREW, 0
 ; Route 24/Route 25
@@ -165,7 +165,7 @@ JrTrainerMData:
 ; Route 12
 	db 29, NIDORAN_M, NIDORINO, 0
 
-JrTrainerFData:
+TeacherData: ; was JrTrainerFData
 ; Cerulean Gym
 	db 19, GOLDEEN, 0
 ; Route 6

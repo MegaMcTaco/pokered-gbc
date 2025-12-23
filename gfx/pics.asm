@@ -213,8 +213,8 @@ YoungsterPic::     INCBIN "gfx/gstrainers/youngster.pic"
 BugCatcherPic::    INCBIN "gfx/gstrainers/bugcatcher.pic"
 LassPic::          INCBIN "gfx/gstrainers/lass.pic"
 SailorPic::        INCBIN "gfx/gstrainers/sailor.pic"
-JrTrainerMPic::    INCBIN "gfx/gstrainers/jr.trainerm.pic"
-JrTrainerFPic::    INCBIN "gfx/gstrainers/jr.trainerf.pic"
+SagePic::   	   INCBIN "gfx/gstrainers/sage.pic" ; was JrTrainerMPic
+TeacherPic::       INCBIN "gfx/gstrainers/teacher.pic" ; was JrTrainerFPic
 PokemaniacPic::    INCBIN "gfx/gstrainers/pokemaniac.pic"
 SuperNerdPic::     INCBIN "gfx/gstrainers/supernerd.pic"
 HikerPic::         INCBIN "gfx/gstrainers/hiker.pic"
@@ -265,8 +265,8 @@ YoungsterPic::     INCBIN "gfx/trainers/youngster.pic"
 BugCatcherPic::    INCBIN "gfx/trainers/bugcatcher.pic"
 LassPic::          INCBIN "gfx/trainers/lass.pic"
 SailorPic::        INCBIN "gfx/trainers/sailor.pic"
-JrTrainerMPic::    INCBIN "gfx/trainers/jr.trainerm.pic"
-JrTrainerFPic::    INCBIN "gfx/trainers/jr.trainerf.pic"
+SagePic::  		   INCBIN "gfx/trainers/sage.pic" ; was JrTrainerMPic
+TeacherPic::       INCBIN "gfx/trainers/teacher.pic" ; was JrTrainerFPic
 PokemaniacPic::    INCBIN "gfx/trainers/pokemaniac.pic"
 SuperNerdPic::     INCBIN "gfx/trainers/supernerd.pic"
 HikerPic::         INCBIN "gfx/trainers/hiker.pic"

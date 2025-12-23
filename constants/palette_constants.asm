@@ -244,8 +244,8 @@ IF GEN_2_GRAPHICS
 	const PAL_BUGCATCHER    ; $BD
 	const PAL_LASS          ; $BE
 	const PAL_SAILOR        ; $BF
-	const PAL_JR_TRAINER_M  ; $C0
-	const PAL_JR_TRAINER_F  ; $C1
+	const PAL_SAGE          ; $C0 ; was PAL_JR_TRAINER_M
+	const PAL_TEACHER	    ; $C1 ; was PAL_JR_TRAINER_F
 	const PAL_POKEMANIAC    ; $C2
 	const PAL_SUPERNERD     ; $C3
 	const PAL_HIKER         ; $C4

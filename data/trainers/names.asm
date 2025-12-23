@@ -4,8 +4,8 @@ TrainerNames::
 	li "BUG CATCHER"
 	li "LASS"
 	li "SAILOR"
-	li "JR.TRAINER♂"
-	li "JR.TRAINER♀"
+	li "SAGE" ; WAS JR.TRAINER♂
+	li "TEACHER" ; WAS JR.TRAINER♀
 	li "POKéMANIAC"
 	li "SUPER NERD"
 	li "HIKER"

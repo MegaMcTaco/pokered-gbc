@@ -11,8 +11,8 @@ TrainerPicAndMoneyPointers::
 	pic_money BugCatcherPic,   1000
 	pic_money LassPic,         1500
 	pic_money SailorPic,       3000
-	pic_money JrTrainerMPic,   2000
-	pic_money JrTrainerFPic,   2000
+	pic_money SagePic,   	   2000 ; JrTrainerMPic
+	pic_money TeacherPic,      2000 ; JrTrainerFPic
 	pic_money PokemaniacPic,   5000
 	pic_money SuperNerdPic,    2500
 	pic_money HikerPic,        3500

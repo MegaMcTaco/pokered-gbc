@@ -9,16 +9,14 @@ _VermilionCityBeautyText::
 
 _VermilionCityGambler1DidYouSeeText::
 	text "Did you see S.S."
-	line "ANNE moored in"
-	cont "the harbor?"
+	line "ANNE docked in"
+	cont "the harbour?"
 	done
 
 _VermilionCityGambler1SSAnneDepartedText::
-	text "So, S.S.ANNE has"
-	line "departed!"
-
-	para "She'll be back in"
-	line "about a year."
+	text "So, S.S.ANNE"
+	line "comes back"
+	cont "regularly."
 	done
 
 _VermilionCitySailor1WelcomeToSSAnneText::
@@ -84,7 +82,7 @@ _VermilionCitySailor2Text::
 	cont "cruise ship."
 
 	para "We visit VERMILION"
-	line "once a year."
+	line "quite often!"
 	done
 
 _VermilionCitySignText::
@@ -119,7 +117,7 @@ _VermilionCityGymSignText::
 	cont "LEADER: LT.SURGE"
 
 	para "The Lightning"
-	line "American!"
+	line "Leader!"
 	done
 
 _VermilionCityHarborSignText::
@@ -131,7 +129,6 @@ _VermilionCityText15::
 	text "The S.S.ANNE"
 	line "is back!"
 
-	para "After a long"
-	line "journey it's"
-	cont "back in port."
+	para "It always comes"
+	line "back."
 	done

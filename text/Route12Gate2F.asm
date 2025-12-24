@@ -1,31 +1,12 @@
-_Route12Gate2FBrunetteGirlYouCanHaveThisText::
-	text "My #MON's"
-	line "ashes are stored"
-	cont "in #MON TOWER."
+_Route12Gate2FOaksAideFlashDescriptionText::
+	text "The HM FLASH"
+	line "lights even the"
+	cont "darkest dungeons."
 
-	para "You can have this"
-	line "TM. I don't need"
-	cont "it any more..."
-	prompt
-
-_Route12Gate2FBrunetteGirlReceivedTM39Text::
-	text "<PLAYER> received"
-	line "TM39!@"
-	text_end
-
-_Route12Gate2FBrunetteGirlTM39ExplanationText::
-	text "TM39 is a move"
-	line "called SWIFT."
-
-	para "It's very accurate,"
-	line "so use it during"
-	cont "battles you can't"
-	cont "afford to lose."
-	done
-
-_Route12Gate2FBrunetteGirlTM39NoRoomText::
-	text "You don't have"
-	line "room for this."
+;joenote - add hotkey info
+	para "Press SELECT when"
+	line "you are in a dark"
+	cont "area to use it."
 	done
 
 _Route12Gate2FLeftBinocularsText::

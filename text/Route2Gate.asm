@@ -1,13 +1,16 @@
-_Route2GateOaksAideFlashExplanationText::
-	text "The HM FLASH"
-	line "lights even the"
-	cont "darkest dungeons."
+_Route2GateOaksAideItemfinderExplanationText::
+	text "There are items on"
+	line "the ground that"
+	cont "can't be seen."
 
-;joenote - add hotkey info
-	para "Press SELECT when"
-	line "you are in a dark"
-	cont "area to use it."
-	done
+	para "ITEMFINDER will"
+	line "detect an item"
+	cont "close to you."
+
+	para "It can point you"
+	line "in the direction"
+	cont "of the item!"
+	done	
 
 _Route2GateYoungsterText::
 	text "Once a #MON"

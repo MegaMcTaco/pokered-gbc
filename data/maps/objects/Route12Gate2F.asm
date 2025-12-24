@@ -1,5 +1,5 @@
 	object_const_def
-	const_export ROUTE12GATE2F_BRUNETTE_GIRL
+	const_export ROUTE12GATE2F_OAKS_AIDE
 
 Route12Gate2F_Object:
 	db $a ; border block
@@ -12,6 +12,6 @@ Route12Gate2F_Object:
 	bg_event  6,  2, TEXT_ROUTE12GATE2F_RIGHT_BINOCULARS
 
 	def_object_events
-	object_event  3,  4, SPRITE_BRUNETTE_GIRL, WALK, UP_DOWN, TEXT_ROUTE12GATE2F_BRUNETTE_GIRL
+	object_event  3,  4, SPRITE_SCIENTIST, STAY, NONE, TEXT_ROUTE12GATE2F_OAKS_AIDE
 
 	def_warps_to ROUTE_12_GATE_2F

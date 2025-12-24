@@ -4,7 +4,7 @@ Route11Gate2F_Script:
 Route11Gate2F_TextPointers:
 	def_text_pointers
 	dw_const Route11Gate2FYoungsterText,       TEXT_ROUTE11GATE2F_YOUNGSTER
-	dw_const Route11Gate2FOaksAideText,        TEXT_ROUTE11GATE2F_OAKS_AIDE
+	dw_const Route11Gate2FBrunetteGirlText,    TEXT_ROUTE11GATE2F_BRUNETTE_GIRL
 	dw_const Route11Gate2FLeftBinocularsText,  TEXT_ROUTE11GATE2F_LEFT_BINOCULARS
 	dw_const Route11Gate2FRightBinocularsText, TEXT_ROUTE11GATE2F_RIGHT_BINOCULARS
 
@@ -16,34 +16,44 @@ Route11Gate2FYoungsterText:
 Route11Gate2FScriptEnd:
 	jp TextScriptEnd
 
-Route11Gate2FOaksAideText:
+Route11Gate2FBrunetteGirlText:
 	text_asm
-	CheckEvent EVENT_GOT_ITEMFINDER, 1
+	CheckEvent EVENT_GOT_TM39, 1
 	jr c, .got_item
-	ld a, 30
-	ldh [hOaksAideRequirement], a
-	ld a, ITEMFINDER
-	ldh [hOaksAideRewardItem], a
-	ld [wd11e], a
-	call GetItemName
-	ld h, d
-	ld l, e
-	ld de, wOaksAideRewardItemName
-	ld bc, ITEM_NAME_LENGTH
-	call CopyData
-	predef OaksAideScript
-	ldh a, [hOaksAideResult]
-	dec a ; OAKS_AIDE_GOT_ITEM?
-	jr nz, .no_item
-	SetEvent EVENT_GOT_ITEMFINDER
-.got_item
-	ld hl, .ItemfinderDescriptionText
+	ld hl, .YouCanHaveThisText
 	call PrintText
-.no_item
-	jr Route11Gate2FScriptEnd
+	lb bc, TM_SWIFT, 1
+	call GiveItem
+	jr nc, .bag_full
+	ld hl, .ReceivedTM39Text
+	call PrintText
+	SetEvent EVENT_GOT_TM39
+	jr .done
+.bag_full
+	ld hl, .TM39NoRoomText
+	call PrintText
+	jr .done
+.got_item
+	ld hl, .TM39ExplanationText
+	call PrintText
+.done
+	jp TextScriptEnd
 
-.ItemfinderDescriptionText:
-	text_far _Route11Gate2FOaksAideItemfinderDescriptionText
+.YouCanHaveThisText:
+	text_far _Route11Gate2FBrunetteGirlYouCanHaveThisText
+	text_end
+
+.ReceivedTM39Text:
+	text_far _Route11Gate2FBrunetteGirlReceivedTM39Text
+	sound_get_item_1
+	text_end
+
+.TM39ExplanationText:
+	text_far _Route11Gate2FBrunetteGirlTM39ExplanationText
+	text_end
+
+.TM39NoRoomText:
+	text_far _Route11Gate2FBrunetteGirlTM39NoRoomText
 	text_end
 
 Route11Gate2FLeftBinocularsText:

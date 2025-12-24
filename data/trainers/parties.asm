@@ -351,6 +351,8 @@ ComradeData:
 	db 43, OMASTAR, KABUTOPS, AERODACTYL, 0
 	db 43, KINGDRA, POLITOED, SLOWKING, 0
 	db 41, NIDOKING, NIDOQUEEN, 0	
+; Rock Tunnel 1F
+	db 25, CHARMELEON, NINETALES, 0	
 	
 FisherData:
 ; SS Anne 2F Rooms

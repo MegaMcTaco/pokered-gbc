@@ -57,8 +57,11 @@ RockTunnel1FHiker3Text:
 	ld hl, RockTunnel1TrainerHeader2
 	jr RockTunnel1FTalkToTrainer
 
-RockTunnel1FSuperNerdText:
+RockTunnel1FSuperNerdText: ; COMRADE
 	text_asm
+	call PrintText
+	lb bc, FIRE_STONE, 1
+	call GiveItem
 	ld hl, RockTunnel1TrainerHeader3
 	jr RockTunnel1FTalkToTrainer
 
